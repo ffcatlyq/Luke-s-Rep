@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .b, .c {
+        fill: none;
+      }
+
+      .c {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <rect class="b" width="192" height="192"/>
+  <line class="c" x1="124" y1="118" x2="124" y2="164"/>
+  <line class="c" x1="94" y1="118" x2="94" y2="164"/>
+  <line class="c" x1="64" y1="118" x2="64" y2="164"/>
+  <line class="c" x1="81.342" y1="100" x2="28" y2="100"/>
+  <line class="c" x1="164" y1="99.8974" x2="135.3031" y2="99.8974"/>
+  <line class="c" x1="164" y1="118" x2="28" y2="118"/>
+  <line class="c" x1="164" y1="138" x2="28" y2="138"/>
+  <path class="c" d="M98,84h-42c-6.6274,0-12,5.3726-12,12v68"/>
+  <path class="c" d="M148,162v-66c0-6.6274-5.3726-12-12-12h-16"/>
+  <path class="c" d="M135.9359,84h16.0641c6.6274,0,12,5.3726,12,12v68"/>
+  <path class="c" d="M56.0641,84h-16.0641c-6.6274,0-12,5.3726-12,12v68"/>
+  <line class="c" x1="20" y1="164" x2="172" y2="164"/>
+  <circle class="c" cx="96" cy="44" r="8"/>
+  <line class="c" x1="96" y1="24" x2="96" y2="20"/>
+  <line class="c" x1="96" y1="64" x2="96" y2="68"/>
+  <line class="c" x1="81.8579" y1="29.8579" x2="79.0294" y2="27.0294"/>
+  <line class="c" x1="110.1421" y1="58.1421" x2="112.9706" y2="60.9706"/>
+  <line class="c" x1="76" y1="44" x2="72" y2="44"/>
+  <line class="c" x1="116" y1="44" x2="120" y2="44"/>
+  <line class="c" x1="81.8579" y1="58.1421" x2="79.0294" y2="60.9706"/>
+  <line class="c" x1="110.1421" y1="29.8579" x2="112.9706" y2="27.0294"/>
+  <path class="c" d="M81.6444,104c2.7467-12.5807,13.9512-22,27.3556-22s24.6089,9.4193,27.3556,22"/>
+</svg>

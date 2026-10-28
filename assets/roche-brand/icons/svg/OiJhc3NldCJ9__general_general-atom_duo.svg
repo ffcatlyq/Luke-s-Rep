@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .b, .c, .d {
+        fill: none;
+      }
+
+      .c {
+        stroke: #1482fa;
+      }
+
+      .c, .d {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+
+      .d {
+        stroke: #0b41cd;
+      }
+    </style>
+  </defs>
+  <rect class="b" width="192" height="192"/>
+  <ellipse class="d" cx="96" cy="96" rx="40" ry="84"/>
+  <ellipse class="d" cx="96" cy="96" rx="40" ry="84" transform="translate(-35.1384 131.1384) rotate(-60)"/>
+  <ellipse class="d" cx="96" cy="96" rx="84" ry="40" transform="translate(-35.1384 60.8616) rotate(-30)"/>
+  <circle class="c" cx="96" cy="96" r="16"/>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <radialGradient id="g08" cx="50%" cy="18%" r="60%"><stop offset="0%" stop-color="#4CBB17" stop-opacity="0.05"/><stop offset="100%" stop-color="#4CBB17" stop-opacity="0"/></radialGradient>
+    <marker id="a08" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#8A827C"/></marker>
+  </defs>
+  <rect width="1280" height="720" fill="#2D3232"/><rect width="1280" height="720" fill="url(#g08)"/>
+  <image href="/workspaces/silicon-hitchhiker/assets/roche-brand/logos/Roche_Logo_800px_White_RGB_200px.png" x="1140" y="34" width="80" height="42"/>
+
+  <g id="header">
+    <rect x="60" y="56" width="6" height="40" fill="#1482fa"/>
+    <text x="84" y="90" font-family="'Noto Sans CJK SC','Roche Sans Light',sans-serif" font-size="34" fill="#F5F5F2">结果:老容器能、搬家丢了、加回就好</text>
+    <text x="84" y="116" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="13" fill="#C2BAB5" letter-spacing="1.5">RESULTS · settings.local.json 放行规则的一生</text>
+  </g>
+
+  <!-- 3-stage timeline -->
+  <g id="stage1">
+    <rect x="60" y="184" width="340" height="230" rx="12" fill="#26331F" stroke="#4CBB17" stroke-width="1.5"/>
+    <text x="84" y="220" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="17" fill="#4CBB17">① 老容器(US)</text>
+    <text x="84" y="256" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="14" fill="#F5F5F2">settings.local.json 里</text>
+    <text x="84" y="278" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="14" fill="#F5F5F2">approve/merge 放行规则<tspan fill="#4CBB17">在</tspan></text>
+    <rect x="84" y="300" width="290" height="44" rx="8" fill="#202525"/>
+    <text x="99" y="328" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="15" fill="#4CBB17">approve / merge 自动过</text>
+    <text x="84" y="378" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="13" fill="#8A827C">你看到的"auto-mode 自己就批了"</text>
+  </g>
+  <line x1="404" y1="299" x2="436" y2="299" stroke="#8A827C" stroke-width="2" marker-end="url(#a08)"/>
+
+  <g id="stage2">
+    <rect x="440" y="184" width="340" height="230" rx="12" fill="#3A2A1C" stroke="#FF7D29" stroke-width="1.5"/>
+    <text x="464" y="220" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="17" fill="#FF7D29">② US→EU 搬家</text>
+    <text x="464" y="256" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="14" fill="#F5F5F2">该文件 gitignored + 每容器独立</text>
+    <text x="464" y="278" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="14" fill="#F5F5F2">+ 没跑迁移 → <tspan fill="#FF7D29">丢</tspan></text>
+    <rect x="464" y="300" width="290" height="44" rx="8" fill="#202525"/>
+    <text x="479" y="328" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="15" fill="#FF7D29">approve/merge 全被拦</text>
+    <text x="464" y="378" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="13" fill="#8A827C">新容器只剩 113B 空残桩</text>
+  </g>
+  <line x1="784" y1="299" x2="816" y2="299" stroke="#8A827C" stroke-width="2" marker-end="url(#a08)"/>
+
+  <g id="stage3">
+    <rect x="820" y="184" width="340" height="230" rx="12" fill="#26331F" stroke="#4CBB17" stroke-width="2"/>
+    <text x="844" y="220" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="17" fill="#4CBB17">③ 加回 local setting</text>
+    <text x="844" y="256" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="14" fill="#F5F5F2">把放行规则写回 → 开新会话</text>
+    <rect x="844" y="278" width="290" height="44" rx="8" fill="#202525"/>
+    <text x="859" y="306" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="13" fill="#4CBB17">approve → APPROVED</text>
+    <rect x="844" y="330" width="290" height="44" rx="8" fill="#202525"/>
+    <text x="859" y="358" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="13" fill="#4CBB17">#307 → MERGED</text>
+  </g>
+
+  <!-- metric strip -->
+  <g id="metric">
+    <rect x="60" y="438" width="1100" height="70" rx="10" fill="#353A3A" stroke="#544F4F" stroke-width="1"/>
+    <text x="90" y="466" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="11" fill="#C2BAB5" letter-spacing="1.5">拦截次数</text>
+    <text x="90" y="494" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="15" fill="#F5F5F2">搬家后 <tspan font-family="'Noto Sans CJK SC',sans-serif" fill="#FF7D29">3 次被拦</tspan>  <tspan fill="#8A827C">→</tspan>  加放行规则  <tspan fill="#8A827C">→</tspan>  <tspan font-family="'Noto Sans CJK SC',sans-serif" fill="#4CBB17">0 次被拦,一口气跑完</tspan></text>
+    <text x="1130" y="482" text-anchor="end" font-family="'Noto Sans CJK SC','Roche Sans Light',sans-serif" font-size="34" fill="#4CBB17">✓</text>
+  </g>
+
+  <g id="lesson">
+    <rect x="60" y="524" width="1160" height="130" rx="12" fill="#353A3A" stroke="#544F4F" stroke-width="1"/>
+    <rect x="60" y="524" width="5" height="130" rx="2.5" fill="#1482fa"/>
+    <text x="100" y="560" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="13" fill="#1482fa" letter-spacing="1.5">教训</text>
+    <text x="100" y="594" font-family="'Noto Sans CJK SC','Roche Sans Light',sans-serif" font-size="20" fill="#F5F5F2">"老容器能、新容器不能"几乎总是<tspan font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" fill="#FF7D29">本地配置没跟过来</tspan>,不是记忆坏了、也不是 GitHub 改了。</text>
+    <text x="100" y="626" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="14" fill="#C2BAB5">搬家记得带 settings.local.json——它 gitignored,ona-migrate 数据层本应带,但前提是真跑了 backup+restore(裸切会丢)。</text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="694" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="11" fill="#8A827C">Silicon Hitchhiker · Claude Code Auto Mode 实战</text>
+    <text x="1220" y="694" text-anchor="end" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="11" fill="#8A827C">08</text>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+# Skill 引用的 demo 路径（hub 与 rojectory 同步时用）
+# 一行一个 hub-root-relative 路径；尾部 / 表示整个目录
+demos/meeting-transcribe/scripts/find-meeting.py
+demos/meeting-transcribe/scripts/build-context.py
+demos/google-workspace/scripts/gw_client.py
+demos/google-workspace/scripts/chat_digest.py
+# meeting-transcribe 的转写核心已抽到共享底座
+demos/transcribe/

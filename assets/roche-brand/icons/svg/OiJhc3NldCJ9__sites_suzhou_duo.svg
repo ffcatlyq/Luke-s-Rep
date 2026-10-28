@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .b, .c, .d {
+        fill: none;
+      }
+
+      .c {
+        stroke: #1482fa;
+      }
+
+      .c, .d {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+
+      .d {
+        stroke: #0b41cd;
+      }
+    </style>
+  </defs>
+  <rect class="b" width="192" height="192"/>
+  <line class="d" x1="176" y1="122" x2="89" y2="122"/>
+  <polyline class="d" points="24 122 24 106 168 106 168 122"/>
+  <line class="d" x1="52" y1="122" x2="16" y2="122"/>
+  <line class="c" x1="144" y1="46" x2="144" y2="106"/>
+  <line class="c" x1="144" y1="66" x2="12" y2="66"/>
+  <line class="c" x1="144" y1="86" x2="12" y2="86"/>
+  <rect class="d" x="12" y="46" width="168" height="60" rx="12" ry="12"/>
+  <line class="d" x1="160" y1="60" x2="164" y2="60"/>
+  <line class="d" x1="52" y1="106" x2="52" y2="122"/>
+  <line class="d" x1="80" y1="106" x2="80" y2="122"/>
+  <line class="d" x1="139.9739" y1="106" x2="139.9739" y2="122"/>
+  <line class="d" x1="112" y1="106" x2="112" y2="122"/>
+  <path class="c" d="M27,140s6,0,9-6,11.6092-13.8339,22-11c11,3,21.9172-1,28-1,7,0,17,7,19,18"/>
+  <line class="c" x1="22" y1="140" x2="120" y2="140"/>
+  <line class="c" x1="112" y1="160" x2="145" y2="160"/>
+  <line class="c" x1="51" y1="156" x2="79" y2="156"/>
+  <line class="c" x1="151" y1="140" x2="167" y2="140"/>
+  <line class="c" x1="82" y1="174" x2="102" y2="174"/>
+</svg>

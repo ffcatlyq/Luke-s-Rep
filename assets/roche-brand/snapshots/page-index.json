@@ -1,0 +1,488 @@
+{
+  "_source": "https://branding.roche.com/api/document-page?document_id={26,29}&language=en",
+  "_captured_at": "2026-05-17",
+  "document_26_brand_elements": {
+    "title": "Brand Elements",
+    "page_count": 34,
+    "pages": [
+      {
+        "id": 259,
+        "title": "Logo guideline",
+        "slug": "logo-guideline",
+        "sort": 1,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 263,
+        "title": "Wordmarks",
+        "slug": "wordmarks",
+        "sort": 5,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 264,
+        "title": "Third party endorsement",
+        "slug": "third-party-endorsement",
+        "sort": 6,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 265,
+        "title": "Co-branding",
+        "slug": "co-branding-1",
+        "sort": 7,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 266,
+        "title": "Logo",
+        "slug": "logo",
+        "sort": 2,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 279,
+        "title": "Gradient guidelines",
+        "slug": "gradient-guidelines",
+        "sort": 1,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 297,
+        "title": "Keyline guidelines",
+        "slug": "keyline-guidelines",
+        "sort": 1,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 318,
+        "title": "Layout guidelines",
+        "slug": "layout-guidelines",
+        "sort": 1,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 322,
+        "title": "Layout system",
+        "slug": "layout-system",
+        "sort": 11,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 327,
+        "title": "Photography guidelines",
+        "slug": "photography-guidelines",
+        "sort": 1,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 426,
+        "title": "Typography guidelines",
+        "slug": "typography-guidelines",
+        "sort": 1,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 435,
+        "title": "Typography",
+        "slug": "typography",
+        "sort": 8,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 460,
+        "title": "Photography",
+        "slug": "photography",
+        "sort": 13,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 473,
+        "title": "Gradient",
+        "slug": "gradient",
+        "sort": 4,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 475,
+        "title": "Keyline",
+        "slug": "keyline",
+        "sort": 6,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 564,
+        "title": "Logo policy",
+        "slug": "logo-policy",
+        "sort": 4,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 571,
+        "title": "Colour guidelines",
+        "slug": "colour-guidelines",
+        "sort": 1,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 576,
+        "title": "Introduction",
+        "slug": "introduction",
+        "sort": 1,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 634,
+        "title": "Overview",
+        "slug": "overview",
+        "sort": 1,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 641,
+        "title": "Video guidelines",
+        "slug": "video-guidelines",
+        "sort": 9,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 646,
+        "title": "Iconography",
+        "slug": "iconography-1",
+        "sort": 16,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 650,
+        "title": "Iconography",
+        "slug": "iconography",
+        "sort": 1,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 662,
+        "title": "Video",
+        "slug": "video",
+        "sort": 15,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 1334,
+        "title": "Illustration guidelines",
+        "slug": "illustration-guidelines",
+        "sort": 1,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 2548,
+        "title": "Iconography animated",
+        "slug": "iconography-animated",
+        "sort": 18,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 2699,
+        "title": "Downloads",
+        "slug": "downloads-1",
+        "sort": 3,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 2700,
+        "title": "Downloads",
+        "slug": "downloads",
+        "sort": 3,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 2702,
+        "title": "Illustration",
+        "slug": "illustration",
+        "sort": 20,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 2712,
+        "title": "Illustration animated",
+        "slug": "illustration-animated",
+        "sort": 22,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 2714,
+        "title": "Application icons",
+        "slug": "application-icons",
+        "sort": 24,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 2715,
+        "title": "Roche Consent & NDA forms",
+        "slug": "roche-consent-nda-forms",
+        "sort": 11,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 2860,
+        "title": "Architectural photography",
+        "slug": "architectural-photography",
+        "sort": 8,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 2887,
+        "title": "Headshot photography guidance",
+        "slug": "headshot-photography-guidance",
+        "sort": 6,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 2888,
+        "title": "Brand supplier list",
+        "slug": "brand-supplier-list",
+        "sort": 12,
+        "parent_id": null,
+        "category": null
+      }
+    ]
+  },
+  "document_29_templates": {
+    "title": "Templates",
+    "page_count": 25,
+    "pages": [
+      {
+        "id": 337,
+        "title": "Advertisements",
+        "slug": "advertisements",
+        "sort": 1,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 339,
+        "title": "Stationery",
+        "slug": "stationery",
+        "sort": 7,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 340,
+        "title": "Flyers",
+        "slug": "flyers",
+        "sort": 5,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 341,
+        "title": "Posters",
+        "slug": "posters",
+        "sort": 3,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 343,
+        "title": "Digital stands",
+        "slug": "digital-stands",
+        "sort": 2,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 345,
+        "title": "Video graphics",
+        "slug": "video-graphics",
+        "sort": 8,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 346,
+        "title": "Email banners",
+        "slug": "email-banners-1",
+        "sort": 1,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 419,
+        "title": "Rollups",
+        "slug": "rollups",
+        "sort": 6,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 425,
+        "title": "Wordmark templates",
+        "slug": "wordmark-templates",
+        "sort": 1,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 442,
+        "title": "Before you start",
+        "slug": "before-you-start",
+        "sort": 1,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 570,
+        "title": "Social media",
+        "slug": "social-media",
+        "sort": 5,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 604,
+        "title": "Email signature",
+        "slug": "email-signature",
+        "sort": 10,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 653,
+        "title": "Google Slides",
+        "slug": "google-slides",
+        "sort": 7,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 655,
+        "title": "Google Docs",
+        "slug": "google-docs",
+        "sort": 8,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 656,
+        "title": "Word",
+        "slug": "word",
+        "sort": 9,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 658,
+        "title": "PowerPoint",
+        "slug": "powerpoint",
+        "sort": 9,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 672,
+        "title": "Signage",
+        "slug": "signage",
+        "sort": 10,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 673,
+        "title": "Google Sites",
+        "slug": "google-sites",
+        "sort": 6,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 806,
+        "title": "Scientific posters",
+        "slug": "scientific-posters",
+        "sort": 4,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 812,
+        "title": "Badges",
+        "slug": "badges",
+        "sort": 11,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 2477,
+        "title": "Flyers",
+        "slug": "flyers",
+        "sort": 4,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 4376,
+        "title": "Illustration builder templates",
+        "slug": "illustration-builder-templates",
+        "sort": 1,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 4838,
+        "title": "Digital signage",
+        "slug": "digital-signage",
+        "sort": 3,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 4841,
+        "title": "Generic ads",
+        "slug": "generic-ads",
+        "sort": 11,
+        "parent_id": null,
+        "category": null
+      },
+      {
+        "id": 4859,
+        "title": "Virtual Meeting Backgrounds",
+        "slug": "virtual-meeting-backgrounds",
+        "sort": 12,
+        "parent_id": null,
+        "category": null
+      }
+    ]
+  }
+}

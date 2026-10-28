@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="tg10" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#1482fa"/><stop offset="100%" stop-color="#BDE3FF"/></linearGradient>
+    <radialGradient id="g10a" cx="50%" cy="34%" r="55%"><stop offset="0%" stop-color="#1482fa" stop-opacity="0.12"/><stop offset="100%" stop-color="#1482fa" stop-opacity="0"/></radialGradient>
+    <filter id="glow10" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur in="SourceAlpha" stdDeviation="7" result="b"/><feFlood flood-color="#1482fa" flood-opacity="0.3" result="c"/><feComposite in="c" in2="b" operator="in" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1280" height="720" fill="#2D3232"/><rect width="1280" height="720" fill="url(#g10a)"/>
+  <g stroke="#544F4F" stroke-width="0.5" stroke-opacity="0.3"><line x1="200" y1="0" x2="200" y2="720"/><line x1="1080" y1="0" x2="1080" y2="720"/><line x1="0" y1="240" x2="1280" y2="240"/></g>
+  <image href="/workspaces/silicon-hitchhiker/assets/roche-brand/logos/Roche_Logo_800px_White_RGB_200px.png" x="60" y="48" width="96" height="50"/>
+
+  <rect x="490" y="150" width="300" height="2" fill="url(#tg10)" fill-opacity="0.6"/>
+  <text x="640" y="126" text-anchor="middle" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="13" fill="#BDE3FF" letter-spacing="2">收尾 · 一句话</text>
+
+  <text x="640" y="240" text-anchor="middle" font-family="'Noto Sans CJK SC','Roche Sans Light',sans-serif" font-size="38" fill="#F5F5F2" filter="url(#glow10)">给 agent 自主权 =</text>
+  <text x="640" y="300" text-anchor="middle" font-family="'Noto Sans CJK SC','Roche Sans Light',sans-serif" font-size="33" fill="#F5F5F2">本地放行规则  +  GitHub 双人 review</text>
+
+  <!-- two-gate mini recap -->
+  <g id="mini">
+    <rect x="300" y="360" width="300" height="96" rx="12" fill="#3A3F3F" stroke="#1482fa" stroke-width="1.5"/>
+    <text x="450" y="398" text-anchor="middle" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="16" fill="#BDE3FF">① 本地 auto-mode</text>
+    <text x="450" y="426" text-anchor="middle" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="13" fill="#C2BAB5">settings.local.json 放行</text>
+    <rect x="680" y="360" width="300" height="96" rx="12" fill="#3A3F3F" stroke="#0B41CD" stroke-width="1.5"/>
+    <text x="830" y="398" text-anchor="middle" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="16" fill="#BDE3FF">② 服务端 GitHub</text>
+    <text x="830" y="426" text-anchor="middle" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="13" fill="#C2BAB5">PR + 1 approve 分支保护</text>
+    <text x="640" y="414" text-anchor="middle" font-family="'Noto Sans CJK SC','Roche Sans Light',sans-serif" font-size="22" fill="#8A827C">+</text>
+  </g>
+
+  <!-- two reminders -->
+  <g id="rem">
+    <rect x="300" y="486" width="680" height="120" rx="12" fill="#353A3A" stroke="#544F4F" stroke-width="1"/>
+    <rect x="300" y="486" width="5" height="120" rx="2.5" fill="url(#tg10)"/>
+    <text x="336" y="522" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="16" fill="#F5F5F2">· 别把<tspan font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" fill="#FF7D29">本地拦</tspan>当成 <tspan font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" fill="#BDE3FF">GitHub 拦</tspan>——排查方向不同</text>
+    <text x="336" y="556" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="16" fill="#F5F5F2">· 搬家记得带 <tspan font-family="'Consolas','DejaVu Sans Mono',monospace" fill="#BDE3FF">settings.local.json</tspan>(gitignored,裸切会丢)</text>
+    <text x="336" y="588" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="16" fill="#F5F5F2">· 权限是<tspan font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" fill="#4CBB17">工程问题</tspan>:配放行规则,不是"说服" agent</text>
+  </g>
+
+  <text x="640" y="662" text-anchor="middle" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="13" fill="#8A827C">Silicon Hitchhiker · 罗氏 AI 社区 · 改编自上游 ppt-master「Claude Code Auto Mode」</text>
+  <rect x="0" y="700" width="1280" height="20" fill="#3A3F3F"/><rect x="440" y="700" width="400" height="3" fill="url(#tg10)" fill-opacity="0.5"/>
+</svg>

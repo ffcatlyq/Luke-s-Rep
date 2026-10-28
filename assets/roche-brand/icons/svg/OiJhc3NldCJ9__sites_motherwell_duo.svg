@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .e, .f, .g {
+        fill: none;
+      }
+
+      .f {
+        stroke: #1482fa;
+      }
+
+      .f, .g {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+
+      .g {
+        stroke: #0b41cd;
+      }
+    </style>
+  </defs>
+  <rect class="e" width="192" height="192"/>
+  <g id="b" data-name="light">
+    <line class="f" x1="137" y1="76" x2="151" y2="76"/>
+    <line class="f" x1="137" y1="140" x2="151" y2="140"/>
+    <line class="f" x1="128" y1="148.0714" x2="128" y2="165.0714"/>
+    <line class="f" x1="162" y1="149" x2="162" y2="165"/>
+    <line class="f" x1="112" y1="148" x2="112" y2="165.0408"/>
+    <line class="f" x1="96" y1="150" x2="96" y2="168"/>
+    <line class="f" x1="80" y1="150" x2="80" y2="168"/>
+    <line class="f" x1="80" y1="95" x2="80" y2="132"/>
+    <line class="f" x1="120" y1="112" x2="80" y2="112"/>
+    <line class="f" x1="60" y1="111.9998" x2="32" y2="111.9998"/>
+    <line class="f" x1="60" y1="129.9998" x2="32" y2="129.9998"/>
+    <line class="f" x1="60" y1="147.9998" x2="32" y2="147.9998"/>
+    <line class="f" x1="60" y1="94" x2="60" y2="168"/>
+    <line class="f" x1="31" y1="94" x2="31" y2="168"/>
+  </g>
+  <g id="c" data-name="dark">
+    <line class="g" x1="50" y1="81" x2="38" y2="81"/>
+    <path class="g" d="M168,148v-80s-16,0-16,0v80s16,0,16,0Z"/>
+    <polygon class="g" points="24 94 120 94 120 132 80 132 80 148 136 148 136 68 24 68 24 94"/>
+    <line class="g" x1="22" y1="168" x2="170" y2="168"/>
+  </g>
+  <g id="d" data-name="cloud">
+    <path class="f" d="M84,41c0-9.3888,7.6112-17,17-17s17,7.6112,17,17"/>
+    <path class="f" d="M117.5311,34.0708c2.9955-4.8437,8.3554-8.0708,14.4689-8.0708,8,0,14,5,16,12,0,0,3-1,5-1,8,0,14,5,16,12"/>
+    <path class="f" d="M71,53c0-6.6274,5.3726-12,12-12,5,0,10,3,11,8"/>
+  </g>
+</svg>

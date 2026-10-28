@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" /><feOffset dx="0" dy="3" />
+      <feFlood flood-color="#0B41CD" flood-opacity="0.07" /><feComposite in2="SourceAlpha" operator="in" />
+      <feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <marker id="down" markerWidth="8" markerHeight="8" refX="4" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,0 L4,8 Z" fill="#0B41CD" />
+    </marker>
+  </defs>
+
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+  <image href="/workspaces/silicon-hitchhiker/assets/roche-brand/logos/Roche_Logo_800px_Blue_RGB_200px.png" x="1136" y="32" width="84" height="43.7" />
+
+  <g id="header">
+    <rect x="60" y="56" width="6" height="40" fill="#1482fa" />
+    <text x="84" y="90" font-family="'Roche Sans Light',sans-serif" font-size="34" fill="#0B41CD">What hurts in RNN / CNN sequence models</text>
+    <text x="84" y="116" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#706B69" letter-spacing="1.5">THE FUNDAMENTAL CONSTRAINT WE WANT TO LIFT · §1–2</text>
+  </g>
+
+  <g id="pillar-1">
+    <rect x="60" y="160" width="240" height="440" rx="12" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" filter="url(#cardShadow)" />
+    <rect x="60" y="160" width="240" height="6" rx="3" fill="#0B41CD" />
+    <g transform="translate(84, 196) scale(1.6)" fill="none" stroke="#0B41CD" stroke-width="2">
+      <path d="M6.5 7h11" /><path d="M6.5 17h11" />
+      <path d="M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1z" />
+      <path d="M6 4v2a6 6 0 1 0 12 0v-2a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1z" />
+    </g>
+    <text x="84" y="288" font-family="'Roche Sans Medium',sans-serif" font-size="12" fill="#1482fa" letter-spacing="1">CONSTRAINT 01</text>
+    <text x="84" y="316" font-family="'Roche Sans Light',sans-serif" font-size="22" fill="#0B41CD">Sequential</text>
+    <text x="84" y="342" font-family="'Roche Sans Light',sans-serif" font-size="22" fill="#0B41CD">bottleneck</text>
+    <rect x="84" y="362" width="40" height="3" rx="1.5" fill="#1482fa" />
+    <text x="84" y="400" font-family="'Roche Sans',sans-serif" font-size="14.5" fill="#333333">Hidden state <tspan font-family="'Consolas','DejaVu Sans Mono',monospace" fill="#0B41CD">hₜ</tspan> depends</text>
+    <text x="84" y="422" font-family="'Roche Sans',sans-serif" font-size="14.5" fill="#333333">on <tspan font-family="'Consolas','DejaVu Sans Mono',monospace" fill="#0B41CD">hₜ₋₁</tspan> — so there is no</text>
+    <text x="84" y="444" font-family="'Roche Sans',sans-serif" font-size="14.5" fill="#333333">parallelism within a single</text>
+    <text x="84" y="466" font-family="'Roche Sans',sans-serif" font-size="14.5" fill="#333333">training example.</text>
+    <text x="84" y="558" font-family="'Roche Serif Light','Noto Serif',serif" font-size="14" font-style="italic" fill="#706B69">Time cost scales with</text>
+    <text x="84" y="578" font-family="'Roche Serif Light','Noto Serif',serif" font-size="14" font-style="italic" fill="#706B69">sequence length.</text>
+  </g>
+
+  <g id="pillar-2">
+    <rect x="320" y="160" width="240" height="440" rx="12" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" filter="url(#cardShadow)" />
+    <rect x="320" y="160" width="240" height="6" rx="3" fill="#0F5EE1" />
+    <g transform="translate(344, 196) scale(1.6)" fill="none" stroke="#0F5EE1" stroke-width="2">
+      <path d="M3 12l18 0" /><path d="M7 8l-4 4l4 4" /><path d="M17 8l4 4l-4 4" />
+    </g>
+    <text x="344" y="288" font-family="'Roche Sans Medium',sans-serif" font-size="12" fill="#1482fa" letter-spacing="1">CONSTRAINT 02</text>
+    <text x="344" y="316" font-family="'Roche Sans Light',sans-serif" font-size="22" fill="#0B41CD">Long-range</text>
+    <text x="344" y="342" font-family="'Roche Sans Light',sans-serif" font-size="22" fill="#0B41CD">path length</text>
+    <rect x="344" y="362" width="40" height="3" rx="1.5" fill="#1482fa" />
+    <text x="344" y="400" font-family="'Roche Sans',sans-serif" font-size="14.5" fill="#333333">ConvS2S grows the path</text>
+    <text x="344" y="422" font-family="'Roche Sans',sans-serif" font-size="14.5" fill="#333333">between distant tokens</text>
+    <text x="344" y="444" font-family="'Roche Sans',sans-serif" font-size="14.5" fill="#333333">linearly, ByteNet</text>
+    <text x="344" y="466" font-family="'Roche Sans',sans-serif" font-size="14.5" fill="#333333">logarithmically.</text>
+    <text x="344" y="558" font-family="'Roche Serif Light','Noto Serif',serif" font-size="14" font-style="italic" fill="#706B69">Far-apart dependencies</text>
+    <text x="344" y="578" font-family="'Roche Serif Light','Noto Serif',serif" font-size="14" font-style="italic" fill="#706B69">stay hard to learn.</text>
+  </g>
+
+  <g id="pillar-3">
+    <rect x="580" y="160" width="240" height="440" rx="12" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" filter="url(#cardShadow)" />
+    <rect x="580" y="160" width="240" height="6" rx="3" fill="#1482fa" />
+    <g transform="translate(604, 196) scale(1.6)" fill="none" stroke="#1482fa" stroke-width="2">
+      <path d="M12 6m-8 0a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" />
+      <path d="M4 6v6a8 3 0 0 0 16 0v-6" /><path d="M4 12v6a8 3 0 0 0 16 0v-6" />
+    </g>
+    <text x="604" y="288" font-family="'Roche Sans Medium',sans-serif" font-size="12" fill="#1482fa" letter-spacing="1">CONSTRAINT 03</text>
+    <text x="604" y="316" font-family="'Roche Sans Light',sans-serif" font-size="22" fill="#0B41CD">Memory</text>
+    <text x="604" y="342" font-family="'Roche Sans Light',sans-serif" font-size="22" fill="#0B41CD">ceiling</text>
+    <rect x="604" y="362" width="40" height="3" rx="1.5" fill="#1482fa" />
+    <text x="604" y="400" font-family="'Roche Sans',sans-serif" font-size="14.5" fill="#333333">Sequence length limits</text>
+    <text x="604" y="422" font-family="'Roche Sans',sans-serif" font-size="14.5" fill="#333333">how large a batch fits in</text>
+    <text x="604" y="444" font-family="'Roche Sans',sans-serif" font-size="14.5" fill="#333333">GPU memory — worst at</text>
+    <text x="604" y="466" font-family="'Roche Sans',sans-serif" font-size="14.5" fill="#333333">long context.</text>
+    <text x="604" y="558" font-family="'Roche Serif Light','Noto Serif',serif" font-size="14" font-style="italic" fill="#706B69">Throughput is capped</text>
+    <text x="604" y="578" font-family="'Roche Serif Light','Noto Serif',serif" font-size="14" font-style="italic" fill="#706B69">before you scale up.</text>
+  </g>
+
+  <g id="schematic">
+    <rect x="860" y="160" width="360" height="440" rx="12" fill="#F5F7FA" stroke="#E0E0E0" stroke-width="1.5" />
+    <rect x="860" y="160" width="5" height="440" rx="2.5" fill="#0B41CD" />
+    <text x="892" y="196" font-family="'Roche Sans Medium',sans-serif" font-size="12" fill="#1482fa" letter-spacing="1.5">SEQUENTIAL COMPUTE, STEP BY STEP</text>
+    <g id="chain">
+      <line x1="985" y1="245" x2="985" y2="264" stroke="#0B41CD" stroke-width="1.6" marker-end="url(#down)" />
+      <line x1="985" y1="303" x2="985" y2="322" stroke="#0B41CD" stroke-width="1.6" marker-end="url(#down)" />
+      <line x1="985" y1="361" x2="985" y2="380" stroke="#0B41CD" stroke-width="1.6" marker-end="url(#down)" />
+      <line x1="985" y1="419" x2="985" y2="438" stroke="#0B41CD" stroke-width="1.6" marker-end="url(#down)" />
+      <line x1="985" y1="477" x2="985" y2="496" stroke="#0B41CD" stroke-width="1.6" marker-end="url(#down)" />
+      <rect x="925" y="222" width="120" height="26" rx="6" fill="#FFFFFF" stroke="#0B41CD" stroke-width="1.5" />
+      <text x="985" y="239" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#0B41CD">h₁</text>
+      <rect x="925" y="280" width="120" height="26" rx="6" fill="#FFFFFF" stroke="#0B41CD" stroke-width="1.5" />
+      <text x="985" y="297" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#0B41CD">h₂</text>
+      <rect x="925" y="338" width="120" height="26" rx="6" fill="#FFFFFF" stroke="#0B41CD" stroke-width="1.5" />
+      <text x="985" y="355" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#0B41CD">h₃</text>
+      <rect x="925" y="396" width="120" height="26" rx="6" fill="#FFFFFF" stroke="#0B41CD" stroke-width="1.5" />
+      <text x="985" y="413" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#0B41CD">h₄</text>
+      <rect x="925" y="454" width="120" height="26" rx="6" fill="#FFFFFF" stroke="#0B41CD" stroke-width="1.5" />
+      <text x="985" y="471" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#0B41CD">h₅</text>
+      <rect x="925" y="512" width="120" height="26" rx="6" fill="#0B41CD" />
+      <text x="985" y="529" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="12" fill="#FFFFFF">h₆</text>
+    </g>
+    <g transform="translate(1095, 355) scale(1.5)" fill="none" stroke="#1482fa" stroke-width="2">
+      <path d="M6.5 7h11" /><path d="M6.5 17h11" />
+      <path d="M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1z" />
+      <path d="M6 4v2a6 6 0 1 0 12 0v-2a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1z" />
+    </g>
+    <line x1="895" y1="222" x2="895" y2="538" stroke="#A39F9C" stroke-width="1" stroke-dasharray="4,4" />
+    <line x1="1075" y1="222" x2="1075" y2="538" stroke="#A39F9C" stroke-width="1" stroke-dasharray="4,4" />
+    <text x="892" y="580" font-family="'Roche Sans',sans-serif" font-size="12" fill="#706B69">dashed = non-parallelizable channels</text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="694" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">Source: Vaswani et al. 2017, §1–2 (Introduction · Background)</text>
+    <text x="1220" y="694" text-anchor="end" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">04</text>
+  </g>
+</svg>

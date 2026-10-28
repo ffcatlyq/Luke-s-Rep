@@ -1,0 +1,66 @@
+{
+  "manifest_version": 3,
+  "name": "Roche Cookie Bridge",
+  "short_name": "CookieBridge",
+  "version": "0.3.3",
+  "description": "把内网应用 SSO 登录后的 cookie 同步到本地 receiver，给 Python 业务脚本复用。",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwQuMGc3rRNCs8LFaWsvS1dTYbg03PPioouKQQBrrcVrQcLNWioj/mbV8PsObaBSGNAJAQw8KLrqZ6hGZoEa5dUwf91K0szuLPWv2R9sKJgO6633B+sODAYyjC7hgknYq/BIF5QmF1l95PNKhNYiUn1pVckkQvGAzyGJqlF8FGxfn6qag+CKloGyT0useJZOTG6PSIDFt51a0ztZMW4Y+SEay+miyrS7bsFKocQJhoLKWDTxkEF8hN0weTdtoUE6yru/GQYz2jLylJmZNpogSWyehlnsKfmBaAKfNNrMeHDzVjPZIHrHF89mVYbxurduUTYmupKRWFTdHINPmkUDmBQIDAQAB",
+  "permissions": [
+    "cookies",
+    "storage",
+    "alarms",
+    "scripting",
+    "tabs",
+    "webRequest",
+    "identity"
+  ],
+  "host_permissions": [
+    "https://roche.service-now.com/*",
+    "https://*.roche.com/*",
+    "https://github.com/*",
+    "https://*.pages.github.io/*",
+    "https://example.com/*",
+    "http://127.0.0.1/*",
+    "https://www.googleapis.com/*",
+    "https://www.bilibili.com/*",
+    "https://*.bilibili.com/*",
+    "https://www.xiaohongshu.com/*",
+    "https://*.xiaohongshu.com/*",
+    "https://www.youtube.com/*",
+    "https://*.youtube.com/*",
+    "https://roche.csod.com/*",
+    "https://*.csod.com/*",
+    "https://anypoint.mulesoft.com/*",
+    "https://*.mulesoft.com/*",
+    "https://sites.google.com/*",
+    "https://accounts.google.com/*",
+    "https://*.google.com/*",
+    "https://google.com/*",
+    "https://wd3.myworkday.com/*",
+    "https://*.myworkday.com/*",
+    "https://www.chs-ihssc.cn/*",
+    "https://*.chs-ihssc.cn/*",
+    "https://*.sh.gov.cn/*",
+    "https://*.gep.com/*",
+    "https://*.srpltradeunion.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "oauth2": {
+    "client_id": "<YOUR_CLIENT_ID>.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/drive.file"
+    ]
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Cookie Bridge",
+    "default_icon": {
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "128": "icons/icon128.png"
+  }
+}

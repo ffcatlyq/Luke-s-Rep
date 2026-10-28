@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 192 192" style="enable-background:new 0 0 192 192;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:none;stroke:#000000;stroke-width:8;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<line class="st0" x1="100" y1="135" x2="137" y2="135"/>
+<path class="st0" d="M100,135c5.4-0.2,9.8-4.6,10-10v-25c0-6.3,5.5-11,13-11c5.2,0.2,10,3,12.7,7.5"/>
+<line class="st0" x1="100" y1="112" x2="118" y2="112"/>
+<line class="st1" x1="60" y1="68" x2="60" y2="156"/>
+<path class="st0" d="M12,80V60c0.1-4.5,3.8-8.1,8.3-8l0,0h151.4c4.5-0.1,8.2,3.5,8.3,8l0,0v20"/>
+<path class="st0" d="M12,60V44c0.1-4.5,3.8-8.1,8.3-8l0,0h151.4c4.5-0.1,8.2,3.5,8.3,8l0,0v16"/>
+<path class="st0" d="M24,68h144c6.6,0,12,5.4,12,12v64c0,6.6-5.4,12-12,12H24c-6.6,0-12-5.4-12-12V80C12,73.4,17.4,68,24,68z"/>
+</svg>

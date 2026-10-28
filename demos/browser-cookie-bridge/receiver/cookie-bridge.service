@@ -1,0 +1,18 @@
+[Unit]
+Description=Browser Cookie Bridge receiver (local SSO cookie sync)
+Documentation=https://github.com/roche-innersource/silicon-hitchhiker/tree/main/demos/browser-cookie-bridge
+After=network.target
+
+[Service]
+Type=exec
+# %h = 用户 home。安装时不用改路径，假设 repo 在 ~/projects/silicon-hitchhiker。
+# 若 repo 在别处，改下面这行的 WorkingDirectory + ExecStart 即可。
+WorkingDirectory=%h/projects/silicon-hitchhiker/demos/browser-cookie-bridge/receiver
+ExecStart=%h/projects/silicon-hitchhiker/demos/browser-cookie-bridge/receiver/start.sh
+Restart=on-failure
+RestartSec=3
+# 只听 127.0.0.1，但加一层防护
+NoNewPrivileges=true
+
+[Install]
+WantedBy=default.target

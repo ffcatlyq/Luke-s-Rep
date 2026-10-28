@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .c, .d, .e {
+        fill: none;
+      }
+
+      .d {
+        stroke: #1482fa;
+      }
+
+      .d, .e {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+
+      .e {
+        stroke: #0b41cd;
+      }
+    </style>
+  </defs>
+  <polygon id="b" class="c" points="0 192 192 192 192 0 0 0 0 192 0 192"/>
+  <circle class="d" cx="104" cy="44" r="32"/>
+  <line class="d" x1="177.5742" y1="98.7784" x2="128" y2="120"/>
+  <line class="e" x1="89.3424" y1="101.3358" x2="38.0222" y2="145.9478"/>
+  <rect class="e" x="29.6823" y="59.6418" width="68" height="128" rx="34" ry="34" transform="translate(192.8602 175.1762) rotate(139)"/>
+  <path class="d" d="M30.4157,112.8096c-6.5113-7.4903-5.7146-18.8826,1.7757-25.3938"/>
+  <path class="d" d="M96.9488,134.474c6.5113,7.4903,5.7146,18.8826-1.7757,25.3938"/>
+  <line class="d" x1="104" y1="32" x2="104" y2="56"/>
+  <line class="d" x1="116" y1="44" x2="92" y2="44"/>
+  <path class="e" d="M116.2476,106.9999c1.9684-15.7852,15.434-27.9999,31.7524-27.9999,17.6731,0,32,14.3269,32,32s-14.3269,32-32,32c-5.4204,0-10.5261-1.3477-15.0002-3.7263"/>
+</svg>

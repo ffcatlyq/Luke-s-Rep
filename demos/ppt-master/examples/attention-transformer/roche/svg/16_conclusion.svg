@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="rootGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0B41CD" /><stop offset="100%" stop-color="#0F5EE1" />
+    </linearGradient>
+    <linearGradient id="closeRule" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0B41CD" /><stop offset="100%" stop-color="#1482fa" />
+    </linearGradient>
+  </defs>
+
+  <g id="bg"><rect width="1280" height="720" fill="#FBFBF9" /></g>
+  <image href="/workspaces/silicon-hitchhiker/assets/roche-brand/logos/Roche_Logo_800px_Blue_RGB_200px.png" x="1136" y="32" width="84" height="43.7" />
+
+  <g id="closing-title">
+    <text x="60" y="122" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#1482fa" letter-spacing="3">WHAT THIS PAPER STARTED</text>
+    <text x="60" y="178" font-family="'Roche Sans Light',sans-serif" font-size="48" fill="#0B41CD">One paper, <tspan fill="#1482fa">a generation of models</tspan></text>
+    <rect x="62" y="200" width="96" height="4" rx="2" fill="url(#closeRule)" />
+  </g>
+
+  <g id="lineage">
+    <rect x="540" y="248" width="200" height="46" rx="10" fill="url(#rootGrad)" stroke="#1482fa" stroke-width="1.5" />
+    <text x="640" y="270" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="16" fill="#FFFFFF">Transformer</text>
+    <text x="640" y="287" text-anchor="middle" font-family="'Roche Sans',sans-serif" font-size="11" fill="#95C7FD">Vaswani et al. · 2017</text>
+
+    <g id="fan" stroke="#5FAAFC" stroke-width="1.4" fill="none">
+      <path d="M640,294 C640,340 200,360 200,404" /><path d="M640,294 C640,340 384,360 384,404" />
+      <path d="M640,294 C640,340 568,360 568,404" /><path d="M640,294 C640,340 752,360 752,404" />
+      <path d="M640,294 C640,340 936,360 936,404" /><path d="M640,294 C640,340 1104,360 1104,404" />
+    </g>
+
+    <g id="leaf-1">
+      <rect x="130" y="406" width="140" height="70" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" />
+      <rect x="130" y="406" width="140" height="5" rx="2.5" fill="#0B41CD" />
+      <text x="200" y="440" text-anchor="middle" font-family="'Roche Sans Light',sans-serif" font-size="22" fill="#0B41CD">BERT</text>
+      <text x="200" y="462" text-anchor="middle" font-family="'Roche Sans',sans-serif" font-size="12" fill="#706B69">encoder-only</text>
+    </g>
+    <g id="leaf-2">
+      <rect x="314" y="406" width="140" height="70" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" />
+      <rect x="314" y="406" width="140" height="5" rx="2.5" fill="#0F5EE1" />
+      <text x="384" y="440" text-anchor="middle" font-family="'Roche Sans Light',sans-serif" font-size="22" fill="#0B41CD">GPT</text>
+      <text x="384" y="462" text-anchor="middle" font-family="'Roche Sans',sans-serif" font-size="12" fill="#706B69">decoder-only</text>
+    </g>
+    <g id="leaf-3">
+      <rect x="498" y="406" width="140" height="70" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" />
+      <rect x="498" y="406" width="140" height="5" rx="2.5" fill="#1482fa" />
+      <text x="568" y="440" text-anchor="middle" font-family="'Roche Sans Light',sans-serif" font-size="22" fill="#0B41CD">T5</text>
+      <text x="568" y="462" text-anchor="middle" font-family="'Roche Sans',sans-serif" font-size="12" fill="#706B69">seq2seq</text>
+    </g>
+    <g id="leaf-4">
+      <rect x="682" y="406" width="140" height="70" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" />
+      <rect x="682" y="406" width="140" height="5" rx="2.5" fill="#0F5EE1" />
+      <text x="752" y="440" text-anchor="middle" font-family="'Roche Sans Light',sans-serif" font-size="20" fill="#0B41CD">ViT</text>
+      <text x="752" y="462" text-anchor="middle" font-family="'Roche Sans',sans-serif" font-size="12" fill="#706B69">vision</text>
+    </g>
+    <g id="leaf-5">
+      <rect x="866" y="406" width="140" height="70" rx="10" fill="#FFFFFF" stroke="#0B41CD" stroke-width="1.8" />
+      <rect x="866" y="406" width="140" height="5" rx="2.5" fill="#0B41CD" />
+      <text x="936" y="440" text-anchor="middle" font-family="'Roche Sans Light',sans-serif" font-size="20" fill="#0B41CD">AlphaFold</text>
+      <text x="936" y="462" text-anchor="middle" font-family="'Roche Sans',sans-serif" font-size="12" fill="#1482fa">protein structure</text>
+    </g>
+    <g id="leaf-6">
+      <rect x="1034" y="406" width="140" height="70" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" />
+      <rect x="1034" y="406" width="140" height="5" rx="2.5" fill="#5FAAFC" />
+      <text x="1104" y="440" text-anchor="middle" font-family="'Roche Sans Light',sans-serif" font-size="22" fill="#0B41CD">CLIP</text>
+      <text x="1104" y="462" text-anchor="middle" font-family="'Roche Sans',sans-serif" font-size="12" fill="#706B69">multimodal</text>
+    </g>
+  </g>
+
+  <g id="closing-caption">
+    <rect x="60" y="520" width="1160" height="120" rx="12" fill="#F5F7FA" stroke="#E0E0E0" stroke-width="1" />
+    <rect x="60" y="520" width="5" height="120" rx="2.5" fill="url(#closeRule)" />
+    <text x="100" y="556" font-family="'Roche Sans Light',sans-serif" font-size="22" fill="#0B41CD">The 2017 idea — <tspan font-family="'Roche Serif Light','Noto Serif',serif" font-style="italic" fill="#1482fa">just attention</tspan> — turned out to be the right inductive bias</text>
+    <text x="100" y="586" font-family="'Roche Sans Light',sans-serif" font-size="22" fill="#0B41CD">for almost every modality, far beyond translation.</text>
+    <text x="100" y="620" font-family="'Roche Sans',sans-serif" font-size="14" fill="#706B69">References: arXiv:1706.03762 · code at github.com/tensorflow/tensor2tensor</text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="694" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">Roche Blue exemplar · rebuilt with ppt-master · technical-formula style</text>
+    <text x="1220" y="694" text-anchor="end" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">16</text>
+  </g>
+</svg>

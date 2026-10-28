@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .b, .c {
+        fill: none;
+      }
+
+      .c {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <rect class="b" width="192" height="192"/>
+  <line class="c" x1="105" y1="63" x2="159" y2="63"/>
+  <line class="c" x1="105" y1="47" x2="159" y2="47"/>
+  <ellipse class="c" cx="132" cy="55" rx="11" ry="29"/>
+  <path class="c" d="M95,32c-14.1441.2167-27.5044,5.0293-38,12.9998"/>
+  <path class="c" d="M156,118c2.5111-6.8601,4-14.27,4-22v-6"/>
+  <polyline class="c" points="124 121 124 140 116 134 108 140 108 121"/>
+  <rect class="c" x="91.0278" y="121" width="50" height="50" rx="8" ry="8"/>
+  <circle class="c" cx="132" cy="55" r="29"/>
+  <rect class="c" x="18" y="60" width="55" height="24" rx="8" ry="8"/>
+  <rect class="c" x="18" y="84" width="55" height="24" rx="8" ry="8"/>
+  <rect class="c" x="18" y="108" width="55" height="24" rx="8" ry="8"/>
+</svg>

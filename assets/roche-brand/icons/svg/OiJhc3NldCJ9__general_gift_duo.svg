@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .b, .c, .d {
+        fill: none;
+      }
+
+      .c {
+        stroke: #1482fa;
+      }
+
+      .c, .d {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+
+      .d {
+        stroke: #0b41cd;
+      }
+    </style>
+  </defs>
+  <rect class="b" width="192" height="192"/>
+  <line class="c" x1="80" y1="43" x2="80" y2="168"/>
+  <line class="c" x1="111.9667" y1="43" x2="111.9667" y2="168"/>
+  <path class="c" d="M102.2963,29.7564c1.999-1.6188,13.7667-10.7564,24.7037-10.7564,12,0,7,24,7,24"/>
+  <path class="c" d="M89.7037,29.7564c-1.999-1.6188-13.7667-10.7564-24.7037-10.7564-12,0-7,24-7,24"/>
+  <path class="d" d="M32,76h128v80c0,6.623-5.377,12-12,12H44c-6.623,0-12-5.377-12-12v-80h0Z"/>
+  <path class="d" d="M36,43h120c6.623,0,12,5.377,12,12v13c0,4.4153-3.5847,8-8,8H32c-4.4153,0-8-3.5847-8-8v-13c0-6.623,5.377-12,12-12Z"/>
+  <path class="d" d="M88,43v-8c0-4.4183,3.5817-8,8-8h0c4.4183,0,8,3.5817,8,8v8"/>
+</svg>

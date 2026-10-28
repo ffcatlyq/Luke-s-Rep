@@ -1,0 +1,95 @@
+/* Roche Brand fonts — @font-face declarations
+ *
+ * Two strategies:
+ *   1. LOCAL (default below): use the .woff2 files committed under assets/roche-brand/fonts/.
+ *      Path is relative to this file. Adjust if you import from a different working directory.
+ *   2. CDN: replace `url(...)` with `https://fonts.roche.com/fonts/{family}/latest/{file}.woff2`
+ *      to skip the local copies (saves repo bandwidth but requires network).
+ *
+ * Captured 2026-05-17. See _meta.json for refresh policy.
+ */
+
+/* ===== Roche Sans (4 weights, no italic on public CDN as of capture date) ===== */
+@font-face {
+  font-family: 'Roche Sans';
+  src: url('roche-sans/RocheSans-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roche Sans';
+  src: url('roche-sans/RocheSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roche Sans';
+  src: url('roche-sans/RocheSans-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roche Sans';
+  src: url('roche-sans/RocheSans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ===== Roche Serif (2 weights, no italic on public CDN as of capture date) ===== */
+@font-face {
+  font-family: 'Roche Serif';
+  src: url('roche-serif/RocheSerif-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roche Serif';
+  src: url('roche-serif/RocheSerif-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ===== Noto Sans (multilingual fallback) ===== */
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('noto-sans/NotoSans-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('noto-sans/NotoSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('noto-sans/NotoSans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ===== Noto Serif (multilingual editorial) ===== */
+@font-face {
+  font-family: 'Noto Serif';
+  src: url('noto-serif/NotoSerif-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Noto Serif';
+  src: url('noto-serif/NotoSerif-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

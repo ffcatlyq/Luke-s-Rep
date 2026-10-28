@@ -1,0 +1,45 @@
+# Ona 自动化：任务与服务
+# 环境启动时安装 Google Workspace 基建依赖，否则 meeting-prep /
+# google-workspace 技能的脚本（gw_client、find-meeting 等）无法运行。
+# 详见 demos/google-workspace/README.md 与 docs/google-workspace-setup.md。
+
+tasks:
+  installGoogleWorkspaceDeps:
+    name: Install Google Workspace Python deps
+    description: 安装 google-workspace 基建脚本依赖（google-api-python-client 等），供 meeting-prep / google-workspace 技能使用
+    triggeredBy:
+      - manual
+      - postDevcontainerStart
+    command: |
+      set -e
+      echo "==> 安装 Google Workspace Python 依赖"
+      pip3 install --break-system-packages -r demos/google-workspace/requirements.txt
+      echo "==> 完成。授权仍需手动：见 docs/google-workspace-setup.md"
+
+  installDataAnalysisDeps:
+    name: Install data-analysis & dashboard deps
+    description: 安装销售/市场数据分析与仪表盘依赖（pandas、openpyxl、matplotlib），供 data-analysis / dashboard-builder 工具技能及 performance-review / territory-management / business-review 业务技能使用
+    triggeredBy:
+      - manual
+      - postDevcontainerStart
+    command: |
+      set -e
+      echo "==> 安装 data-analysis / dashboard-builder Python 依赖"
+      pip3 install --break-system-packages -r .claude/skills/data-analysis/requirements.txt
+      echo "==> 完成。冒烟(analysis)：python3 .claude/skills/data-analysis/scripts/inspect_data.py <file>"
+      echo "==> 完成。冒烟(dashboard)：python3 .claude/skills/dashboard-builder/scripts/build_dashboard.py <spec.json> --out outputs/dashboard.html"
+
+  installSlideOcrDeps:
+    name: Install slide-ocr-verify deps
+    description: 安装图片型幻灯/PDF 数字识别依赖（tesseract OCR、poppler、pillow/pytesseract），供 slide-ocr-verify 技能使用
+    triggeredBy:
+      - manual
+      - postDevcontainerStart
+    command: |
+      set -e
+      echo "==> 安装 OCR 系统依赖（tesseract-ocr、poppler-utils）"
+      sudo apt-get update -qq
+      sudo apt-get install -y -qq tesseract-ocr poppler-utils
+      echo "==> 安装 Python 依赖（pillow、pytesseract）"
+      pip3 install --break-system-packages pillow pytesseract
+      echo "==> 完成。实测：python3 .claude/skills/slide-ocr-verify/scripts/verify_ratio.py --num 12.5 --den 40 --claim 0.31"

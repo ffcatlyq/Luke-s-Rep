@@ -1,0 +1,157 @@
+:root {
+  --fg: #1a1a1a;
+  --muted: #666;
+  --border: #d0d0d0;
+  --accent: #0b41cd;
+  --accent-fg: #fff;
+  --ok: #0b8043;
+  --err: #cc0000;
+  --warn: #cc7700;
+  --bg: #fff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font: 13px/1.4 -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+  color: var(--fg);
+  background: var(--bg);
+  width: 360px;
+}
+
+.wrap { padding: 14px 16px; }
+
+h1 {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0 12px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.row label {
+  flex: 0 0 90px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.row input[type=text],
+.row input[type=password],
+.row select {
+  flex: 1;
+  padding: 5px 7px;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  font: inherit;
+}
+
+.row.check {
+  margin: 8px 0 14px;
+}
+.row.check label {
+  flex: 1;
+  color: var(--fg);
+}
+
+/* section 标题行（如 Local receivers）——满宽，不受 90px label 约束（否则折两行） */
+.row.head {
+  margin: 12px 0 6px;
+}
+.row.head label {
+  flex: 1;
+  color: var(--fg);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* local receiver 动态行 */
+.row.check.localrow {
+  margin: 6px 0;
+}
+.localrow .lr-rm {
+  padding: 2px 8px;
+}
+/* receiver 标识：点 ↻ 后显示「→ name」，认得出哪个端口是哪个容器 */
+.localrow .lr-name {
+  flex: 0 0 auto;
+  max-width: 96px;
+  color: var(--muted);
+  font-size: 11px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hint {
+  margin: 2px 0 10px;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 5px 10px;
+  background: #f7f7f7;
+  font: inherit;
+  color: var(--fg);
+}
+
+button.ghost {
+  padding: 4px 8px;
+  background: transparent;
+}
+
+button.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-fg);
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+.actions button { flex: 1; }
+
+.status {
+  margin-top: 12px;
+  padding: 8px 10px;
+  background: #f4f4f4;
+  border-radius: 3px;
+  font-size: 12px;
+  min-height: 14px;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+.status.ok { color: var(--ok); }
+.status.err { color: var(--err); }
+.status.warn { color: var(--warn); }
+
+.status.keepalive {
+  margin-top: 6px;
+  padding: 6px 10px;
+  font-size: 11px;
+  background: #fafafa;
+}
+
+.footer {
+  margin-top: 14px;
+  font-size: 11px;
+  color: var(--muted);
+}
+.footer p { margin: 6px 0; }
+.footer code {
+  background: #f0f0f0;
+  padding: 1px 4px;
+  border-radius: 2px;
+  font-family: ui-monospace, "JetBrains Mono", Consolas, monospace;
+}

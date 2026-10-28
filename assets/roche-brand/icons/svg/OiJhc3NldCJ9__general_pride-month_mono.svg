@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .c, .d {
+        fill: none;
+      }
+
+      .d {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <polygon id="b" class="c" points="0 192 192 192 192 0 0 0 0 192 0 192"/>
+  <line class="d" x1="24" y1="72" x2="168" y2="72"/>
+  <rect class="d" x="24" y="40" width="144" height="128" rx="12" ry="12"/>
+  <line class="d" x1="52" y1="56" x2="52" y2="24"/>
+  <line class="d" x1="140" y1="56" x2="140" y2="24"/>
+  <path class="d" d="M52,146v-12c0-24.3005,19.6995-44,44-44s44,19.6995,44,44v12"/>
+  <path class="d" d="M124,146v-12c0-15.464-12.536-28-28-28s-28,12.536-28,28v12"/>
+  <path class="d" d="M84,146v-12c0-6.6274,5.3726-12,12-12s12,5.3726,12,12v12"/>
+</svg>

@@ -1,0 +1,13 @@
+/* ===========================================
+   Slidev Theme Loader
+   切换主题：修改 frontmatter 的 customTheme 字段
+   =========================================== */
+
+/* 1. 主题变量 + 主题专属样式 */
+@import './themes/roche-blue/style.css';
+
+/* 2. 通用布局样式（排版元素、layout override） */
+@import './styles/base.css';
+
+/* 3. 通用控件样式（Terminal、Card 等） */
+@import './styles/controls.css';

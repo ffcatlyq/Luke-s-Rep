@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="accentRule" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0B41CD" />
+      <stop offset="100%" stop-color="#1482fa" />
+    </linearGradient>
+    <linearGradient id="leftScrim" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FBFBF9" stop-opacity="0.92" />
+      <stop offset="44%" stop-color="#FBFBF9" stop-opacity="0.78" />
+      <stop offset="72%" stop-color="#FBFBF9" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <g id="bg">
+    <rect width="1280" height="720" fill="#FBFBF9" />
+    <image href="/workspaces/silicon-hitchhiker/demos/ppt-master/examples/deepseek-r1/roche/assets/cover_bg.png" x="0" y="0" width="1280" height="720" />
+    <rect x="0" y="0" width="1280" height="720" fill="url(#leftScrim)" />
+  </g>
+
+  <image href="/workspaces/silicon-hitchhiker/assets/roche-brand/logos/Roche_Logo_800px_Blue_RGB_200px.png" x="64" y="52" width="118" height="61.4" />
+
+  <g id="meta">
+    <text x="66" y="188" font-family="'Roche Sans Medium',sans-serif" font-size="14" fill="#1482fa" letter-spacing="3">PAPER · DEEP READ</text>
+    <text x="66" y="210" font-family="'Roche Sans',sans-serif" font-size="14" fill="#706B69">Nature 2026 · arXiv:2501.12948 · DeepSeek-AI</text>
+  </g>
+
+  <g id="title">
+    <text x="62" y="300" font-family="'Roche Sans Light',sans-serif" font-size="82" fill="#0B41CD">DeepSeek-R1</text>
+    <text x="66" y="346" font-family="'Roche Sans Light',sans-serif" font-size="30" fill="#333333">Incentivizing reasoning in LLMs</text>
+    <text x="66" y="382" font-family="'Roche Sans Light',sans-serif" font-size="30" fill="#333333">via reinforcement learning</text>
+    <rect x="66" y="404" width="88" height="4" rx="2" fill="url(#accentRule)" />
+  </g>
+
+  <g id="authors">
+    <text x="66" y="452" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#0B41CD">DeepSeek-AI</text>
+    <text x="66" y="474" font-family="'Roche Sans',sans-serif" font-size="13" fill="#706B69">research@deepseek.com · weights + 6 distilled models under MIT</text>
+  </g>
+
+  <g id="pullquote">
+    <rect x="66" y="536" width="5" height="100" rx="2.5" fill="url(#accentRule)" />
+    <text x="90" y="560" font-family="'Roche Sans Medium',sans-serif" font-size="12" fill="#1482fa" letter-spacing="1.5">THE 2025 IDEA</text>
+    <text x="90" y="592" font-family="'Roche Serif Light','Noto Serif',serif" font-size="23" font-style="italic" fill="#0B41CD">Incentivize reasoning through pure</text>
+    <text x="90" y="622" font-family="'Roche Serif Light','Noto Serif',serif" font-size="23" font-style="italic" fill="#0B41CD">reinforcement learning — no human traces.</text>
+  </g>
+
+  <g id="footer">
+    <text x="66" y="694" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">Roche Blue exemplar · built from scratch with ppt-master · technical-formula style</text>
+  </g>
+</svg>

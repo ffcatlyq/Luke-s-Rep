@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .c {
+        stroke: #1482fa;
+        stroke-miterlimit: 10;
+      }
+
+      .c, .d, .e {
+        fill: none;
+      }
+
+      .c, .e {
+        stroke-linecap: round;
+        stroke-width: 8px;
+      }
+
+      .e {
+        stroke: #0b41cd;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <polygon id="b" data-name="frame" class="d" points="0 192 192 192 192 0 0 0 0 192 0 192"/>
+  <line class="c" x1="128" y1="72" x2="144" y2="72"/>
+  <line class="c" x1="140" y1="48" x2="144" y2="48"/>
+  <line class="c" x1="116" y1="96" x2="144" y2="96"/>
+  <line class="c" x1="104" y1="120" x2="144" y2="120"/>
+  <line class="c" x1="92" y1="144" x2="144" y2="144"/>
+  <line class="c" x1="68" y1="48" x2="48" y2="48"/>
+  <line class="c" x1="68" y1="72" x2="48" y2="72"/>
+  <line class="c" x1="68" y1="96" x2="48" y2="96"/>
+  <line class="c" x1="60" y1="120" x2="48" y2="120"/>
+  <path class="e" d="M84,80v-48c0-4.4183-3.5817-8-8-8h-36c-4.4183,0-8,3.5817-8,8v136s16,0,16,0"/>
+  <path class="e" d="M160,168H64v-24h12s0-24,0-24h12s0-24,0-24h12s0-24,0-24h12s0-24,0-24h12s0-16,0-16c0-4.4183,3.5817-8,8-8h20c4.4183,0,8,3.5817,8,8v136Z"/>
+  <line class="e" x1="168" y1="168" x2="24" y2="168"/>
+</svg>

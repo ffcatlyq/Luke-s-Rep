@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs><radialGradient id="g02" cx="50%" cy="18%" r="60%"><stop offset="0%" stop-color="#FF7D29" stop-opacity="0.05"/><stop offset="100%" stop-color="#FF7D29" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1280" height="720" fill="#2D3232"/><rect width="1280" height="720" fill="url(#g02)"/>
+  <image href="/workspaces/silicon-hitchhiker/assets/roche-brand/logos/Roche_Logo_800px_White_RGB_200px.png" x="1140" y="34" width="80" height="42"/>
+
+  <g id="header">
+    <rect x="60" y="56" width="6" height="40" fill="#1482fa"/>
+    <text x="84" y="90" font-family="'Noto Sans CJK SC','Roche Sans Light',sans-serif" font-size="34" fill="#F5F5F2">为什么要 auto mode:审批疲劳</text>
+    <text x="84" y="116" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="13" fill="#C2BAB5" letter-spacing="1.5">APPROVAL FATIGUE · 机械收尾不该反复打断你</text>
+  </g>
+
+  <text x="60" y="168" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="14" fill="#FF7D29">场景:一次 /merge-main,三步机械收尾,却步步弹窗等你点</text>
+
+  <!-- 3 step cards, each with a pause stop -->
+  <g id="steps">
+    <g>
+      <rect x="60" y="190" width="360" height="150" rx="12" fill="#3A3F3F" stroke="#544F4F" stroke-width="1.5"/>
+      <text x="84" y="228" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="15" fill="#BDE3FF">1 · gh pr create</text>
+      <text x="84" y="256" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="14" fill="#F5F5F2">建 PR</text>
+      <rect x="84" y="286" width="150" height="34" rx="8" fill="#3A2A1C" stroke="#FF7D29" stroke-width="1"/>
+      <text x="159" y="308" text-anchor="middle" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="13" fill="#FF7D29">‖ 等你点</text>
+    </g>
+    <g>
+      <rect x="460" y="190" width="360" height="150" rx="12" fill="#3A3F3F" stroke="#544F4F" stroke-width="1.5"/>
+      <text x="484" y="228" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="15" fill="#BDE3FF">2 · curl … approve</text>
+      <text x="484" y="256" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="14" fill="#F5F5F2">第二 admin approve</text>
+      <rect x="484" y="286" width="150" height="34" rx="8" fill="#3A2A1C" stroke="#FF7D29" stroke-width="1"/>
+      <text x="559" y="308" text-anchor="middle" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="13" fill="#FF7D29">‖ 等你点</text>
+    </g>
+    <g>
+      <rect x="860" y="190" width="360" height="150" rx="12" fill="#3A3F3F" stroke="#544F4F" stroke-width="1.5"/>
+      <text x="884" y="228" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="15" fill="#BDE3FF">3 · gh pr merge</text>
+      <text x="884" y="256" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="14" fill="#F5F5F2">合并 + 删分支</text>
+      <rect x="884" y="286" width="150" height="34" rx="8" fill="#3A2A1C" stroke="#FF7D29" stroke-width="1"/>
+      <text x="959" y="308" text-anchor="middle" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="13" fill="#FF7D29">‖ 等你点</text>
+    </g>
+  </g>
+
+  <!-- cost + fix -->
+  <g id="cost">
+    <rect x="60" y="374" width="560" height="130" rx="12" fill="#353A3A" stroke="#544F4F" stroke-width="1"/>
+    <rect x="60" y="374" width="5" height="130" rx="2.5" fill="#FF7D29"/>
+    <text x="100" y="410" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="13" fill="#FF7D29" letter-spacing="1.5">代价</text>
+    <text x="100" y="444" font-family="'Noto Sans CJK SC','Roche Sans Light',sans-serif" font-size="21" fill="#F5F5F2">一次 merge 被打断 <tspan font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" fill="#FF7D29">3+ 次</tspan></text>
+    <text x="100" y="476" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="14" fill="#C2BAB5">每次都是机械收尾,不是真的要你做决策——</text>
+    <text x="100" y="496" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="14" fill="#C2BAB5">点多了就麻木,反而把该看的也一路 Enter 过去。</text>
+  </g>
+  <g id="fix">
+    <rect x="660" y="374" width="560" height="130" rx="12" fill="#26331F" stroke="#4CBB17" stroke-width="1"/>
+    <rect x="660" y="374" width="5" height="130" rx="2.5" fill="#4CBB17"/>
+    <text x="700" y="410" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="13" fill="#4CBB17" letter-spacing="1.5">auto mode 的主张</text>
+    <text x="700" y="444" font-family="'Noto Sans CJK SC','Roche Sans Light',sans-serif" font-size="21" fill="#F5F5F2">机械步骤<tspan font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" fill="#4CBB17">一口气跑完</tspan></text>
+    <text x="700" y="476" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="14" fill="#C2BAB5">只在真需要决策 / 有风险时才停下问你。</text>
+    <text x="700" y="496" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="14" fill="#C2BAB5">把注意力留给值得看的那一次。</text>
+  </g>
+
+  <g id="quote">
+    <rect x="60" y="534" width="1160" height="120" rx="12" fill="#3A3F3F" stroke="#544F4F" stroke-width="1"/>
+    <rect x="60" y="534" width="5" height="120" rx="2.5" fill="#1482fa"/>
+    <text x="100" y="574" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="13" fill="#1482fa" letter-spacing="1.5">罗氏语境</text>
+    <text x="100" y="606" font-family="'Noto Sans CJK SC','Roche Sans Light',sans-serif" font-size="19" fill="#F5F5F2">我们的 <tspan font-family="'Consolas','DejaVu Sans Mono',monospace" fill="#BDE3FF">/merge-main</tspan> 命令就写着"一口气跑完、别逐步要授权"——</text>
+    <text x="100" y="634" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="14" fill="#C2BAB5">敲 /merge-main 本身就是对整条发版链的授权;PR/approve/merge 是机械收尾,不是各自独立的决策。</text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="694" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="11" fill="#8A827C">Silicon Hitchhiker · Claude Code Auto Mode 实战</text>
+    <text x="1220" y="694" text-anchor="end" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="11" fill="#8A827C">02</text>
+  </g>
+</svg>

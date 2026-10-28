@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="your_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #1482fa;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+
+      .cls-2 {
+        stroke: #0b41cd;
+      }
+    </style>
+  </defs>
+  <line class="cls-1" x1="59.12" y1="84" x2="133.12" y2="84"/>
+  <line class="cls-1" x1="75.12" y1="56" x2="75.12" y2="68"/>
+  <line class="cls-1" x1="75.12" y1="100" x2="75.12" y2="112"/>
+  <rect class="cls-2" x="58.88" y="31" width="74.25" height="128" rx="5.99" ry="5.99"/>
+</svg>

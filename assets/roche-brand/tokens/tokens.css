@@ -1,0 +1,75 @@
+/* Roche Brand Design Tokens — generated from tokens/colors.json + tokens/typography.json
+ *
+ * Captured: 2026-05-17 (see _meta.json)
+ * Usage:
+ *   <link rel="stylesheet" href="/path/to/assets/roche-brand/tokens/tokens.css" />
+ *   <link rel="stylesheet" href="/path/to/assets/roche-brand/fonts/fonts.css" />
+ *
+ *   .my-button { background: var(--roche-primary); }
+ *   h1 { font: var(--roche-h1-weight) var(--roche-h1-size)/var(--roche-h1-line-height) var(--roche-font-sans); }
+ */
+
+:root {
+  /* ===== Primary ===== */
+  --roche-primary: #0B41CD;
+  --roche-primary-rgb: 11, 65, 205;
+  --roche-primary-hover: #002DB9;
+
+  /* ===== Callout (document semantic colors) ===== */
+  --roche-tip:     #007A3B;
+  --roche-info:    #C2BAB5;
+  --roche-note:    #FAC9B5;
+  --roche-warning: #D60007;
+
+  /* ===== Neutral ===== */
+  --roche-text-primary:    #000000;
+  --roche-text-secondary:  #544F4F;
+  --roche-bg-dark:         #2D3232;
+  --roche-ui-subtle:       #EAEBEB;
+
+  /* ===== Font families ===== */
+  --roche-font-sans:       'Roche Sans', 'Noto Sans', system-ui, sans-serif;
+  --roche-font-serif:      'Roche Serif', 'Noto Serif', Georgia, serif;
+  --roche-font-multilingual: 'Noto Sans', 'Roche Sans', system-ui, sans-serif;
+
+  /* ===== Type scale (Roche Sans by default) ===== */
+  --roche-h1-size:          48px;
+  --roche-h1-weight:        300;
+  --roche-h1-line-height:   1.3;
+
+  --roche-h2-size:          40px;
+  --roche-h2-weight:        300;
+  --roche-h2-line-height:   1.3;
+
+  --roche-h3-size:          30px;
+  --roche-h3-weight:        300;
+  --roche-h3-line-height:   1.3;
+
+  --roche-body-size:        18px;
+  --roche-body-weight:      300;
+  --roche-body-line-height: 1.4;
+
+  --roche-quote-size:        16px;
+  --roche-quote-weight:      400;
+  --roche-quote-line-height: 1.3;
+  --roche-quote-style:       italic;
+
+  --roche-caption-size:        16px;
+  --roche-caption-weight:      400;
+  --roche-caption-line-height: 1.5;
+
+  --roche-nav-page-size:    17px;
+  --roche-nav-page-weight:  100;
+  --roche-nav-section-size: 16px;
+}
+
+/* Optional convenience classes (apply directly without rewriting CSS) */
+.roche-h1 { font: var(--roche-h1-weight) var(--roche-h1-size)/var(--roche-h1-line-height) var(--roche-font-sans); color: var(--roche-text-primary); }
+.roche-h2 { font: var(--roche-h2-weight) var(--roche-h2-size)/var(--roche-h2-line-height) var(--roche-font-sans); color: var(--roche-text-primary); }
+.roche-h3 { font: var(--roche-h3-weight) var(--roche-h3-size)/var(--roche-h3-line-height) var(--roche-font-sans); color: var(--roche-text-primary); }
+.roche-body { font: var(--roche-body-weight) var(--roche-body-size)/var(--roche-body-line-height) var(--roche-font-sans); color: var(--roche-text-primary); }
+.roche-quote {
+  font: var(--roche-quote-style) var(--roche-quote-weight) var(--roche-quote-size)/var(--roche-quote-line-height) var(--roche-font-serif);
+  color: var(--roche-text-primary);
+}
+.roche-caption { font: var(--roche-caption-weight) var(--roche-caption-size)/var(--roche-caption-line-height) var(--roche-font-sans); color: var(--roche-text-secondary); }

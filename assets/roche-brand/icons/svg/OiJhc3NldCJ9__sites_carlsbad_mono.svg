@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .b, .c {
+        fill: none;
+      }
+
+      .c {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <rect class="b" width="192" height="192"/>
+  <line class="c" x1="124" y1="40" x2="180" y2="40"/>
+  <line class="c" x1="68" y1="40" x2="12" y2="40"/>
+  <rect class="c" x="64" y="40" width="64" height="100"/>
+  <line class="c" x1="12" y1="140" x2="180" y2="140"/>
+  <path class="c" d="M163.123,72.4757s12.4662,3.463,17.589,14.406"/>
+  <path class="c" d="M163.123,72.4757s8.2739-6.7915,20.7606-3.7552"/>
+  <path class="c" d="M170.7278,54.8672s-8.2071,3.8424-8.9195,18.3509"/>
+  <path class="c" d="M161.168,71.8502s-9.4581-8.5401-20.8835-5.6622"/>
+  <path class="c" d="M143.229,85.9712c1.6822-6.2352,7.7011-11.4396,17.2115-12.1128"/>
+  <path class="c" d="M155.4929,153.0001c8.7725-45.8831,6.5072-82.1277,6.5072-82.1277"/>
+  <line class="c" x1="59" y1="108" x2="132" y2="108"/>
+  <line class="c" x1="84" y1="108" x2="84" y2="140"/>
+  <line class="c" x1="108" y1="108" x2="108" y2="140"/>
+  <rect class="c" x="76" y="59.8987" width="40" height="32"/>
+  <line class="c" x1="96" y1="60" x2="96" y2="92"/>
+  <path class="c" d="M133,156c19-8,22.6096,0,39.3048,0"/>
+  <rect class="c" x="16" y="108" width="24" height="18"/>
+  <rect class="c" x="16" y="66" width="24" height="18"/>
+</svg>

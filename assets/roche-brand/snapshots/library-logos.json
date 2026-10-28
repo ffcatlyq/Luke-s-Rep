@@ -1,0 +1,90 @@
+{
+  "library": {
+    "gid": "eyJpZGVudGlmaWVyIjo0MSwidHlwZSI6InByb2plY3QifQ==",
+    "type": "LogoLibrary",
+    "name": "3. Logos library - FINAL"
+  },
+  "total": 4,
+  "items": [
+    {
+      "id": "eyJpZGVudGlmaWVyIjoxMzIxMSwidHlwZSI6ImFzc2V0In0=",
+      "title": "Roche_Logo_800px_Blue_RGB",
+      "filename": "Roche_Logo_800px_Blue_RGB.eps",
+      "extension": "eps",
+      "width": 800,
+      "height": 416,
+      "size": 927744,
+      "downloadUrl": "https://s3.eu-central-1.amazonaws.com/frontify-enterprise-files-eu/roche/accounts/14/4000372/projects/41/assets/4a/13211/cd2c28c46adae161d67ae8e1c9e14017-1636019099.eps?response-content-disposition=attachment%3B%20filename%3D%22Roche_Logo_800px_Blue_RGB.eps%22%3B%20filename%2A%3DUTF-8%27%27Roche_Logo_800px_Blue_RGB.eps&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARW2DEZZ4M6T74Q2N%2F20260517%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260517T042035Z&X-Amz-SignedHeaders=host&X-Amz-Expires=518400&X-Amz-Signature=b3eef0bbd226b5037fc10657bc754514be0a63600e4b4b96308247a562333735",
+      "previewUrl": "https://media.ffycdn.net/eu/roche/eyJwYXRoIjoicm9jaGVcL2FjY291bnRzXC8xNFwvNDAwMDM3MlwvcHJvamVjdHNcLzQxXC9hc3NldHNcLzRhXC8xMzIxMVwvY2QyYzI4YzQ2YWRhZTE2MWQ2N2FlOGUxYzllMTQwMTctMTYzNjAxOTA5OS5lcHMifQ:roche:pefWNFv0fsYTXUveD-ifsK173FKGDWe568Ryaorrkfo",
+      "thumbnailUrl": "https://media.ffycdn.net/eu/roche/eyJwYXRoIjoicm9jaGVcL2FjY291bnRzXC8xNFwvNDAwMDM3MlwvcHJvamVjdHNcLzQxXC9hc3NldHNcLzRhXC8xMzIxMVwvY2QyYzI4YzQ2YWRhZTE2MWQ2N2FlOGUxYzllMTQwMTctMTYzNjAxOTA5OS5lcHMifQ:roche:pefWNFv0fsYTXUveD-ifsK173FKGDWe568Ryaorrkfo",
+      "tags": [],
+      "customMetadata": [],
+      "copyright": {
+        "status": "UNKNOWN",
+        "notice": "Copyright(C)2000-2006 Adobe Systems, Inc. All Rights Reserved."
+      },
+      "createdAt": "2021-11-04T09:44:59.000+00:00",
+      "modifiedAt": "2023-07-25T22:39:32.000+00:00"
+    },
+    {
+      "id": "eyJpZGVudGlmaWVyIjoxMzIxMiwidHlwZSI6ImFzc2V0In0=",
+      "title": "Roche_Logo_800px_Black_RGB",
+      "filename": "Roche_Logo_800px_Black_RGB.eps",
+      "extension": "eps",
+      "width": 800,
+      "height": 416,
+      "size": 923648,
+      "downloadUrl": "https://s3.eu-central-1.amazonaws.com/frontify-enterprise-files-eu/roche/accounts/14/4000372/projects/41/assets/1e/13212/a392b4e2bde33788d6ba96c4195c7bde-1636019629.eps?response-content-disposition=attachment%3B%20filename%3D%22Roche_Logo_800px_Black_RGB.eps%22%3B%20filename%2A%3DUTF-8%27%27Roche_Logo_800px_Black_RGB.eps&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARW2DEZZ4M6T74Q2N%2F20260517%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260517T042035Z&X-Amz-SignedHeaders=host&X-Amz-Expires=518400&X-Amz-Signature=926e4c50f3beef0c7928770e5433d2c5ea2f51c5e2c5e4ee7fad6231d59d8cfc",
+      "previewUrl": "https://media.ffycdn.net/eu/roche/eyJwYXRoIjoicm9jaGVcL2FjY291bnRzXC8xNFwvNDAwMDM3MlwvcHJvamVjdHNcLzQxXC9hc3NldHNcLzFlXC8xMzIxMlwvYTM5MmI0ZTJiZGUzMzc4OGQ2YmE5NmM0MTk1YzdiZGUtMTYzNjAxOTYyOS5lcHMifQ:roche:oPpIXgODXZUeWUirhCxTwS5BMnk7FtC4EERN45pAj6M",
+      "thumbnailUrl": "https://media.ffycdn.net/eu/roche/eyJwYXRoIjoicm9jaGVcL2FjY291bnRzXC8xNFwvNDAwMDM3MlwvcHJvamVjdHNcLzQxXC9hc3NldHNcLzFlXC8xMzIxMlwvYTM5MmI0ZTJiZGUzMzc4OGQ2YmE5NmM0MTk1YzdiZGUtMTYzNjAxOTYyOS5lcHMifQ:roche:oPpIXgODXZUeWUirhCxTwS5BMnk7FtC4EERN45pAj6M",
+      "tags": [],
+      "customMetadata": [],
+      "copyright": {
+        "status": "UNKNOWN",
+        "notice": "Copyright(C)2000-2006 Adobe Systems, Inc. All Rights Reserved."
+      },
+      "createdAt": "2021-11-04T09:53:49.000+00:00",
+      "modifiedAt": "2023-07-25T22:38:03.000+00:00"
+    },
+    {
+      "id": "eyJpZGVudGlmaWVyIjoxMzIxMywidHlwZSI6ImFzc2V0In0=",
+      "title": "Roche_Logo_800px_White_RGB",
+      "filename": "Roche_Logo_800px_White_RGB.eps",
+      "extension": "eps",
+      "width": 800,
+      "height": 416,
+      "size": 913408,
+      "downloadUrl": "https://s3.eu-central-1.amazonaws.com/frontify-enterprise-files-eu/roche/accounts/14/4000372/projects/41/assets/65/13213/9ec1804a74358e00b14d0d6e8d815557-1636019203.eps?response-content-disposition=attachment%3B%20filename%3D%22Roche_Logo_800px_White_RGB.eps%22%3B%20filename%2A%3DUTF-8%27%27Roche_Logo_800px_White_RGB.eps&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARW2DEZZ4M6T74Q2N%2F20260517%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260517T042035Z&X-Amz-SignedHeaders=host&X-Amz-Expires=518400&X-Amz-Signature=2dc954ec114100162930acbeac1358c0766373be04f10a5630a46f039c379cdd",
+      "previewUrl": "https://media.ffycdn.net/eu/roche/eyJwYXRoIjoicm9jaGVcL2FjY291bnRzXC8xNFwvNDAwMDM3MlwvcHJvamVjdHNcLzQxXC9hc3NldHNcLzY1XC8xMzIxM1wvOWVjMTgwNGE3NDM1OGUwMGIxNGQwZDZlOGQ4MTU1NTctMTYzNjAxOTIwMy5lcHMifQ:roche:O8QaBGBzvcr77Gys2UXPW7VHKtvskcz-lIlBsf4_6R0",
+      "thumbnailUrl": "https://media.ffycdn.net/eu/roche/eyJwYXRoIjoicm9jaGVcL2FjY291bnRzXC8xNFwvNDAwMDM3MlwvcHJvamVjdHNcLzQxXC9hc3NldHNcLzY1XC8xMzIxM1wvOWVjMTgwNGE3NDM1OGUwMGIxNGQwZDZlOGQ4MTU1NTctMTYzNjAxOTIwMy5lcHMifQ:roche:O8QaBGBzvcr77Gys2UXPW7VHKtvskcz-lIlBsf4_6R0",
+      "tags": [],
+      "customMetadata": [],
+      "copyright": {
+        "status": "UNKNOWN",
+        "notice": "Copyright(C)2000-2006 Adobe Systems, Inc. All Rights Reserved."
+      },
+      "createdAt": "2021-11-04T09:46:43.000+00:00",
+      "modifiedAt": "2023-07-25T22:38:42.000+00:00"
+    },
+    {
+      "id": "eyJpZGVudGlmaWVyIjoxMzIwMywidHlwZSI6ImFzc2V0In0=",
+      "title": "Roche_Logo_Blue_PMS",
+      "filename": "Roche_Logo_Blue_PMS.eps",
+      "extension": "eps",
+      "width": 284,
+      "height": 148,
+      "size": 1059840,
+      "downloadUrl": "https://s3.eu-central-1.amazonaws.com/frontify-enterprise-files-eu/roche/accounts/14/4000372/projects/41/assets/f8/13203/dffedb4509996f8485b2021d29429c87-1636017353.eps?response-content-disposition=attachment%3B%20filename%3D%22Roche_Logo_Blue_PMS.eps%22%3B%20filename%2A%3DUTF-8%27%27Roche_Logo_Blue_PMS.eps&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARW2DEZZ4M6T74Q2N%2F20260517%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260517T042035Z&X-Amz-SignedHeaders=host&X-Amz-Expires=518400&X-Amz-Signature=3ed3d467c7282d891d6b6602554b1cc847dd049b756972befa7a1ea514c0890a",
+      "previewUrl": "https://media.ffycdn.net/eu/roche/eyJwYXRoIjoicm9jaGVcL2FjY291bnRzXC8xNFwvNDAwMDM3MlwvcHJvamVjdHNcLzQxXC9hc3NldHNcL2Y4XC8xMzIwM1wvZGZmZWRiNDUwOTk5NmY4NDg1YjIwMjFkMjk0MjljODctMTYzNjAxNzM1My5lcHMifQ:roche:18ehi480sk7MH-xSol1WlJjiMuk5DtzsU1ND1FtlNqU",
+      "thumbnailUrl": "https://media.ffycdn.net/eu/roche/eyJwYXRoIjoicm9jaGVcL2FjY291bnRzXC8xNFwvNDAwMDM3MlwvcHJvamVjdHNcLzQxXC9hc3NldHNcL2Y4XC8xMzIwM1wvZGZmZWRiNDUwOTk5NmY4NDg1YjIwMjFkMjk0MjljODctMTYzNjAxODU2NC5wbmcifQ:roche:a3qDW5PolghCp45ZOsQC_OBoGQVQ-JPvKeNdfpBuXVA",
+      "tags": [],
+      "customMetadata": [],
+      "copyright": {
+        "status": "UNKNOWN",
+        "notice": "Copyright(C)2000-2006 Adobe Systems, Inc. All Rights Reserved."
+      },
+      "createdAt": "2021-11-04T09:15:53.000+00:00",
+      "modifiedAt": "2023-07-25T22:41:02.000+00:00"
+    }
+  ]
+}

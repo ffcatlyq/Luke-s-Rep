@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .b, .c {
+        fill: none;
+      }
+
+      .c {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <rect class="b" width="192" height="192"/>
+  <line class="c" x1="132" y1="74" x2="143" y2="34"/>
+  <line class="c" x1="59.975" y1="74" x2="48.975" y2="34"/>
+  <polyline class="c" points="96 171 60 74 96 31"/>
+  <polyline class="c" points="96 171 131.9729 74 96 31"/>
+  <line class="c" x1="16" y1="74" x2="176" y2="74"/>
+  <path class="c" d="M174.2065,82.7082l-68.8917,84.8229c-4.8023,5.9129-13.8273,5.9129-18.6296,0L17.7917,82.706c-3.6781-4.5286-3.5661-11.0464.2653-15.4461l27.9895-32.1407c2.279-2.617,5.5793-4.1193,9.0495-4.1193h81.7888c3.4691,0,6.7684,1.5013,9.0474,4.1168l28.0069,32.1429c3.8334,4.3995,3.9463,10.919.2674,15.4485Z"/>
+</svg>

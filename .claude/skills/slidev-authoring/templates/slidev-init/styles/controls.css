@@ -1,0 +1,133 @@
+/* ===========================================
+   通用控件样式
+   控件结构与布局，颜色通过 CSS 变量注入
+   =========================================== */
+
+/* === AWS ICONS === */
+.aws-icon {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 6px;
+  filter: drop-shadow(0 0 4px var(--primary-glow));
+}
+
+/* === TERMINAL WINDOW === */
+.terminal-window {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.terminal-bar {
+  background: var(--border);
+  padding: 8px 12px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.terminal-dot {
+  width: 10px; height: 10px; border-radius: 50%;
+}
+.terminal-dot.r { background: var(--danger); }
+.terminal-dot.y { background: var(--warning); }
+.terminal-dot.g { background: var(--primary); }
+
+.terminal-bar .title {
+  color: var(--text-dim);
+  font-size: 0.75em;
+  margin-left: 8px;
+}
+
+.terminal-body {
+  padding: 1em 1.2em;
+}
+
+.terminal-body .line { line-height: 1.7; font-size: 0.85em; }
+.terminal-body .prompt { color: var(--primary); }
+.terminal-body .cmd { color: var(--text); }
+.terminal-body .comment { color: var(--text-dim); }
+.terminal-body .output { color: var(--primary); opacity: 0.9; }
+
+/* === CARD GRID === */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8em;
+}
+.card-grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
+.card-grid.cols-4 { grid-template-columns: repeat(4, 1fr); }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.8em 1em;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: var(--primary);
+}
+.card.blue::before { background: var(--secondary); }
+.card.yellow::before { background: var(--warning); }
+.card.purple::before { background: var(--accent); }
+.card.red::before { background: var(--danger); }
+
+.card .card-title {
+  font-weight: 600;
+  color: var(--text);
+  font-size: 0.9em;
+  margin-bottom: 0.3em;
+}
+
+.card .card-desc {
+  color: var(--text-dim);
+  font-size: 0.78em;
+  line-height: 1.5;
+}
+
+/* === CALLOUT BOX ===
+   统一的强调框基础样式。
+   用法：<div class="callout callout-green">...</div>
+   所有 callout 共享相同的 padding / line-height / font-size / border-radius，
+   只通过颜色变体区分语义。不要用 inline style 覆盖这些参数。
+*/
+.callout {
+  padding: 0.5em 0.8em;
+  font-size: 0.85em;
+  line-height: 1.5;
+  border-left: 3px solid var(--border);
+  border-radius: 0 4px 4px 0;
+  margin: 0;
+}
+.callout-green, .callout.green {
+  background: rgba(122, 179, 58, 0.08);
+  border-left-color: var(--accent);
+}
+.callout-blue, .callout.blue {
+  background: var(--surface-blue);
+  border-left-color: var(--primary);
+}
+.callout-orange, .callout.orange {
+  background: rgba(237, 74, 13, 0.08);
+  border-left-color: var(--warning);
+}
+.callout-red, .callout.red {
+  background: rgba(208, 2, 27, 0.08);
+  border-left-color: var(--danger);
+}
+
+/* === SECTION TITLE === */
+.section-title {
+  font-weight: 600;
+  font-size: 0.88em;
+  margin-bottom: 0.3em;
+  color: var(--primary);
+}

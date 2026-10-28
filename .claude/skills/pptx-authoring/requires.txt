@@ -1,0 +1,7 @@
+# pptx-authoring依赖的hub路径(sync-skills第二阶段按此同步到rojectory)
+# 引擎(hugohe3/ppt-master)不vendor —— 由scripts/setup-engine.sh按需装，不在此列。
+demos/ppt-master/examples/_pipeline/
+demos/ppt-master/brand/
+demos/ppt-master/scripts/build_roche_brand_spec.py
+demos/ppt-master/examples/ADAPTATION.md
+demos/ppt-master/examples/attention-transformer/design_spec.md

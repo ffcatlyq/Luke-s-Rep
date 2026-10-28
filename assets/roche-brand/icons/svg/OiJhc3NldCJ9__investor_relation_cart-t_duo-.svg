@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="your_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-dasharray: 8 20;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        stroke: #0b41cd;
+      }
+
+      .cls-2 {
+        stroke: #1482fa;
+      }
+
+      .cls-4 {
+        stroke-dasharray: 7.78 19.46;
+      }
+    </style>
+  </defs>
+  <line class="cls-2" x1="121" y1="96" x2="108" y2="96"/>
+  <path class="cls-3" d="M70,84h20c3.31,0,6,2.69,6,6h0c0,3.31-2.69,6-6,6h-1.77c-3.31,0-6,2.69-6,6h0c0,3.31,2.69,6,6,6h7.77"/>
+  <path class="cls-2" d="M23.46,36.12c26.76,6.7,46.57,30.9,46.57,59.74v.05c0,29-20.05,53.31-47.03,59.85"/>
+  <g>
+    <path class="cls-3" d="M168.23,156.5c-1.29-.35-2.57-.74-3.83-1.17"/>
+    <path class="cls-4" d="M147.26,146.3c-15.33-11.42-25.26-29.68-25.26-50.27v-.05c0-24.08,13.58-44.98,33.5-55.46"/>
+    <path class="cls-3" d="M164.44,36.68c1.26-.43,2.53-.82,3.83-1.17"/>
+  </g>
+  <path class="cls-2" d="M40.29,60.13c9.14,8.06,14.9,19.85,14.91,32.99v5.52c-.02,19.84-13.16,36.61-31.22,42.09"/>
+  <path class="cls-1" d="M168.53,141.63c-18.37-5.57-31.74-22.63-31.76-42.81v-5.61"/>
+</svg>

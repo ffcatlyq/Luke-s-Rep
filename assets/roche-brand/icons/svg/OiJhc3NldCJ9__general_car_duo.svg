@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .c, .d, .e {
+        fill: none;
+      }
+
+      .d {
+        stroke: #1482fa;
+      }
+
+      .d, .e {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+
+      .e {
+        stroke: #0b41cd;
+      }
+    </style>
+  </defs>
+  <polygon id="b" class="c" points="0 192 192 192 192 0 0 0 0 192 0 192"/>
+  <line class="d" x1="62" y1="80" x2="126" y2="80"/>
+  <line class="d" x1="92" y1="80" x2="92" y2="54"/>
+  <line class="e" x1="123.9262" y1="122" x2="70" y2="122"/>
+  <circle class="e" cx="51" cy="122" r="16"/>
+  <circle class="e" cx="144" cy="122" r="16"/>
+  <path class="e" d="M34,122h-10c-6.6274,0-12-5.3726-12-12v-18c0-6.6274,5.3726-12,12-12h10.0912c3.7256,0,7.2399-1.7304,9.5115-4.6835l12.7947-16.6331c2.2716-2.953,5.7859-4.6835,9.5115-4.6835h49.6521c2.8645,0,5.6346,1.0247,7.8095,2.8889l24.6296,22.1111,21.4884,2.6861c6.0051.7506,10.5116,5.8555,10.5116,11.9073v16.4066c0,6.6274-5.3726,12-12,12h-8"/>
+</svg>

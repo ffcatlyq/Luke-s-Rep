@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src http://127.0.0.1:* http://localhost:*" />
+  <title>Cookie Bridge</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="wrap">
+    <h1>Cookie Bridge</h1>
+
+    <div class="row">
+      <label for="token">Token</label>
+      <input id="token" type="password" placeholder="receiver token at startup (shared across all receivers)" />
+      <button class="ghost" id="toggleToken" type="button">show</button>
+    </div>
+
+    <div class="row">
+      <label for="service">Service</label>
+      <select id="service"></select>
+      <button class="ghost" id="refreshServices" type="button">↻</button>
+    </div>
+
+    <div class="row head">
+      <label>Local receivers</label>
+      <button class="ghost" id="addReceiver" type="button">+ Add</button>
+    </div>
+    <div id="localList"></div>
+    <p class="hint">build-cli local, or VSCode-SSH to Ona (one forwarded port per container). Multiple = one cookie fans out to all.</p>
+
+    <div class="row check">
+      <input id="tGdrive" type="checkbox" />
+      <label for="tGdrive">Google Drive (Ona, no tunnel)</label>
+    </div>
+    <div class="row" id="gdrivePassRow">
+      <label for="gdrivePass">Passphrase</label>
+      <input id="gdrivePass" type="password" placeholder="match COOKIE_BRIDGE_PASSPHRASE on the Ona side" />
+      <button class="ghost" id="toggleGdrivePass" type="button">show</button>
+    </div>
+
+    <div class="row check">
+      <input id="autoSync" type="checkbox" />
+      <label for="autoSync">Auto-sync on cookie change</label>
+    </div>
+
+    <div class="row check">
+      <input id="keepAlive" type="checkbox" />
+      <label for="keepAlive" id="keepAliveLabel">Keep-alive (20 min)</label>
+      <button class="ghost" id="keepAliveNow" type="button">test</button>
+    </div>
+
+    <div class="actions">
+      <button id="save" class="primary" type="button">Save</button>
+      <button id="syncNow" class="primary" type="button">Sync Now</button>
+    </div>
+
+    <div id="status" class="status"></div>
+    <div id="keepAliveStatus" class="status keepalive"></div>
+
+    <details class="footer">
+      <summary>About</summary>
+      <p>Syncs cookies to a local receiver. Keep your token private; log in to the target app in your browser before syncing.</p>
+      <p>Start the receiver first: <code>python3 cookie_receiver.py --config config.json</code></p>
+    </details>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

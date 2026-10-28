@@ -1,0 +1,19 @@
+# 用户本地配置（含具体输出路径），不进版本库
+receiver/config.json
+
+# 运行时状态（如有）
+receiver/receiver_state.json
+receiver/*.log
+
+# 扩展打包产物
+extension/*.zip
+extension/*.crx
+
+# 测试用 cookie 落地（绝不能进版本库）
+*-cookies.json
+test-cookies.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/

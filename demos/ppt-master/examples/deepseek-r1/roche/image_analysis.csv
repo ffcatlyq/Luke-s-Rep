@@ -1,0 +1,5 @@
+No,Filename,Width,Height,AspectRatio,PixelAspectRatio,RatioSource,UsageCount,DisplayRatioVariants,AssetKind,SvgRenderable,PptxNativeSupported,SizeKB,Category,ImageArea_SxS,TextArea_SxS
+1,cover_bg.png,1536,1024,1.50,1.50,pixel,1,,bitmap,True,True,584.2,Standard landscape,812x541,328x600
+2,formula_grpo_objective.png,5218,418,12.48,12.48,pixel,1,,bitmap,True,True,107.4,Ultra-wide,1160x93,1160x487
+3,formula_grpo_ratio_adv.png,2624,410,6.40,6.40,pixel,1,,bitmap,True,True,66.3,Ultra-wide,1160x181,1160x399
+4,roche_logo_blue.png,200,104,1.92,1.92,pixel,1,,bitmap,True,True,4.0,Wide landscape,812x422,328x600

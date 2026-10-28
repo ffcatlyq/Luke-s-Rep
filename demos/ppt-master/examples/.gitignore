@@ -1,0 +1,3 @@
+# preview PNG 是可从 SVG 重渲的派生物(跑 _pipeline/render_preview.py 本地生成),不入 git。
+# SSOT 是 roche/svg/ 下的 SVG 源;要看效果本地渲染或打开 pptx。
+**/preview/

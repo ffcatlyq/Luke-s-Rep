@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+  <image href="/workspaces/silicon-hitchhiker/assets/roche-brand/logos/Roche_Logo_800px_Blue_RGB_200px.png" x="1136" y="32" width="84" height="43.7" />
+
+  <g id="header">
+    <rect x="60" y="56" width="6" height="40" fill="#1482fa" />
+    <text x="84" y="90" font-family="'Roche Sans Light',sans-serif" font-size="34" fill="#0B41CD">Small distilled models outrun much larger ones</text>
+    <text x="84" y="116" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#706B69" letter-spacing="1.5">DISTILLED MODELS VS GPT-4o &amp; CLAUDE-3.5 · §F · TABLE 15 · PASS@1</text>
+  </g>
+
+  <g id="table">
+    <rect x="60" y="152" width="1160" height="402" fill="none" stroke="#0B41CD" stroke-width="2" />
+    <g transform="translate(60, 152)">
+      <rect x="0" y="0" width="1160" height="50" fill="#0B41CD" />
+      <text x="20" y="31" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#FFFFFF" letter-spacing="1.5">MODEL</text>
+      <g font-family="'Roche Sans Medium',sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">
+        <text x="440" y="31">AIME 2024</text><text x="600" y="31">MATH-500</text><text x="760" y="31">GPQA Diamond</text><text x="920" y="31">LiveCodeBench</text><text x="1080" y="31">Codeforces</text>
+      </g>
+      <g stroke="#E0E0E0" stroke-width="1">
+        <line x1="360" y1="0" x2="360" y2="402" /><line x1="520" y1="50" x2="520" y2="402" /><line x1="680" y1="50" x2="680" y2="402" /><line x1="840" y1="50" x2="840" y2="402" /><line x1="1000" y1="50" x2="1000" y2="402" />
+      </g>
+
+      <!-- baseline rows -->
+      <rect x="0" y="50" width="1160" height="88" fill="#F5F7FA" />
+      <g font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="15" text-anchor="middle" fill="#706B69">
+        <text x="20" y="79" text-anchor="start" font-family="'Roche Sans',sans-serif" font-size="15" fill="#706B69">GPT-4o-0513</text>
+        <text x="440" y="80">9.3</text><text x="600" y="80">74.6</text><text x="760" y="80">49.9</text><text x="920" y="80">32.9</text><text x="1080" y="80">759</text>
+        <text x="20" y="123" text-anchor="start" font-family="'Roche Sans',sans-serif" font-size="15" fill="#706B69">Claude-3.5-Sonnet</text>
+        <text x="440" y="124">16.0</text><text x="600" y="124">78.3</text><text x="760" y="124">65.0</text><text x="920" y="124">38.9</text><text x="1080" y="124">717</text>
+      </g>
+      <line x1="0" y1="138" x2="1160" y2="138" stroke="#0B41CD" stroke-width="1.5" />
+      <text x="340" y="79" text-anchor="end" font-family="'Roche Sans Medium',sans-serif" font-size="10" fill="#A39F9C" letter-spacing="1">BASELINES</text>
+
+      <!-- distilled rows -->
+      <g font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="15" text-anchor="middle">
+        <text x="20" y="167" text-anchor="start" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#0B41CD">R1-Distill-Qwen-1.5B</text>
+        <text x="440" y="168" fill="#333333">28.9</text><text x="600" y="168" fill="#333333">83.9</text><text x="760" y="168" fill="#333333">33.8</text><text x="920" y="168" fill="#333333">16.9</text><text x="1080" y="168" fill="#333333">954</text>
+        <line x1="0" y1="182" x2="1160" y2="182" stroke="#E0E0E0" stroke-width="1" />
+
+        <text x="20" y="211" text-anchor="start" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#0B41CD">R1-Distill-Qwen-7B</text>
+        <text x="440" y="212" fill="#333333">55.5</text><text x="600" y="212" fill="#333333">92.8</text><text x="760" y="212" fill="#333333">49.1</text><text x="920" y="212" fill="#333333">37.6</text><text x="1080" y="212" fill="#333333">1189</text>
+        <line x1="0" y1="226" x2="1160" y2="226" stroke="#E0E0E0" stroke-width="1" />
+
+        <text x="20" y="255" text-anchor="start" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#0B41CD">R1-Distill-Qwen-14B</text>
+        <text x="440" y="256" fill="#333333">69.7</text><text x="600" y="256" fill="#333333">93.9</text><text x="760" y="256" fill="#333333">59.1</text><text x="920" y="256" fill="#333333">53.1</text><text x="1080" y="256" fill="#333333">1481</text>
+        <line x1="0" y1="270" x2="1160" y2="270" stroke="#E0E0E0" stroke-width="1" />
+
+        <rect x="0" y="270" width="1160" height="44" fill="#E9EEFA" />
+        <text x="20" y="299" text-anchor="start" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#0B41CD">R1-Distill-Qwen-32B</text>
+        <text x="440" y="300" font-weight="700" fill="#007A3B">72.6</text><text x="600" y="300" fill="#333333">94.3</text><text x="760" y="300" fill="#333333">62.1</text><text x="920" y="300" fill="#333333">57.2</text><text x="1080" y="300" font-weight="700" fill="#007A3B">1691</text>
+        <line x1="0" y1="314" x2="1160" y2="314" stroke="#E0E0E0" stroke-width="1" />
+
+        <text x="20" y="343" text-anchor="start" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#0B41CD">R1-Distill-Llama-8B</text>
+        <text x="440" y="344" fill="#333333">50.4</text><text x="600" y="344" fill="#333333">89.1</text><text x="760" y="344" fill="#333333">49.0</text><text x="920" y="344" fill="#333333">39.6</text><text x="1080" y="344" fill="#333333">1205</text>
+        <line x1="0" y1="358" x2="1160" y2="358" stroke="#E0E0E0" stroke-width="1" />
+
+        <rect x="0" y="358" width="1160" height="44" fill="#E9EEFA" />
+        <text x="20" y="387" text-anchor="start" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#0B41CD">R1-Distill-Llama-70B</text>
+        <text x="440" y="388" fill="#333333">70.0</text><text x="600" y="388" font-weight="700" fill="#007A3B">94.5</text><text x="760" y="388" font-weight="700" fill="#007A3B">65.2</text><text x="920" y="388" font-weight="700" fill="#007A3B">57.5</text><text x="1080" y="388" fill="#333333">1633</text>
+      </g>
+    </g>
+  </g>
+
+  <g id="takeaway">
+    <rect x="60" y="568" width="1160" height="84" rx="10" fill="#F5F7FA" stroke="#E0E0E0" stroke-width="1" />
+    <rect x="60" y="568" width="5" height="84" rx="2.5" fill="#007A3B" />
+    <text x="100" y="596" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#007A3B" letter-spacing="1.5">READ THE TABLE LIKE THIS</text>
+    <text x="100" y="624" font-family="'Roche Sans Light',sans-serif" font-size="18" fill="#0B41CD">Even the <tspan font-family="'Roche Sans Medium',sans-serif" fill="#1482fa">7B</tspan> distill crushes GPT-4o on math (92.8 vs 74.6, AIME 55.5 vs 9.3); the <tspan font-family="'Roche Sans Medium',sans-serif" fill="#1482fa">32B / 70B</tspan> reach o1-mini territory —</text>
+    <text x="100" y="646" font-family="'Roche Sans',sans-serif" font-size="14" fill="#706B69">reasoning learned by a 671B teacher survives compression into models 20–400× smaller, with SFT alone.</text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="700" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">Source: DeepSeek-AI 2026, §F, Table 15 (distilled models on reasoning benchmarks) · green = best in column</text>
+    <text x="1220" y="700" text-anchor="end" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">15</text>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+/* ===== Sketch Light — Auto-generated from tokens.json ===== */
+/* Do not edit manually. Run: node scripts/generate-theme-css.js sketch-light */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --bg: #ffffff;
+  --primary: #1e1e1e;
+  --primary-dim: #6b6b6b;
+  --primary-glow: rgba(30, 30, 30, 0.06);
+  --secondary: #1971c2;
+  --warning: #e67700;
+  --accent: #9c36b5;
+  --danger: #e03131;
+  --text: #1e1e1e;
+  --text-dim: #868e96;
+  --border: #dee2e6;
+  --surface: #f8f9fa;
+}
+
+.slidev-layout {
+  background: var(--bg) !important;
+  color: var(--text) !important;
+  font-family: 'Inter', system-ui, sans-serif !important;
+  font-size: 14px;
+}
+
+/* Typography */
+.slidev-layout h1 {
+  color: var(--primary) !important;
+  font-family: 'Caveat', 'Inter', system-ui, sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 2em !important;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.2em !important;
+}
+
+.slidev-layout h2 {
+  color: var(--primary) !important;
+  font-family: 'Caveat', 'Inter', system-ui, sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 1.4em !important;
+}
+
+.slidev-layout h3 {
+  color: var(--text) !important;
+  font-weight: 500 !important;
+  font-size: 1.1em !important;
+}
+
+/* Accent helpers */
+.green { color: var(--primary) !important; }
+.blue { color: var(--secondary) !important; }
+.yellow { color: var(--warning) !important; }
+.purple { color: var(--accent) !important; }
+.red { color: var(--danger) !important; }
+.dim { color: var(--text-dim) !important; }

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="your_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M106.8,96.8c30.77,4.63,55.16,28.73,60.23,59.35"/>
+  <path class="cls-1" d="M24.97,156.18c5.06-30.65,29.49-54.77,60.3-59.38"/>
+  <g>
+    <line class="cls-1" x1="85.6" y1="122.95" x2="85.6" y2="86.39"/>
+    <line class="cls-1" x1="106.24" y1="122.95" x2="106.24" y2="86.42"/>
+    <path class="cls-1" d="M60,55.03c0,15.49,11,28.4,25.6,31.36"/>
+    <path class="cls-1" d="M106.24,86.42c14.68-2.9,25.76-15.85,25.76-31.39"/>
+  </g>
+  <g>
+    <polyline class="cls-1" points="107.49 52.05 106.2 44.03 89.37 36.04 74.07 46.63 75.61 65.22 92.44 73.22 103.62 68.8"/>
+    <ellipse class="cls-1" cx="109.29" cy="61.67" rx="8.06" ry="8.08" transform="translate(-12.13 29.97) rotate(-14.8)"/>
+  </g>
+</svg>

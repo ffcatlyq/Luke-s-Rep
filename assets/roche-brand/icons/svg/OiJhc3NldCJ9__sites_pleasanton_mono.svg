@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .b, .c {
+        fill: none;
+      }
+
+      .c {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <rect class="b" width="192" height="192"/>
+  <line class="c" x1="124" y1="63" x2="164" y2="63"/>
+  <line class="c" x1="124" y1="79" x2="164" y2="79"/>
+  <line class="c" x1="124" y1="95" x2="164" y2="95"/>
+  <line class="c" x1="124" y1="111" x2="164" y2="111"/>
+  <path class="c" d="M124,47h28c6.6274,0,12,5.3726,12,12v68"/>
+  <path class="c" d="M124,127V47c0-6.6274-5.3726-12-12-12H30"/>
+  <line class="c" x1="15" y1="63" x2="124" y2="63"/>
+  <line class="c" x1="100" y1="63" x2="100" y2="127"/>
+  <line class="c" x1="21" y1="127" x2="171" y2="127"/>
+  <path class="c" d="M72.1886,154.7134s1.972-33.5232-19.7195-59.1586"/>
+  <path class="c" d="M53.4551,98.5128s-9.9222,5.2124-11.8941,20.0021"/>
+  <path class="c" d="M54.3786,94.8514s-16.7616-3.9439-27.6073,9.8598"/>
+  <path class="c" d="M34.6591,81.0478s16.7616,1.972,19.7195,13.8037"/>
+  <path class="c" d="M54.3786,94.8514s5.9159-17.7476,26.6214-13.8037"/>
+  <path class="c" d="M79.028,104.7112s-7.8878-11.8317-24.6494-8.8738"/>
+  <path class="c" d="M56,158c15-4,33,0,33,0"/>
+  <line class="c" x1="96" y1="49" x2="104" y2="49"/>
+</svg>

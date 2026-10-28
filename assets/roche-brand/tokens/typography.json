@@ -1,0 +1,124 @@
+{
+  "_source": "Frontify ctx.appearance (https://branding.roche.com/hub/6 SSR state) + Frontify /api/portal/6/font-families + fonts.roche.com",
+  "_captured_at": "2026-05-17",
+
+  "font_families": [
+    {
+      "name": "Roche Sans",
+      "slug": "roche-sans",
+      "type": "sans-serif",
+      "role": "primary",
+      "description": "Roche Sans is the primary typeface for Roche communications. Provides clarity and legibility across all digital and print applications.",
+      "hosting": "selfhosted (fonts.roche.com + Frontify CDN)",
+      "weights_available_locally": [300, 400, 500, 700],
+      "weights_remote_only_or_missing": ["italic variants (not on fonts.roche.com), Roche Sans Condensed (Frontify lists family but no public CDN URL)"]
+    },
+    {
+      "name": "Roche Sans Condensed",
+      "slug": "roche-sans-condensed",
+      "type": "sans-serif condensed",
+      "role": "secondary primary",
+      "description": "Condensed companion for tight layouts. Listed in Frontify font-families API but not currently published on fonts.roche.com.",
+      "hosting": "selfhosted (Frontify only)",
+      "weights_available_locally": [],
+      "_todo": "fetch from Frontify /api/font-file/{id} once font_id is resolved"
+    },
+    {
+      "name": "Roche Serif",
+      "slug": "roche-serif",
+      "type": "serif",
+      "role": "editorial / quote / premium",
+      "description": "Roche Serif is a complementary typeface used for editorial content and special communications. Combines classical elegance with contemporary design.",
+      "hosting": "selfhosted (fonts.roche.com + Frontify CDN)",
+      "weights_available_locally": [300, 400],
+      "weights_remote_only_or_missing": ["italic variants (Frontify references RocheSerif-Italic but not on public CDN)"]
+    },
+    {
+      "name": "Noto Sans",
+      "slug": "noto-sans",
+      "type": "sans-serif",
+      "role": "multilingual fallback (Latin, Cyrillic, Greek, CJK)",
+      "description": "Unmodulated sans-serif for multilingual support. Pan-Unicode harmonious typography.",
+      "hosting": "selfhosted (fonts.roche.com)",
+      "weights_available_locally": [300, 400, 700]
+    },
+    {
+      "name": "Noto Serif",
+      "slug": "noto-serif",
+      "type": "serif",
+      "role": "multilingual editorial",
+      "description": "Modulated serif companion to Noto Sans for multilingual editorial content.",
+      "hosting": "selfhosted (fonts.roche.com)",
+      "weights_available_locally": [400, 700]
+    }
+  ],
+
+  "type_scale": {
+    "_doc": "Verbatim from Frontify ctx.appearance, confirmed against the Brand Elements typography guidelines (page 426).",
+    "heading1": {
+      "family": "Roche Sans",
+      "weight": 300,
+      "size": "48px",
+      "line_height": 1.3,
+      "color_token": "neutral.text_primary"
+    },
+    "heading2": {
+      "family": "Roche Sans",
+      "weight": 300,
+      "size": "40px",
+      "line_height": 1.3,
+      "color_token": "neutral.text_primary"
+    },
+    "heading3": {
+      "family": "Roche Sans",
+      "weight": 300,
+      "size": "30px",
+      "line_height": 1.3,
+      "color_token": "neutral.text_primary"
+    },
+    "body": {
+      "family": "Roche Sans",
+      "weight": 300,
+      "size": "18px",
+      "line_height": 1.4,
+      "color_token": "neutral.text_primary"
+    },
+    "quote": {
+      "family": "Roche Serif",
+      "weight": 400,
+      "italic": true,
+      "size": "16px",
+      "line_height": 1.3,
+      "color_token": "neutral.text_primary"
+    },
+    "image_title": {
+      "family": "Roche Sans",
+      "weight": 400,
+      "size": "16px",
+      "line_height": 1.4,
+      "color_token": "neutral.text_primary"
+    },
+    "image_caption": {
+      "family": "Roche Sans",
+      "weight": 400,
+      "size": "16px",
+      "line_height": 1.5,
+      "color_token": "neutral.text_secondary"
+    },
+    "navigation_pages": {
+      "family": "Roche Sans",
+      "weight": 100,
+      "size": "17px",
+      "line_height": 1.3,
+      "color_token": "neutral.text_primary",
+      "color_token_hover": "primary.roche_blue"
+    },
+    "navigation_sections": {
+      "family": "Roche Sans",
+      "weight": 100,
+      "size": "16px",
+      "line_height": 1.3,
+      "color_token": "neutral.text_secondary"
+    }
+  }
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{TITLE}}</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei','PingFang SC','Hiragino Sans GB',sans-serif;background:#f5f5f5;color:#333;line-height:1.8}
+.wrapper{max-width:680px;margin:0 auto;background:#fff;min-height:100vh}
+
+/* 头部 — 修改 .tag 和 h2 border-left 的颜色来匹配品牌色 */
+.header{padding:40px 24px 24px;text-align:center}
+.header .tag{display:inline-block;background:{{BRAND_COLOR}}15;color:{{BRAND_COLOR}};font-size:12px;font-weight:600;padding:3px 12px;border-radius:3px;letter-spacing:1px;margin-bottom:16px}
+.header h1{font-size:22px;color:#1a1a1a;line-height:1.5;margin-bottom:8px;font-weight:800}
+.header .subtitle{font-size:14px;color:#888;line-height:1.6}
+.header .meta{font-size:12px;color:#aaa;margin-top:12px}
+
+/* 分隔线 */
+.divider{height:1px;background:linear-gradient(to right,transparent,#ddd,transparent);margin:0 24px}
+
+/* 正文 */
+.content{padding:24px 24px 16px}
+.content p{font-size:15px;color:#333;line-height:2;margin-bottom:16px;text-align:justify}
+.content h2{font-size:18px;color:#1a1a1a;font-weight:800;margin:32px 0 12px;padding-left:12px;border-left:4px solid {{BRAND_COLOR}}}
+.content h3{font-size:16px;color:#333;font-weight:700;margin:24px 0 8px}
+
+/* 引言块 */
+.lead{font-size:15px;color:#555;line-height:2;padding:16px 20px;background:#f9fafb;border-radius:6px;margin-bottom:20px;border-left:3px solid {{BRAND_COLOR}}}
+
+/* 高亮框（医学事务启示） */
+.highlight{background:#fef9e7;border-left:3px solid #f0c040;padding:14px 18px;border-radius:0 6px 6px 0;margin:16px 0;font-size:14px;color:#5a4e1e;line-height:1.8}
+
+/* 关键数字 */
+.key-num{display:inline-block;font-size:28px;font-weight:800;color:{{BRAND_COLOR}};vertical-align:middle;margin:0 2px}
+
+/* 数据表格 */
+.data-table{width:100%;border-collapse:collapse;margin:16px 0;font-size:13px}
+.data-table th{background:{{BRAND_COLOR}}10;color:{{BRAND_COLOR}};font-weight:600;padding:8px 10px;text-align:left;border-bottom:2px solid {{BRAND_COLOR}}30}
+.data-table td{padding:8px 10px;border-bottom:1px solid #eee;color:#444;vertical-align:top}
+.data-table tr:last-child td{border-bottom:none}
+
+/* 引用块 */
+.quote{position:relative;padding:16px 20px 16px 40px;margin:16px 0;background:#f9f9f9;border-radius:6px;font-size:14px;color:#555;font-style:italic;line-height:1.8}
+.quote::before{content:"\201C";position:absolute;left:12px;top:8px;font-size:36px;color:#ccc;font-style:normal;line-height:1}
+
+/* 案例卡片 */
+.case-card{background:#f8fafb;border:1px solid #e8eff2;border-radius:8px;padding:18px 20px;margin:16px 0}
+.case-card .case-tag{display:inline-block;font-size:11px;font-weight:600;color:#fff;padding:2px 8px;border-radius:3px;margin-bottom:8px}
+.case-card h4{font-size:15px;font-weight:700;color:#1a1a1a;margin-bottom:6px}
+.case-card p{font-size:14px;color:#555;line-height:1.8;margin-bottom:0}
+
+/* 章节分隔 */
+.section-sep{text-align:center;padding:20px 0;color:#ccc;font-size:20px;letter-spacing:8px}
+
+/* 参考文献 */
+.references{padding:24px;background:#f9fafb;border-top:1px solid #eee}
+.references h2{font-size:16px;color:#1a1a1a;font-weight:700;margin-bottom:16px;padding-left:12px;border-left:4px solid {{BRAND_COLOR}}}
+.ref-group{margin-bottom:20px}
+.ref-group h4{font-size:13px;color:{{BRAND_COLOR}};font-weight:600;margin-bottom:8px;padding-bottom:4px;border-bottom:1px solid #e8eff2}
+.ref-item{font-size:12px;color:#666;line-height:1.7;margin-bottom:6px;padding-left:12px;text-indent:-12px}
+.ref-item a{color:{{BRAND_COLOR}};text-decoration:none;word-break:break-all}
+.ref-item a:hover{text-decoration:underline}
+
+/* 页脚 */
+.footer{padding:20px 24px;text-align:center;font-size:11px;color:#bbb;border-top:1px solid #eee}
+
+/* 移动端适配 */
+@media(max-width:480px){
+  .header h1{font-size:19px}
+  .content p{font-size:14px}
+  .data-table{font-size:12px}
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+
+<!-- ⚠️ 合规横幅：对外物料正式使用前须移除占位、经 MLR 审核后方可发布 -->
+<div style="background:#fff3cd;color:#856404;font-size:12px;text-align:center;padding:10px 16px;border-bottom:1px solid #ffe69c;line-height:1.6">
+  ⚠️ MLR 送审前草稿 — 正式使用前须经医学(M)、法规(R)、法务/合规(L)审核。所有疗效/安全性声明须有循证支撑并标注来源，不得超适应症。
+</div>
+
+<div class="header">
+  <div class="tag">{{TAG}}</div>
+  <h1>{{TITLE_LINE1}}<br>{{TITLE_LINE2}}</h1>
+  <div class="subtitle">{{SUBTITLE}}</div>
+  <div class="meta">Medical Affairs &middot; {{COMPANY}}</div>
+</div>
+
+<div class="divider"></div>
+
+<div class="content">
+
+<div class="lead">
+{{LEAD_TEXT}}
+</div>
+
+<!-- 案例一 -->
+<h2>案例一：{{CASE1_TITLE}}</h2>
+<p>{{CASE1_BODY}}</p>
+
+<table class="data-table">
+  <tr><th>维度</th><th>详细内容</th></tr>
+  <tr><td>核心框架</td><td>{{CASE1_FRAMEWORK}}</td></tr>
+  <tr><td>关键循证</td><td>{{CASE1_EVIDENCE}}</td></tr>
+  <tr><td>关键成果</td><td>{{CASE1_RESULTS}}（须标注来源研究）</td></tr>
+</table>
+
+<div class="highlight">
+<strong>医学事务启示：</strong>{{CASE1_INSIGHT}}
+</div>
+
+<div class="section-sep">&middot; &middot; &middot;</div>
+
+<!-- 更多案例按相同结构添加 -->
+
+</div>
+
+<!-- 参考文献 -->
+<div class="references">
+<h2>参考文献</h2>
+
+<div class="ref-group">
+<h4>案例一</h4>
+<!-- 引用格式：
+<div class="ref-item">作者 et al. 标题. 期刊. 年份;卷(期):页码. <a href="https://pubmed.ncbi.nlm.nih.gov/XXXXXXXX/" target="_blank">PMID: XXXXXXXX</a></div>
+-->
+</div>
+
+</div>
+
+<div class="footer">
+{{FOOTER}} &middot; 内部参考 &middot; ⚠️ MLR 送审前草稿
+</div>
+
+</div>
+</body>
+</html>

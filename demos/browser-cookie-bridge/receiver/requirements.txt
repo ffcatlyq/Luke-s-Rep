@@ -1,0 +1,3 @@
+# cookie_receiver.py 仅用标准库，无需第三方依赖。
+# 业务脚本（examples/）需要 requests:
+requests>=2.31.0

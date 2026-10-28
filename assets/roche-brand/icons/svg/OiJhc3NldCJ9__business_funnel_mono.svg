@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .b, .c {
+        fill: none;
+      }
+
+      .c {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <rect class="b" width="192" height="192"/>
+  <line class="c" x1="81" y1="124" x2="96" y2="124"/>
+  <path class="c" d="M155.9739,56l-40.498,59.8666c-3.5855,5.3003-5.4996,11.5539-5.4949,17.9531l.0146,20.1414c.0026,3.574-2.3658,6.7161-5.8022,7.698l-11.9956,3.4273c-5.1105,1.4602-10.1978-2.3772-10.1978-7.6922v-23.5872c0-6.3913-1.9138-12.6361-5.4949-17.9299l-40.5051-59.8771"/>
+  <rect class="c" x="24" y="24" width="144" height="32" rx="12" ry="12"/>
+</svg>

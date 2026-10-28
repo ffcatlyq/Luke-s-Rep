@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="bandBg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFF" /><stop offset="100%" stop-color="#E9EEFA" />
+    </linearGradient>
+    <linearGradient id="stripeGrad5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0B41CD" /><stop offset="100%" stop-color="#1482fa" />
+    </linearGradient>
+    <filter id="cardShadow5" x="-8%" y="-8%" width="116%" height="116%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" /><feOffset dx="0" dy="3" />
+      <feFlood flood-color="#0B41CD" flood-opacity="0.07" /><feComposite in2="SourceAlpha" operator="in" />
+      <feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+  <image href="/workspaces/silicon-hitchhiker/assets/roche-brand/logos/Roche_Logo_800px_Blue_RGB_200px.png" x="1136" y="32" width="84" height="43.7" />
+
+  <g id="header">
+    <rect x="60" y="56" width="6" height="40" fill="#1482fa" />
+    <text x="84" y="90" font-family="'Roche Sans Light',sans-serif" font-size="34" fill="#0B41CD">GRPO — a critic-free policy-gradient objective</text>
+    <text x="84" y="117" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#706B69" letter-spacing="1.5">GROUP RELATIVE POLICY OPTIMIZATION · §2.1 · EQ. (1)–(3)</text>
+  </g>
+
+  <g id="formula-band">
+    <rect x="60" y="142" width="1160" height="150" rx="12" fill="url(#bandBg5)" stroke="#E0E0E0" stroke-width="1.5" />
+    <rect x="60" y="142" width="6" height="150" rx="3" fill="url(#stripeGrad5)" />
+    <text x="100" y="170" font-family="'Roche Sans Medium',sans-serif" font-size="12" fill="#1482fa" letter-spacing="1.5">THE OBJECTIVE · MAXIMIZED OVER THE POLICY · LaTeX-rendered</text>
+    <image href="/workspaces/silicon-hitchhiker/demos/ppt-master/examples/deepseek-r1/roche/assets/formula_grpo_objective.png" x="128" y="190" width="1024" height="82" />
+  </g>
+
+  <!-- left: how it reads -->
+  <g id="steps">
+    <text x="84" y="330" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#1482fa" letter-spacing="1.5">HOW IT READS</text>
+    <g id="s1">
+      <circle cx="100" cy="372" r="18" fill="#0B41CD" />
+      <text x="100" y="378" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="16" fill="#FFFFFF">1</text>
+      <text x="132" y="366" font-family="'Roche Sans Medium',sans-serif" font-size="17" fill="#0B41CD">Sample a group</text>
+      <text x="132" y="389" font-family="'Roche Sans',sans-serif" font-size="14" fill="#333333">For each question, draw G outputs from the old policy.</text>
+    </g>
+    <g id="s2">
+      <circle cx="100" cy="440" r="18" fill="#0F5EE1" />
+      <text x="100" y="446" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="16" fill="#FFFFFF">2</text>
+      <text x="132" y="434" font-family="'Roche Sans Medium',sans-serif" font-size="17" fill="#0B41CD">Score each output</text>
+      <text x="132" y="457" font-family="'Roche Sans',sans-serif" font-size="14" fill="#333333">Rule-based reward per output — correctness + format.</text>
+    </g>
+    <g id="s3">
+      <circle cx="100" cy="508" r="18" fill="#1482fa" />
+      <text x="100" y="514" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="16" fill="#FFFFFF">3</text>
+      <text x="132" y="502" font-family="'Roche Sans Medium',sans-serif" font-size="17" fill="#0B41CD">Normalize within the group</text>
+      <text x="132" y="525" font-family="'Roche Sans',sans-serif" font-size="14" fill="#333333">Advantage = reward minus group mean, over group std.</text>
+    </g>
+    <g id="s4">
+      <circle cx="100" cy="576" r="18" fill="#5FAAFC" />
+      <text x="100" y="582" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="16" fill="#FFFFFF">4</text>
+      <text x="132" y="570" font-family="'Roche Sans Medium',sans-serif" font-size="17" fill="#0B41CD">Update with a clipped ratio</text>
+      <text x="132" y="593" font-family="'Roche Sans',sans-serif" font-size="14" fill="#333333">Clip the ratio to a trust region, regularize by KL to a ref.</text>
+    </g>
+  </g>
+
+  <!-- right: terms + insight -->
+  <g id="terms">
+    <rect x="660" y="320" width="560" height="316" rx="12" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" filter="url(#cardShadow5)" />
+    <text x="684" y="350" font-family="'Roche Sans Medium',sans-serif" font-size="12" fill="#1482fa" letter-spacing="1.5">WHERE THE TERMS COME FROM</text>
+    <image href="/workspaces/silicon-hitchhiker/demos/ppt-master/examples/deepseek-r1/roche/assets/formula_grpo_ratio_adv.png" x="700" y="366" width="480" height="75" />
+
+    <rect x="684" y="462" width="512" height="90" rx="10" fill="#E9EEFA" />
+    <rect x="684" y="462" width="5" height="90" rx="2.5" fill="#0B41CD" />
+    <text x="708" y="490" font-family="'Roche Sans Medium',sans-serif" font-size="12" fill="#0B41CD" letter-spacing="1.5">THE KEY MOVE</text>
+    <text x="708" y="516" font-family="'Roche Sans',sans-serif" font-size="14" fill="#333333">GRPO drops PPO's value network — the group mean</text>
+    <text x="708" y="536" font-family="'Roche Sans',sans-serif" font-size="14" fill="#333333">is the baseline, so there is one fewer large model to train.</text>
+
+    <text x="684" y="588" font-family="'Roche Sans Medium',sans-serif" font-size="12" fill="#706B69" letter-spacing="1.5">SETTINGS (R1-ZERO)</text>
+    <text x="684" y="612" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="14" fill="#333333">lr 3e-6 · KL β 0.001 · G = 16 samples / question</text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="694" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">Source: DeepSeek-AI 2026, §2.1 (GRPO), Eq. (1)–(3) · block formulas rendered via LaTeX (Computer Modern)</text>
+    <text x="1220" y="694" text-anchor="end" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">05</text>
+  </g>
+</svg>

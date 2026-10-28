@@ -1,0 +1,24 @@
+{
+  "_source": "https://branding.roche.com/document/26#/brand-elements/colour-guidelines page 571 reference|Colors blocks",
+  "_captured_at": "2026-05-17",
+  "_status": "structure-only — full hex values pending GraphQL query authoring",
+  "_doc": "Page 571 has 8 reference|Colors blocks pointing to 8 palette IDs in project 20. These palettes hold the full primary/base/accent/tertiary/neutral families. Resolution requires GraphQL query GetGuidelineColorSchemes -> palettes -> colors traversal.",
+  "guideline_id_base64": "eyJpZGVudGlmaWVyIjoyMCwidHlwZSI6Imd1aWRlbGluZSJ9",
+  "guideline_id_decoded": {"identifier": 20, "type": "guideline"},
+  "color_schemes_top_level": [
+    {"id_base64": "eyJpZGVudGlmaWVyIjoiN1BnaTlQUUhvWHZadlFQeG84WjMiLCJ0eXBlIjoiY29sb3JTY2hlbWUifQ==", "name": "Purple", "is_default": false},
+    {"id_base64": "eyJpZGVudGlmaWVyIjoicDlpSkVMR2dNZjZ2MjFqYTFLRG4iLCJ0eXBlIjoiY29sb3JTY2hlbWUifQ==", "name": "Default", "is_default": true},
+    {"id_base64": "eyJpZGVudGlmaWVyIjoic3lpb2pKZ0hTUEM5am5GR0hXdm4iLCJ0eXBlIjoiY29sb3JTY2hlbWUifQ==", "name": "Default", "is_default": false}
+  ],
+  "palette_refs_in_page_571": [
+    {"palette_id": 17, "purpose_inferred": "Primary blue family"},
+    {"palette_id": 24, "purpose_inferred": "Secondary primary or alternate"},
+    {"palette_id": 54, "purpose_inferred": "Base / neutral 1"},
+    {"palette_id": 45, "purpose_inferred": "Accent 1"},
+    {"palette_id": 46, "purpose_inferred": "Accent 2"},
+    {"palette_id": 49, "purpose_inferred": "Accent 3"},
+    {"palette_id": 48, "purpose_inferred": "Accent 4"},
+    {"palette_id": 30, "purpose_inferred": "Tertiary or supporting"}
+  ],
+  "_todo": "Resolve palette colors via GraphQL: query Guideline { colorSchemes { palettes { colors { hex rgb cmyk pantone name } } } }. REST /api/palette/{id} returns 404 — only GraphQL pathway works."
+}

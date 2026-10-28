@@ -1,0 +1,155 @@
+/* ===========================================
+   通用布局样式
+   排版元素 + 布局 override，颜色通过 CSS 变量注入
+   =========================================== */
+
+/* === TABLES === */
+.slidev-layout table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82em;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+.slidev-layout th {
+  background: var(--surface) !important;
+  color: var(--primary) !important;
+  font-weight: 600;
+  text-align: left;
+  padding: 0.35em 0.8em;
+  border-bottom: 2px solid var(--primary-dim);
+}
+
+.slidev-layout td {
+  padding: 0.3em 0.8em;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-dim);
+}
+
+.slidev-layout tr:hover td {
+  background: var(--primary-glow);
+}
+
+/* === LISTS === */
+.slidev-layout li {
+  color: var(--text-dim);
+  line-height: 1.7;
+}
+
+.slidev-layout li::marker {
+  color: var(--primary);
+}
+
+.slidev-layout li strong {
+  color: var(--text);
+}
+
+/* === INLINE CODE === */
+.slidev-layout :not(pre) > code {
+  background: var(--surface) !important;
+  color: var(--primary) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 3px;
+  padding: 0.1em 0.35em;
+  font-size: 0.9em;
+}
+
+/* === CODE BLOCKS === */
+.slidev-layout .shiki {
+  border-radius: 4px !important;
+  border: 1px solid var(--border) !important;
+  background: var(--surface) !important;
+}
+
+/* === BLOCKQUOTES === */
+.slidev-layout blockquote {
+  background: var(--primary-glow) !important;
+  border-left: 3px solid var(--primary-dim) !important;
+  color: var(--text-dim) !important;
+  padding: 0.4em 1em !important;
+  margin-top: 0.4em !important;
+  margin-bottom: 0.2em !important;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.82em;
+}
+
+/* === STRONG === */
+.slidev-layout strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+/* === LAYOUT OVERRIDES === */
+/* 内容页：flex column 布局 */
+.slidev-layout.default {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.slidev-layout.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slidev-layout.cover h1 {
+  font-size: 2.5em !important;
+}
+
+.slidev-layout.cover h1::before { content: none; }
+
+.slidev-layout.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slidev-layout.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slidev-layout.section h1 {
+  font-size: 2.8em !important;
+}
+
+.slidev-layout.section p {
+  color: var(--text-dim);
+  font-size: 1.1em;
+}
+
+.slidev-layout.two-cols .col-right {
+  border-left: 1px solid var(--border);
+  padding-left: 1.5em;
+}
+
+/* === MERMAID === */
+.mermaid svg {
+  max-width: 100% !important;
+  max-height: 65vh !important;
+}
+
+/* === PAGE NUMBER === */
+.slidev-page-number {
+  color: var(--text-dim);
+  font-size: 0.7em;
+}
+
+/* === TOWEL TAG (法务分享跳页标记) === */
+.towel-tag {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  color: var(--text-dim);
+  font-size: 0.6em;
+  font-style: italic;
+  opacity: 0.6;
+  z-index: 100;
+}

@@ -1,0 +1,10 @@
+# google-workspace skill 依赖的 hub 路径（hub-root-relative）。
+# tools/sync-skills.sh 按本文件 rsync 这些路径到 rojectory 同名位置。
+# 尾部 / 表示同步整个目录，否则按单文件处理。# 开头是注释。
+
+# 集成本体：gw_client + 各 service 脚本（含 gsite_read.py 等）
+demos/google-workspace/scripts/
+demos/google-workspace/docs/
+
+# gSite B 类（未共享 published site）读取走 cookie-bridge 同步的 google cookie
+demos/browser-cookie-bridge/scripts/

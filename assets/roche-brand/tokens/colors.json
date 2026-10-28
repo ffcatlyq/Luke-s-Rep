@@ -1,0 +1,81 @@
+{
+  "_source": "Frontify branding.roche.com — primary/callout from ctx SSR (2026-05-17); full palette_families resolved from authenticated /api/project-color-palette/{id} on the 'Colour guidelines' page (doc 26 / page 571), 2026-07-12, via cookie-bridge branding service",
+  "_captured_at": "2026-07-12",
+  "_completeness": "complete — 8 named palette families (blue/grey/neutral/orange/red/purple/green/status) resolved from Frontify project-color-palette API; see palette_families",
+
+  "primary": {
+    "roche_blue": {
+      "hex": "#0B41CD",
+      "rgb": "rgb(11, 65, 205)",
+      "usage": "Sole brand primary; logo color; visited link; hover/active focus accent",
+      "source_field": "ctx.brand.color"
+    },
+    "roche_blue_hover": {
+      "hex": "#002DB9",
+      "rgb": "rgb(0, 45, 185)",
+      "usage": "Primary button hover state",
+      "source_field": "Frontify SSO button hover (login page metadata)"
+    }
+  },
+
+  "callout": {
+    "_doc": "Document system semantic colors used by Frontify content callout blocks. Verbatim from ctx.appearance.callout.",
+    "tip": {
+      "hex": "#007A3B",
+      "rgb": "rgb(0, 122, 59)",
+      "usage": "Positive / hint / success"
+    },
+    "info": {
+      "hex": "#C2BAB5",
+      "rgb": "rgb(194, 186, 181)",
+      "usage": "Neutral information"
+    },
+    "note": {
+      "hex": "#FAC9B5",
+      "rgb": "rgb(250, 201, 181)",
+      "usage": "Note / soft attention"
+    },
+    "warning": {
+      "hex": "#D60007",
+      "rgb": "rgb(214, 0, 7)",
+      "usage": "Warning / danger / error"
+    }
+  },
+
+  "neutral": {
+    "_doc": "Inferred from typography color tokens; extends to page 571 base + grey families which are not fully captured yet.",
+    "text_primary": {
+      "hex": "#000000",
+      "rgb": "rgb(0, 0, 0)",
+      "usage": "Headings 1-3, body, navigation primary"
+    },
+    "text_secondary": {
+      "hex": "#544F4F",
+      "rgb": "rgb(84, 79, 79)",
+      "usage": "Image caption, navigation sections (secondary text)"
+    },
+    "background_dark": {
+      "hex": "#2D3232",
+      "rgb": "rgb(45, 50, 50)",
+      "usage": "Roche dark background (login page)"
+    },
+    "ui_subtle": {
+      "hex": "#EAEBEB",
+      "rgb": "rgb(234, 235, 235)",
+      "usage": "Notification / panel subtle background"
+    }
+  },
+
+  "palette_families": {
+    "_doc": "Roche 官方全色板,名称+hex 逐条来自 Frontify 认证 API /api/project-color-palette/{id}(2026-07-12,cookie-bridge branding service)。每族 dark→light。blue 是品牌主族(roche_blue=primary);grey/neutral 供背景(page 571: Neutral 3&4 / Grey 4&5 可作背景);orange/red/purple/green 为 accent/语义族;status 为状态色;green 含 cobas 诊断线专用绿。",
+    "blue": { "dark": "#022366", "roche_blue": "#0B41CD", "light": "#1482FA", "extra_light": "#BDE3FF" },
+    "grey": { "grey_1": "#544F4F", "grey_2": "#706B69", "grey_3": "#C2BAB5", "grey_4": "#DBD6D1", "grey_5": "#F5F5F2" },
+    "neutral": { "_doc": "暖桃中性族=Roche 唯一暖色系", "neutral_1": "#FAC9B5", "neutral_2": "#FAD6C7", "neutral_3": "#FFE8DE", "neutral_4": "#FFF7F5" },
+    "orange": { "extra_dark": "#B22B0D", "dark": "#ED4A0D", "orange": "#FF7D29", "light": "#FFBD69" },
+    "red": { "extra_dark": "#8C0000", "dark": "#C40000", "red": "#FF1F26", "light": "#FF8782" },
+    "purple": { "extra_dark": "#7D0096", "dark": "#BC36F0", "purple": "#E085FC", "light": "#F2D4FF" },
+    "green": { "extra_dark": "#104F10", "dark": "#228B22", "green": "#4CBB17", "light": "#ACDF87", "cobas_green": "#00A17D", "cobas_dark_green": "#007C6B", "cobas_light_green": "#3EBDAD", "cobas_extra_light_green_1": "#CBEDE8", "cobas_extra_light_green_2": "#E4F5F1" },
+    "status": { "red": "#CC0033", "yellow": "#FFC414", "green": "#007C6B" },
+    "mono": { "black": "#000000", "white": "#FFFFFF" }
+  }
+}

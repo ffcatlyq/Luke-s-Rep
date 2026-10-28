@@ -1,0 +1,335 @@
+{
+  "_source": "https://branding.roche.com/api/portal-navigation/6",
+  "_captured_at": "2026-05-17",
+  "_doc": "Top-level brand portal structure: cover_page (Home), 3 documents (About / Brand Elements / Templates), 1 document_group (Libraries with Logos / Icons / Photos / Videos). Use this as a directory map.",
+  "data": [
+    {
+      "type": "cover_page",
+      "id": 6,
+      "translations": {
+        "default": {
+          "title": "Home"
+        }
+      },
+      "is_published": true,
+      "is_hidden_in_navigation": false
+    },
+    {
+      "type": "document",
+      "id": 27,
+      "translations": {
+        "default": {
+          "title": "About",
+          "slug": "about",
+          "description": null,
+          "heading": "The Brand",
+          "subheading": "Description"
+        }
+      },
+      "sort": 1,
+      "parent_id": null,
+      "is_hidden_in_navigation": false
+    },
+    {
+      "type": "document",
+      "id": 26,
+      "translations": {
+        "default": {
+          "title": "Brand Elements",
+          "slug": "brand-elements",
+          "description": null,
+          "heading": "Structure Proposal",
+          "subheading": "A style guide for building awesome  experiences"
+        }
+      },
+      "sort": 2,
+      "parent_id": null,
+      "is_hidden_in_navigation": false
+    },
+    {
+      "type": "document",
+      "id": 29,
+      "translations": {
+        "default": {
+          "title": "Templates",
+          "slug": "templates",
+          "description": null,
+          "heading": "Templates",
+          "subheading": "Description"
+        }
+      },
+      "sort": 3,
+      "parent_id": null,
+      "is_hidden_in_navigation": false
+    },
+    {
+      "type": "document_group",
+      "id": 3,
+      "translations": {
+        "default": {
+          "name": "Libraries"
+        }
+      },
+      "sort": 4,
+      "children": [
+        {
+          "type": "library_document",
+          "id": 62,
+          "translations": {
+            "default": {
+              "title": "Photos",
+              "slug": "photos",
+              "description": null,
+              "heading": "Photos",
+              "subheading": "Description"
+            }
+          },
+          "sort": 1,
+          "parent_id": 3,
+          "is_hidden_in_navigation": false
+        },
+        {
+          "type": "library_document",
+          "id": 55,
+          "translations": {
+            "default": {
+              "title": "Videos",
+              "slug": "videos",
+              "description": null,
+              "heading": "Video",
+              "subheading": "Description"
+            }
+          },
+          "sort": 2,
+          "parent_id": 3,
+          "is_hidden_in_navigation": false
+        },
+        {
+          "type": "library_document",
+          "id": 53,
+          "translations": {
+            "default": {
+              "title": "Logos",
+              "slug": "logos",
+              "description": null,
+              "heading": "Logo",
+              "subheading": "Description"
+            }
+          },
+          "sort": 3,
+          "parent_id": 3,
+          "is_hidden_in_navigation": false
+        },
+        {
+          "type": "library_document",
+          "id": 70,
+          "translations": {
+            "default": {
+              "title": "Icons",
+              "slug": "icons",
+              "description": null,
+              "heading": "Icons",
+              "subheading": "Description"
+            }
+          },
+          "sort": 4,
+          "parent_id": 3,
+          "is_hidden_in_navigation": false
+        },
+        {
+          "type": "library_document",
+          "id": 93,
+          "translations": {
+            "default": {
+              "title": "Animated icons",
+              "slug": "animated-icons",
+              "description": null,
+              "heading": "Animated icons",
+              "subheading": "Description"
+            }
+          },
+          "sort": 5,
+          "parent_id": 3,
+          "is_hidden_in_navigation": false
+        },
+        {
+          "type": "library_document",
+          "id": 134,
+          "translations": {
+            "default": {
+              "title": "Illustrations",
+              "slug": "illustrations",
+              "description": null,
+              "heading": "Illustrations",
+              "subheading": "Description"
+            }
+          },
+          "sort": 6,
+          "parent_id": 3,
+          "is_hidden_in_navigation": false
+        },
+        {
+          "type": "library_document",
+          "id": 390,
+          "translations": {
+            "default": {
+              "title": "Animated illustrations",
+              "slug": "animated-illustrations",
+              "description": null,
+              "heading": "",
+              "subheading": ""
+            }
+          },
+          "sort": 7,
+          "parent_id": 3,
+          "is_hidden_in_navigation": false
+        },
+        {
+          "type": "library_document",
+          "id": 472,
+          "translations": {
+            "default": {
+              "title": "Patients & HCPs – Roche owned ‘stock’ assets",
+              "slug": "patients-hcps-roche-owned-stock-assets",
+              "description": null,
+              "heading": "",
+              "subheading": ""
+            }
+          },
+          "sort": 8,
+          "parent_id": 3,
+          "is_hidden_in_navigation": false
+        },
+        {
+          "type": "library_document",
+          "id": 137,
+          "translations": {
+            "default": {
+              "title": "Stock Library Photo, Video & Music",
+              "slug": "stock-library-photo-video-music",
+              "description": null,
+              "heading": "Stock Assets",
+              "subheading": "Description"
+            }
+          },
+          "sort": 9,
+          "parent_id": 3,
+          "is_hidden_in_navigation": false
+        },
+        {
+          "type": "library_document",
+          "id": 71,
+          "translations": {
+            "default": {
+              "title": "Gradients",
+              "slug": "gradients",
+              "description": null,
+              "heading": "Gradients",
+              "subheading": "Description"
+            }
+          },
+          "sort": 10,
+          "parent_id": 3,
+          "is_hidden_in_navigation": false
+        }
+      ],
+      "is_hidden_in_navigation": false
+    },
+    {
+      "type": "document",
+      "id": 33,
+      "translations": {
+        "default": {
+          "title": "Help",
+          "slug": "help",
+          "description": null,
+          "heading": "Help",
+          "subheading": "Description"
+        }
+      },
+      "sort": 5,
+      "parent_id": null,
+      "is_hidden_in_navigation": false
+    },
+    {
+      "type": "document",
+      "id": 34,
+      "translations": {
+        "default": {
+          "title": "Touchpoints",
+          "slug": "touchpoints",
+          "description": null,
+          "heading": "Guidelines by touchpoint",
+          "subheading": "Description"
+        }
+      },
+      "sort": 6,
+      "parent_id": null,
+      "is_hidden_in_navigation": false
+    },
+    {
+      "type": "document",
+      "id": 72,
+      "translations": {
+        "default": {
+          "title": "UX",
+          "slug": "ux",
+          "description": null,
+          "heading": "Digital Hub",
+          "subheading": "Description"
+        }
+      },
+      "sort": 7,
+      "parent_id": null,
+      "is_hidden_in_navigation": false
+    },
+    {
+      "type": "document",
+      "id": 569,
+      "translations": {
+        "default": {
+          "title": "GenAI",
+          "slug": "genai",
+          "description": null,
+          "heading": "",
+          "subheading": ""
+        }
+      },
+      "sort": 8,
+      "parent_id": null,
+      "is_hidden_in_navigation": false
+    },
+    {
+      "type": "document",
+      "id": 150,
+      "translations": {
+        "default": {
+          "title": "Signage",
+          "slug": "signage",
+          "description": null,
+          "heading": "Signage",
+          "subheading": "Description"
+        }
+      },
+      "sort": 9,
+      "parent_id": null,
+      "is_hidden_in_navigation": false
+    },
+    {
+      "type": "document",
+      "id": 187,
+      "translations": {
+        "default": {
+          "title": "Social Media",
+          "slug": "social-media",
+          "description": null,
+          "heading": "Social Media (WIP)",
+          "subheading": "Description"
+        }
+      },
+      "sort": 10,
+      "parent_id": null,
+      "is_hidden_in_navigation": false
+    }
+  ]
+}

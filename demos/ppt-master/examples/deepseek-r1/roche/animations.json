@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "defaults": {
+    "transition": { "effect": "fade", "duration": 0.35 },
+    "animation": { "effect": "auto", "duration": 0.38, "stagger": 0.15, "trigger": "after-previous" }
+  },
+  "slides": {
+    "01_cover": {
+      "transition": { "effect": "fade", "duration": 0.55 },
+      "groups": {
+        "meta": { "effect": "appear", "order": 1, "duration": 0.2 },
+        "title": { "effect": "fade", "order": 2, "duration": 0.7 },
+        "authors": { "effect": "fade", "order": 3, "duration": 0.45 },
+        "pullquote": { "effect": "fade", "order": 4, "delay": 0.3, "duration": 0.55 }
+      }
+    },
+    "02_why_it_matters": {
+      "groups": {
+        "kpi-1": { "effect": "zoom", "order": 1, "duration": 0.4 },
+        "kpi-2": { "effect": "zoom", "order": 2, "duration": 0.4 },
+        "kpi-3": { "effect": "zoom", "order": 3, "duration": 0.4 },
+        "kpi-4": { "effect": "zoom", "order": 4, "duration": 0.4 },
+        "takeaway-band": { "effect": "fade", "order": 5, "delay": 0.25, "duration": 0.5 }
+      }
+    },
+    "03_central_idea": {
+      "groups": {
+        "left": { "effect": "fade", "order": 1, "duration": 0.5 },
+        "right": { "effect": "fade", "order": 2, "duration": 0.5 }
+      }
+    },
+    "04_two_models": {
+      "groups": {
+        "card-zero": { "effect": "fade", "order": 1, "duration": 0.5 },
+        "card-r1": { "effect": "fade", "order": 2, "duration": 0.5 },
+        "bridge": { "effect": "fade", "order": 3, "delay": 0.2, "duration": 0.45 }
+      }
+    },
+    "05_grpo_formula": {
+      "groups": {
+        "formula-band": { "effect": "fade", "order": 1, "duration": 0.6 },
+        "steps": { "effect": "auto", "order": 2, "duration": 0.4 },
+        "terms": { "effect": "fade", "order": 3, "duration": 0.5 }
+      }
+    },
+    "06_reward_design": {
+      "groups": {
+        "schematic": { "effect": "fade", "order": 1, "duration": 0.55 },
+        "why": { "effect": "fade", "order": 2, "duration": 0.45 },
+        "lang": { "effect": "fade", "order": 3, "duration": 0.45 }
+      }
+    },
+    "07_self_evolution": {
+      "groups": {
+        "chart-acc": { "effect": "wipe", "order": 1, "duration": 0.6 },
+        "chart-len": { "effect": "wipe", "order": 2, "duration": 0.6 },
+        "emergent": { "effect": "fade", "order": 3, "delay": 0.2, "duration": 0.5 }
+      }
+    },
+    "08_aha_moment": {
+      "transition": { "effect": "fade", "duration": 0.5 },
+      "groups": {
+        "quote": { "effect": "fade", "order": 1, "duration": 0.7 },
+        "excerpt": { "effect": "fade", "order": 2, "duration": 0.5 },
+        "takeaway": { "effect": "fade", "order": 3, "delay": 0.25, "duration": 0.5 }
+      }
+    },
+    "09_zero_to_r1": {
+      "groups": {
+        "problems": { "effect": "fade", "order": 1, "duration": 0.5 },
+        "response": { "effect": "fade", "order": 2, "duration": 0.5 }
+      }
+    },
+    "10_pipeline": {
+      "groups": {
+        "s1": { "effect": "fade", "order": 1, "duration": 0.35 },
+        "s2": { "effect": "fade", "order": 2, "duration": 0.35 },
+        "s3": { "effect": "fade", "order": 3, "duration": 0.35 },
+        "s4": { "effect": "fade", "order": 4, "duration": 0.35 },
+        "checkpoints": { "effect": "fade", "order": 5, "delay": 0.2, "duration": 0.5 }
+      }
+    },
+    "11_four_stages": {
+      "groups": {
+        "legend": { "effect": "auto", "order": 1, "duration": 0.4 },
+        "facts": { "effect": "fade", "order": 2, "delay": 0.2, "duration": 0.45 }
+      }
+    },
+    "12_benchmark": {
+      "groups": {
+        "table": { "effect": "fade", "order": 1, "duration": 0.6 },
+        "takeaway": { "effect": "fade", "order": 2, "delay": 0.2, "duration": 0.5 }
+      }
+    },
+    "13_stage_progression": {
+      "groups": {
+        "table": { "effect": "fade", "order": 1, "duration": 0.6 },
+        "takeaway": { "effect": "fade", "order": 2, "delay": 0.2, "duration": 0.5 }
+      }
+    },
+    "14_distillation": {
+      "groups": {
+        "students": { "effect": "auto", "order": 1, "duration": 0.4 },
+        "why": { "effect": "fade", "order": 2, "duration": 0.45 },
+        "finding": { "effect": "fade", "order": 3, "duration": 0.45 }
+      }
+    },
+    "15_distill_benchmark": {
+      "groups": {
+        "table": { "effect": "fade", "order": 1, "duration": 0.6 },
+        "takeaway": { "effect": "fade", "order": 2, "delay": 0.2, "duration": 0.5 }
+      }
+    },
+    "16_conclusion": {
+      "groups": {
+        "takeaways": { "effect": "fade", "order": 1, "duration": 0.55 },
+        "limits": { "effect": "fade", "order": 2, "duration": 0.55 },
+        "closing": { "effect": "fade", "order": 3, "delay": 0.25, "duration": 0.55 }
+      }
+    }
+  }
+}

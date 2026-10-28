@@ -1,0 +1,64 @@
+{
+  "_doc": "Roche gradient examples extracted from Frontify Document Library (referenced in pages/brand-elements/gradient.md and gradient-guidelines.md). 49° angle convention. 8 canonical gradients: 4 full + 4 split.",
+  "_source": "Frontify GraphQL asset(id:) query, ~/.cache/frontify-brand-elements-templates.json page references",
+  "_captured_at": "2026-05-17",
+  "_total": 8,
+  "items": [
+    {
+      "asset_id": 12492,
+      "filename": "Roche_Full_Grad_Blue_to_Neutral_4_to_White.png",
+      "title": "Roche Full Grad_Blue to Neutral 4 to White",
+      "kind": "full",
+      "description_from_filename": "Full Grad Blue to Neutral 4 to White"
+    },
+    {
+      "asset_id": 12499,
+      "filename": "Roche_Full_Grad_Grey_5_to_Neutral_4.png",
+      "title": "Roche Full Grad_Grey 5 to Neutral 4",
+      "kind": "full",
+      "description_from_filename": "Full Grad Grey 5 to Neutral 4"
+    },
+    {
+      "asset_id": 12505,
+      "filename": "Roche_Full_Grad_Light_Blue_to_Neutral_4.png",
+      "title": "Roche Full Grad_Light Blue to Neutral 4",
+      "kind": "full",
+      "description_from_filename": "Full Grad Light Blue to Neutral 4"
+    },
+    {
+      "asset_id": 12509,
+      "filename": "Roche_Full_Grad_White_to_Neutral_3.png",
+      "title": "Roche Full Grad_White to Neutral 3",
+      "kind": "full",
+      "description_from_filename": "Full Grad White to Neutral 3"
+    },
+    {
+      "asset_id": 12511,
+      "filename": "Roche_Split_Grad_Grey_2_on_Neutral_4.png",
+      "title": "Roche Split Grad_Grey 2 on Neutral 4",
+      "kind": "split",
+      "description_from_filename": "Split Grad Grey 2 on Neutral 4"
+    },
+    {
+      "asset_id": 12515,
+      "filename": "Roche_Split_Grad_Grey_4_on_White.png",
+      "title": "Roche Split Grad_Grey 4 on White",
+      "kind": "split",
+      "description_from_filename": "Split Grad Grey 4 on White"
+    },
+    {
+      "asset_id": 12516,
+      "filename": "Roche_Split_Grad_Grey_5_on_Grey_4.png",
+      "title": "Roche Split Grad_Grey 5 on Grey 4",
+      "kind": "split",
+      "description_from_filename": "Split Grad Grey 5 on Grey 4"
+    },
+    {
+      "asset_id": 12518,
+      "filename": "Roche_Split_Grad_Neutral_3_on_White.png",
+      "title": "Roche Split Grad_Neutral 3 on White",
+      "kind": "split",
+      "description_from_filename": "Split Grad Neutral 3 on White"
+    }
+  ]
+}

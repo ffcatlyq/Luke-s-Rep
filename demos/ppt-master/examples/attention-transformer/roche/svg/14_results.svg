@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+  <image href="/workspaces/silicon-hitchhiker/assets/roche-brand/logos/Roche_Logo_800px_Blue_RGB_200px.png" x="1136" y="32" width="84" height="43.7" />
+
+  <g id="header">
+    <rect x="60" y="56" width="6" height="40" fill="#1482fa" />
+    <text x="84" y="90" font-family="'Roche Sans Light',sans-serif" font-size="34" fill="#0B41CD">New SOTA on WMT'14 — at a fraction of the cost</text>
+    <text x="84" y="116" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#706B69" letter-spacing="1.5">TABLE 2 · BLEU SCORES + TRAINING-COST FLOPS · BEST PRIOR ROWS VS TRANSFORMER</text>
+  </g>
+
+  <g id="table">
+    <rect x="60" y="160" width="1160" height="380" fill="none" stroke="#0B41CD" stroke-width="2" />
+    <g id="table-area" transform="translate(60, 160)">
+      <rect x="0" y="0" width="1160" height="60" fill="#0B41CD" />
+      <text x="24" y="37" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#FFFFFF" letter-spacing="1.5">MODEL</text>
+      <text x="640" y="37" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#FFFFFF" letter-spacing="1.5">EN-DE BLEU</text>
+      <text x="840" y="37" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#FFFFFF" letter-spacing="1.5">EN-FR BLEU</text>
+      <text x="1040" y="37" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#FFFFFF" letter-spacing="1.5">TRAIN FLOPs</text>
+      <line x1="540" y1="0" x2="540" y2="380" stroke="#E0E0E0" stroke-width="1.5" />
+      <line x1="740" y1="0" x2="740" y2="380" stroke="#E0E0E0" stroke-width="1.5" />
+      <line x1="940" y1="0" x2="940" y2="380" stroke="#E0E0E0" stroke-width="1.5" />
+
+      <g id="row-bytenet">
+        <line x1="0" y1="106" x2="1160" y2="106" stroke="#E0E0E0" stroke-width="1" />
+        <text x="24" y="92" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">ByteNet</text>
+        <text x="640" y="92" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="16" fill="#333333">23.75</text>
+        <text x="840" y="92" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="16" fill="#706B69">—</text>
+        <text x="1040" y="92" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="13" fill="#706B69">—</text>
+      </g>
+      <g id="row-convs2s">
+        <line x1="0" y1="152" x2="1160" y2="152" stroke="#E0E0E0" stroke-width="1" />
+        <text x="24" y="138" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">ConvS2S</text>
+        <text x="640" y="138" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="16" fill="#333333">25.16</text>
+        <text x="840" y="138" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="16" fill="#333333">40.46</text>
+        <text x="1040" y="138" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="13" fill="#706B69">9.6 × 10^18</text>
+      </g>
+      <g id="row-moe">
+        <line x1="0" y1="198" x2="1160" y2="198" stroke="#E0E0E0" stroke-width="1" />
+        <text x="24" y="184" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">MoE</text>
+        <text x="640" y="184" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="16" fill="#333333">26.03</text>
+        <text x="840" y="184" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="16" fill="#333333">40.56</text>
+        <text x="1040" y="184" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="13" fill="#706B69">2.0 × 10^19</text>
+      </g>
+      <g id="row-ens">
+        <line x1="0" y1="244" x2="1160" y2="244" stroke="#E0E0E0" stroke-width="1" />
+        <text x="24" y="230" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">ConvS2S Ensemble</text>
+        <text x="640" y="230" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="16" fill="#333333">26.36</text>
+        <text x="840" y="230" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="16" fill="#333333">41.29</text>
+        <text x="1040" y="230" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="13" fill="#706B69">7.7 × 10^19</text>
+      </g>
+      <g id="row-base">
+        <rect x="0" y="244" width="1160" height="68" fill="#E9EEFA" />
+        <line x1="0" y1="312" x2="1160" y2="312" stroke="#E0E0E0" stroke-width="1" />
+        <text x="24" y="278" font-family="'Roche Sans Medium',sans-serif" font-size="17" fill="#0B41CD">Transformer (base)</text>
+        <text x="24" y="298" font-family="'Roche Serif Light','Noto Serif',serif" font-size="12" font-style="italic" fill="#1482fa">N=6, d_model=512, h=8</text>
+        <text x="640" y="284" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="18" font-weight="700" fill="#0B41CD">27.3</text>
+        <text x="840" y="284" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="18" font-weight="700" fill="#0B41CD">38.1</text>
+        <text x="1040" y="284" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="14" fill="#1482fa">3.3 × 10^18</text>
+      </g>
+      <g id="row-big">
+        <rect x="0" y="312" width="1160" height="68" fill="#0B41CD" fill-opacity="0.08" />
+        <text x="24" y="346" font-family="'Roche Sans Medium',sans-serif" font-size="17" fill="#0B41CD">Transformer (big)</text>
+        <text x="24" y="366" font-family="'Roche Serif Light','Noto Serif',serif" font-size="12" font-style="italic" fill="#1482fa">N=6, d_model=1024, h=16</text>
+        <text x="640" y="352" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="22" font-weight="800" fill="#007A3B">28.4</text>
+        <text x="840" y="352" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="22" font-weight="800" fill="#007A3B">41.8</text>
+        <text x="1040" y="352" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="14" fill="#1482fa">2.3 × 10^19</text>
+      </g>
+    </g>
+  </g>
+
+  <g id="takeaway">
+    <rect x="60" y="562" width="1160" height="110" rx="10" fill="#F5F7FA" stroke="#E0E0E0" stroke-width="1" />
+    <rect x="60" y="562" width="5" height="110" rx="2.5" fill="#007A3B" />
+    <text x="100" y="590" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#007A3B" letter-spacing="1.5">THREE RESULTS WORTH NAMING</text>
+    <text x="100" y="620" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">·  <tspan font-family="'Roche Sans Medium',sans-serif" fill="#0B41CD">EN-DE</tspan> — Transformer (big) beats the prior best ensemble by <tspan font-family="'Roche Sans Medium',sans-serif" fill="#007A3B">+2.0 BLEU</tspan>, single model.</text>
+    <text x="100" y="644" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">·  <tspan font-family="'Roche Sans Medium',sans-serif" fill="#0B41CD">EN-FR</tspan> — new <tspan font-family="'Roche Sans Medium',sans-serif" fill="#007A3B">single-model SOTA</tspan> at 41.8 BLEU.</text>
+    <text x="100" y="668" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">·  <tspan font-family="'Roche Sans Medium',sans-serif" fill="#0B41CD">Training cost</tspan> — well below most strong baselines; base model trains in 12 hours.</text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="702" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">Source: Vaswani et al. 2017, Table 2 (§6.1 Machine Translation)</text>
+    <text x="1220" y="702" text-anchor="end" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">14</text>
+  </g>
+</svg>

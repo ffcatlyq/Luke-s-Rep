@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .b {
+        stroke: #1482fa;
+      }
+
+      .b, .c {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+
+      .c {
+        stroke: #0b41cd;
+      }
+    </style>
+  </defs>
+  <path class="b" d="m167,117c7.4,0,13.62-4.56,12.19-13.75-3.37-20.05-7.19-36.25-35.19-36.25-19.1,0-27.22,7.44-31.4,18.65"/>
+  <path class="b" d="m25,117c-7.4,0-13.62-4.56-12.19-13.75,3.37-20.05,7.19-36.25,35.19-36.25,19.1,0,27.22,7.44,31.4,18.65"/>
+  <line class="b" x1="134" y1="163" x2="134" y2="135"/>
+  <line class="b" x1="154" y1="135" x2="154" y2="163"/>
+  <polyline class="b" points="162 92 168 135 120 135"/>
+  <polyline class="b" points="30 92 24 135 72 135"/>
+  <rect class="c" x="84" y="35" width="24" height="32" rx="12" ry="12"/>
+  <polyline class="c" points="78 108 72 151 120 151 114 108"/>
+  <path class="c" d="m73,133c-7.4,0-13.44-4.81-12-14,3.37-20.05,7-36,35-36,28,0,31.63,15.95,35,36,1.44,9.19-4.6,14-12,14"/>
+  <line class="c" x1="112" y1="179" x2="112" y2="151"/>
+  <line class="c" x1="80" y1="151" x2="80" y2="179"/>
+  <line class="c" x1="96" y1="179" x2="96" y2="151"/>
+  <line class="b" x1="58" y1="163" x2="58" y2="135"/>
+  <line class="b" x1="38" y1="135" x2="38" y2="163"/>
+  <rect class="b" x="36" y="19" width="24" height="32" rx="12" ry="12"/>
+  <rect class="b" x="132" y="19" width="24" height="32" rx="12" ry="12" transform="translate(288 70) rotate(-180)"/>
+</svg>

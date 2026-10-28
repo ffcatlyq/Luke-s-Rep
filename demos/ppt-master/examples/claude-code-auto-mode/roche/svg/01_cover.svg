@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1482fa"/><stop offset="100%" stop-color="#BDE3FF"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="72%" cy="28%" r="46%">
+      <stop offset="0%" stop-color="#1482fa" stop-opacity="0.12"/><stop offset="100%" stop-color="#1482fa" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="28%" cy="72%" r="42%">
+      <stop offset="0%" stop-color="#0B41CD" stop-opacity="0.10"/><stop offset="100%" stop-color="#0B41CD" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="titleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8" result="b"/>
+      <feFlood flood-color="#1482fa" flood-opacity="0.35" result="c"/>
+      <feComposite in="c" in2="b" operator="in" result="g"/>
+      <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="720" fill="#2D3232"/>
+  <rect width="1280" height="720" fill="url(#glow1)"/>
+  <rect width="1280" height="720" fill="url(#glow2)"/>
+
+  <g stroke="#544F4F" stroke-width="0.5" stroke-opacity="0.3">
+    <line x1="200" y1="0" x2="200" y2="720"/><line x1="640" y1="0" x2="640" y2="720"/><line x1="1080" y1="0" x2="1080" y2="720"/>
+    <line x1="0" y1="240" x2="1280" y2="240"/><line x1="0" y1="480" x2="1280" y2="480"/>
+  </g>
+  <circle cx="180" cy="150" r="60" fill="none" stroke="#1482fa" stroke-width="1" stroke-opacity="0.15"/>
+  <circle cx="180" cy="150" r="35" fill="none" stroke="#1482fa" stroke-width="0.5" stroke-opacity="0.1"/>
+  <circle cx="1100" cy="570" r="80" fill="none" stroke="#BDE3FF" stroke-width="1" stroke-opacity="0.12"/>
+  <circle cx="1100" cy="570" r="50" fill="none" stroke="#BDE3FF" stroke-width="0.5" stroke-opacity="0.08"/>
+  <circle cx="320" cy="180" r="3" fill="#1482fa" fill-opacity="0.3"/>
+  <circle cx="960" cy="140" r="2" fill="#BDE3FF" fill-opacity="0.25"/>
+  <circle cx="1150" cy="200" r="2.5" fill="#4CBB17" fill-opacity="0.22"/>
+  <circle cx="130" cy="520" r="2" fill="#BDE3FF" fill-opacity="0.2"/>
+
+  <image href="/workspaces/silicon-hitchhiker/assets/roche-brand/logos/Roche_Logo_800px_White_RGB_200px.png" x="60" y="48" width="96" height="50"/>
+
+  <rect x="540" y="212" width="200" height="2" fill="url(#titleGrad)" fill-opacity="0.7"/>
+  <!-- terminal icon (inline stroke) -->
+  <g transform="translate(608,232) scale(3)" fill="none" stroke="#1482fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M5 7l5 5l-5 5"/><path d="M12 19l7 0"/><rect x="3" y="4" width="18" height="16" rx="2" stroke-opacity="0"/>
+  </g>
+
+  <g id="cover-title">
+    <text x="640" y="372" text-anchor="middle" font-family="'Roche Sans Light',sans-serif" font-size="58" fill="#F5F5F2" filter="url(#titleGlow)">Claude Code Auto Mode</text>
+  </g>
+  <g id="cover-subtitle">
+    <text x="640" y="418" text-anchor="middle" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="23" fill="#BDE3FF">把审批交给分类器,把安全交给两道闸</text>
+  </g>
+  <rect x="520" y="446" width="240" height="1" fill="#544F4F"/>
+  <g id="cover-meta">
+    <text x="640" y="486" text-anchor="middle" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="17" fill="#C2BAB5">Silicon Hitchhiker · 罗氏 AI 社区实战</text>
+    <text x="640" y="512" text-anchor="middle" font-family="'Noto Serif CJK SC','Roche Serif Light',serif" font-size="15" font-style="italic" fill="#8A827C">一次真实的 approve 被拦,与搬家踩的坑</text>
+  </g>
+
+  <rect x="0" y="700" width="1280" height="20" fill="#3A3F3F"/>
+  <rect x="440" y="700" width="400" height="3" fill="url(#titleGrad)" fill-opacity="0.5"/>
+</svg>

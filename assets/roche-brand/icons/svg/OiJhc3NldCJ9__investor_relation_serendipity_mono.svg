@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="your_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M101.72,95.13c6.88-11.15,3.39-26.18-4.54-36.33-19.39-24.89-43.77-12.99-68-35-8.44,22.95-7.1,48.32,11,68,1.36,1.48,2.8,2.55,4.4,3.9"/>
+  <g>
+    <path class="cls-1" d="M171.57,96.12c-4.05,38.16-36.34,67.88-75.57,67.88S24.48,134.28,20.43,96.12"/>
+    <line class="cls-1" x1="134.23" y1="180" x2="57.77" y2="180"/>
+    <line class="cls-1" x1="171.23" y1="95.93" x2="20.77" y2="95.93"/>
+  </g>
+  <g>
+    <line class="cls-1" x1="146.26" y1="95.9" x2="163.99" y2="80.49"/>
+    <line class="cls-1" x1="146.66" y1="60.56" x2="106.67" y2="95.15"/>
+    <rect class="cls-1" x="142.15" y="58.03" width="37.73" height="15.09" rx="7.55" ry="7.55" transform="translate(217.16 230.12) rotate(-131)"/>
+  </g>
+  <path class="cls-1" d="M90.73,95.15c-11.03-19.69-29.17-29.17-44.55-40.34"/>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+  <image href="/workspaces/silicon-hitchhiker/assets/roche-brand/logos/Roche_Logo_800px_Blue_RGB_200px.png" x="1136" y="32" width="84" height="43.7" />
+
+  <g id="header">
+    <rect x="60" y="56" width="6" height="40" fill="#1482fa" />
+    <text x="84" y="90" font-family="'Roche Sans Light',sans-serif" font-size="34" fill="#0B41CD">Each stage lifts alignment without losing reasoning</text>
+    <text x="84" y="116" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#706B69" letter-spacing="1.5">CHECKPOINT PROGRESSION · §4 · TABLE 3</text>
+  </g>
+
+  <g id="table">
+    <rect x="60" y="152" width="1160" height="398" fill="none" stroke="#0B41CD" stroke-width="2" />
+    <g transform="translate(60, 152)">
+      <rect x="992" y="56" width="168" height="342" fill="#E9EEFA" />
+      <rect x="0" y="0" width="1160" height="56" fill="#0B41CD" />
+      <rect x="992" y="0" width="168" height="56" fill="#1482fa" />
+      <text x="20" y="33" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#FFFFFF" letter-spacing="1.5">BENCHMARK</text>
+      <g font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">
+        <text x="404" y="34">R1-Zero</text>
+        <text x="572" y="34">Dev1</text>
+        <text x="740" y="34">Dev2</text>
+        <text x="908" y="34">Dev3</text>
+        <text x="1076" y="27">DeepSeek</text><text x="1076" y="45">R1</text>
+      </g>
+      <g stroke="#E0E0E0" stroke-width="1">
+        <line x1="320" y1="0" x2="320" y2="398" /><line x1="488" y1="56" x2="488" y2="398" /><line x1="656" y1="56" x2="656" y2="398" /><line x1="824" y1="56" x2="824" y2="398" />
+      </g>
+      <line x1="992" y1="0" x2="992" y2="398" stroke="#0B41CD" stroke-width="1.5" />
+
+      <g font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="16" text-anchor="middle">
+        <text x="20" y="90" text-anchor="start" font-family="'Roche Sans Medium',sans-serif" fill="#333333">AIME 2024</text>
+        <text x="404" y="91" fill="#333333">77.9</text><text x="572" y="91" fill="#706B69">59.0</text><text x="740" y="91" fill="#333333">74.0</text><text x="908" y="91" fill="#333333">78.1</text>
+        <text x="1076" y="91" font-weight="700" fill="#007A3B">79.8</text>
+        <line x1="0" y1="113" x2="1160" y2="113" stroke="#E0E0E0" stroke-width="1" />
+
+        <text x="20" y="147" text-anchor="start" font-family="'Roche Sans Medium',sans-serif" fill="#333333">MATH-500</text>
+        <text x="404" y="148" fill="#333333">95.9</text><text x="572" y="148" fill="#706B69">94.2</text><text x="740" y="148" fill="#333333">95.9</text><text x="908" y="148" fill="#333333">95.4</text>
+        <text x="1076" y="148" font-weight="700" fill="#0B41CD">97.3</text>
+        <line x1="0" y1="170" x2="1160" y2="170" stroke="#E0E0E0" stroke-width="1" />
+
+        <text x="20" y="204" text-anchor="start" font-family="'Roche Sans Medium',sans-serif" fill="#333333">Codeforces <tspan font-family="'Roche Serif Light','Noto Serif',serif" font-style="italic" fill="#706B69">rating</tspan></text>
+        <text x="404" y="205" fill="#333333">1444</text><text x="572" y="205" fill="#706B69">1534</text><text x="740" y="205" fill="#333333">1687</text><text x="908" y="205" fill="#333333">1746</text>
+        <text x="1076" y="205" font-weight="700" fill="#0B41CD">2029</text>
+        <line x1="0" y1="227" x2="1160" y2="227" stroke="#E0E0E0" stroke-width="1" />
+
+        <text x="20" y="261" text-anchor="start" font-family="'Roche Sans Medium',sans-serif" fill="#333333">GPQA Diamond</text>
+        <text x="404" y="262" fill="#333333">75.8</text><text x="572" y="262" fill="#706B69">66.1</text><text x="740" y="262" fill="#333333">70.7</text><text x="908" y="262" fill="#333333">71.2</text>
+        <text x="1076" y="262" font-weight="700" fill="#0B41CD">71.5</text>
+        <line x1="0" y1="284" x2="1160" y2="284" stroke="#E0E0E0" stroke-width="1" />
+
+        <text x="20" y="318" text-anchor="start" font-family="'Roche Sans Medium',sans-serif" fill="#333333">AlpacaEval 2.0</text>
+        <text x="404" y="319" fill="#706B69">24.7</text><text x="572" y="319" fill="#333333">50.1</text><text x="740" y="319" fill="#333333">55.8</text><text x="908" y="319" fill="#333333">62.1</text>
+        <text x="1076" y="319" font-weight="700" fill="#007A3B">87.6</text>
+        <line x1="0" y1="341" x2="1160" y2="341" stroke="#E0E0E0" stroke-width="1" />
+
+        <text x="20" y="375" text-anchor="start" font-family="'Roche Sans Medium',sans-serif" fill="#333333">ArenaHard</text>
+        <text x="404" y="376" fill="#706B69">53.6</text><text x="572" y="376" fill="#333333">77.0</text><text x="740" y="376" fill="#333333">73.2</text><text x="908" y="376" fill="#333333">75.6</text>
+        <text x="1076" y="376" font-weight="700" fill="#007A3B">92.3</text>
+      </g>
+    </g>
+  </g>
+
+  <g id="takeaway">
+    <rect x="60" y="566" width="1160" height="86" rx="10" fill="#F5F7FA" stroke="#E0E0E0" stroke-width="1" />
+    <rect x="60" y="566" width="5" height="86" rx="2.5" fill="#1482fa" />
+    <text x="100" y="594" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#1482fa" letter-spacing="1.5">READ THE TABLE LIKE THIS</text>
+    <text x="100" y="622" font-family="'Roche Sans Light',sans-serif" font-size="18" fill="#0B41CD">Reasoning is already high at R1-Zero; later stages mostly lift <tspan font-family="'Roche Sans Medium',sans-serif" fill="#1482fa">alignment</tspan> — AlpacaEval and ArenaHard</text>
+    <text x="100" y="644" font-family="'Roche Sans',sans-serif" font-size="14" fill="#706B69">climb steeply into the final R1 (+25% and +17% at the last step), while math and code hold or improve. Nothing is traded away.</text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="700" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">Source: DeepSeek-AI 2026, §4, Table 3 (results at each developmental stage)</text>
+    <text x="1220" y="700" text-anchor="end" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">13</text>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .b, .c, .d {
+        fill: none;
+      }
+
+      .c {
+        stroke: #1482fa;
+      }
+
+      .c, .d {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+
+      .d {
+        stroke: #0b41cd;
+      }
+    </style>
+  </defs>
+  <rect class="b" width="192" height="192"/>
+  <path class="c" d="M110,38v-14H38c-7.5511,0-14,6.4489-14,14,0,8,6.3403,14,14,14h27"/>
+  <path class="c" d="M60,128h-22c-7.5742,0-14-6.4258-14-14V38"/>
+  <path class="d" d="M167.9925,82l.0075,86h-78c-7.5742,0-14-6.4258-14-14v-86"/>
+  <path class="c" d="M147,113c0,4.7886-11.114,9-25,9s-25-4.2114-25-9,11.114-9,25-9,25,4.2114,25,9Z"/>
+  <path class="c" d="M97,113v22c0,4.5937,11.114,9,25,9s25-4.4063,25-9v-22"/>
+  <path class="d" d="M168,54h-78c-7.732,0-14,6.268-14,14h0c0,7.732,6.268,14,14,14h78v-28Z"/>
+</svg>

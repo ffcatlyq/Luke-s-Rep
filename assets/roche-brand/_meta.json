@@ -1,0 +1,34 @@
+{
+  "name": "Roche Brand Asset Library",
+  "scope": "internal-open-source",
+  "purpose": "Self-contained Roche brand asset bundle for the cd2-ai-hackathon-hub repository. Eliminates the need for hackathon participants and AI agents to reach branding.roche.com or fonts.roche.com directly.",
+  "version": "0.1.0",
+  "snapshot_date": "2026-05-17",
+  "sources": {
+    "frontify_brand_portal": {
+      "url": "https://branding.roche.com/hub/6",
+      "platform": "Frontify (SaaS, SAML SSO)",
+      "snapshot_method": "Cookie-injected Playwright + internal REST API + window state extraction",
+      "snapshot_script": "demos/gslide-authoring/scripts/frontify_reader.py",
+      "captured_endpoints": [
+        "/api/portal/6",
+        "/api/portal/6/appearance",
+        "/api/portal/6/font-families",
+        "/api/portal/6/font-styles",
+        "/api/portal-navigation/6",
+        "/api/document-page?document_id=26",
+        "/api/document-page?document_id=29",
+        "/api/document/page/-/<page_id> (×59)"
+      ]
+    },
+    "fonts_roche_com": {
+      "url": "https://fonts.roche.com",
+      "platform": "Public Astro static site (no SSO)",
+      "snapshot_method": "curl on /fonts/{family-slug}/latest/{filename}.woff2",
+      "fonts_repository_announcement": "Roche Fonts Repository — central resource for Roche typography"
+    }
+  },
+  "next_refresh_due": "2026-08-17",
+  "refresh_command": "see assets/roche-brand/REFRESH.md",
+  "license_scope": "Roche internal use only (C2 internal). Do not redistribute outside Roche."
+}

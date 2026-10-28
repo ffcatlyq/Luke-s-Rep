@@ -1,0 +1,297 @@
+{
+  "version": 1,
+  "defaults": {
+    "transition": {
+      "effect": "fade",
+      "duration": 0.4
+    },
+    "animation": {
+      "effect": "auto",
+      "duration": 0.4,
+      "stagger": 0.5,
+      "trigger": "after-previous"
+    }
+  },
+  "slides": {
+    "01_cover": {
+      "transition": {
+        "effect": "fade",
+        "duration": 0.4
+      },
+      "animation": {
+        "effect": "auto",
+        "duration": 0.4,
+        "stagger": 0.5,
+        "trigger": "after-previous"
+      },
+      "groups": {
+        "meta": {},
+        "title": {},
+        "authors": {},
+        "pullquote": {}
+      }
+    },
+    "02_why_it_matters": {
+      "transition": {
+        "effect": "fade",
+        "duration": 0.4
+      },
+      "animation": {
+        "effect": "auto",
+        "duration": 0.4,
+        "stagger": 0.5,
+        "trigger": "after-previous"
+      },
+      "groups": {
+        "kpi-1": {},
+        "kpi-2": {},
+        "kpi-3": {},
+        "kpi-4": {},
+        "takeaway-band": {}
+      }
+    },
+    "03_sequence_evolution": {
+      "transition": {
+        "effect": "fade",
+        "duration": 0.4
+      },
+      "animation": {
+        "effect": "auto",
+        "duration": 0.4,
+        "stagger": 0.5,
+        "trigger": "after-previous"
+      },
+      "groups": {
+        "panel-rnn": {},
+        "panel-cnn": {},
+        "panel-attn": {},
+        "bottom-takeaway": {}
+      }
+    },
+    "04_rnn_cnn_limits": {
+      "transition": {
+        "effect": "fade",
+        "duration": 0.4
+      },
+      "animation": {
+        "effect": "auto",
+        "duration": 0.4,
+        "stagger": 0.5,
+        "trigger": "after-previous"
+      },
+      "groups": {
+        "pillar-1": {},
+        "pillar-2": {},
+        "pillar-3": {},
+        "schematic": {}
+      }
+    },
+    "05_architecture_overview": {
+      "transition": {
+        "effect": "fade",
+        "duration": 0.4
+      },
+      "animation": {
+        "effect": "auto",
+        "duration": 0.4,
+        "stagger": 0.5,
+        "trigger": "after-previous"
+      },
+      "groups": {
+        "diagram": {},
+        "legend": {}
+      }
+    },
+    "06_encoder_decoder": {
+      "transition": {
+        "effect": "fade",
+        "duration": 0.4
+      },
+      "animation": {
+        "effect": "auto",
+        "duration": 0.4,
+        "stagger": 0.5,
+        "trigger": "after-previous"
+      },
+      "groups": {
+        "card-encoder": {},
+        "card-decoder": {}
+      }
+    },
+    "07_scaled_dot_product": {
+      "transition": {
+        "effect": "fade",
+        "duration": 0.4
+      },
+      "animation": {
+        "effect": "auto",
+        "duration": 0.4,
+        "stagger": 0.5,
+        "trigger": "after-previous"
+      },
+      "groups": {
+        "formula-band": {},
+        "explanation": {},
+        "flow-diagram": {}
+      }
+    },
+    "08_multi_head_attention": {
+      "transition": {
+        "effect": "fade",
+        "duration": 0.4
+      },
+      "animation": {
+        "effect": "auto",
+        "duration": 0.4,
+        "stagger": 0.5,
+        "trigger": "after-previous"
+      },
+      "groups": {
+        "formula-band": {},
+        "explanation": {},
+        "flow-diagram": {}
+      }
+    },
+    "09_three_uses": {
+      "transition": {
+        "effect": "fade",
+        "duration": 0.4
+      },
+      "animation": {
+        "effect": "auto",
+        "duration": 0.4,
+        "stagger": 0.5,
+        "trigger": "after-previous"
+      },
+      "groups": {
+        "pillar-enc-self": {},
+        "pillar-dec-masked": {},
+        "pillar-cross": {}
+      }
+    },
+    "10_ffn_residual_layernorm": {
+      "transition": {
+        "effect": "fade",
+        "duration": 0.4
+      },
+      "animation": {
+        "effect": "auto",
+        "duration": 0.4,
+        "stagger": 0.5,
+        "trigger": "after-previous"
+      },
+      "groups": {
+        "sublayer-visual": {},
+        "parent-frame": {},
+        "card-ffn": {},
+        "card-residual": {},
+        "card-layernorm": {},
+        "combined-flow": {}
+      }
+    },
+    "11_positional_encoding": {
+      "transition": {
+        "effect": "fade",
+        "duration": 0.4
+      },
+      "animation": {
+        "effect": "auto",
+        "duration": 0.4,
+        "stagger": 0.5,
+        "trigger": "after-previous"
+      },
+      "groups": {
+        "formula-band": {},
+        "wave-card": {},
+        "property-band": {}
+      }
+    },
+    "12_complexity_table": {
+      "transition": {
+        "effect": "fade",
+        "duration": 0.4
+      },
+      "animation": {
+        "effect": "auto",
+        "duration": 0.4,
+        "stagger": 0.5,
+        "trigger": "after-previous"
+      },
+      "groups": {
+        "table": {},
+        "takeaway": {}
+      }
+    },
+    "13_training_setup": {
+      "transition": {
+        "effect": "fade",
+        "duration": 0.4
+      },
+      "animation": {
+        "effect": "auto",
+        "duration": 0.4,
+        "stagger": 0.5,
+        "trigger": "after-previous"
+      },
+      "groups": {
+        "card-hardware": {},
+        "card-time": {},
+        "card-optimizer": {},
+        "card-regularization": {}
+      }
+    },
+    "14_results": {
+      "transition": {
+        "effect": "fade",
+        "duration": 0.4
+      },
+      "animation": {
+        "effect": "auto",
+        "duration": 0.4,
+        "stagger": 0.5,
+        "trigger": "after-previous"
+      },
+      "groups": {
+        "table": {},
+        "takeaway": {}
+      }
+    },
+    "15_ablations": {
+      "transition": {
+        "effect": "fade",
+        "duration": 0.4
+      },
+      "animation": {
+        "effect": "auto",
+        "duration": 0.4,
+        "stagger": 0.5,
+        "trigger": "after-previous"
+      },
+      "groups": {
+        "track": {},
+        "item-1": {},
+        "item-2": {},
+        "item-3": {},
+        "item-4": {},
+        "item-5": {}
+      }
+    },
+    "16_conclusion": {
+      "transition": {
+        "effect": "fade",
+        "duration": 0.4
+      },
+      "animation": {
+        "effect": "auto",
+        "duration": 0.4,
+        "stagger": 0.5,
+        "trigger": "after-previous"
+      },
+      "groups": {
+        "closing-title": {},
+        "lineage": {},
+        "closing-caption": {}
+      }
+    }
+  }
+}

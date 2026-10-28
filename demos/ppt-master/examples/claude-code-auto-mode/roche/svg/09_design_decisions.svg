@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs><radialGradient id="g09" cx="50%" cy="18%" r="60%"><stop offset="0%" stop-color="#1482fa" stop-opacity="0.06"/><stop offset="100%" stop-color="#1482fa" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1280" height="720" fill="#2D3232"/><rect width="1280" height="720" fill="url(#g09)"/>
+  <image href="/workspaces/silicon-hitchhiker/assets/roche-brand/logos/Roche_Logo_800px_White_RGB_200px.png" x="1140" y="34" width="80" height="42"/>
+
+  <g id="header">
+    <rect x="60" y="56" width="6" height="40" fill="#1482fa"/>
+    <text x="84" y="90" font-family="'Noto Sans CJK SC','Roche Sans Light',sans-serif" font-size="34" fill="#F5F5F2">设计决策:三条非显然结论</text>
+    <text x="84" y="116" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="13" fill="#C2BAB5" letter-spacing="1.5">DESIGN DECISIONS · 这次踩出来的、值得记住的三点</text>
+  </g>
+
+  <g id="d1">
+    <rect x="60" y="176" width="1160" height="120" rx="12" fill="#3A3F3F" stroke="#544F4F" stroke-width="1.5"/>
+    <rect x="60" y="176" width="5" height="120" rx="2.5" fill="#1482fa"/>
+    <circle cx="118" cy="236" r="22" fill="#1482fa"/><text x="118" y="243" text-anchor="middle" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="20" fill="#2D3232">1</text>
+    <text x="164" y="222" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="20" fill="#BDE3FF">两道闸:auto-mode ≠ GitHub 分支保护</text>
+    <text x="164" y="252" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="15" fill="#F5F5F2">一个本地(客户端,拦在你机器上)、一个服务端(GitHub 强制)。本地这道拦了,服务端那道根本没轮到。</text>
+    <text x="164" y="278" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="13.5" fill="#C2BAB5">别把本地拦读成 GitHub 拦——排查方向完全不同。</text>
+  </g>
+
+  <g id="d2">
+    <rect x="60" y="312" width="1160" height="120" rx="12" fill="#3A3F3F" stroke="#544F4F" stroke-width="1.5"/>
+    <rect x="60" y="312" width="5" height="120" rx="2.5" fill="#1482FA"/>
+    <circle cx="118" cy="372" r="22" fill="#1482FA"/><text x="118" y="379" text-anchor="middle" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="20" fill="#FFFFFF">2</text>
+    <text x="164" y="358" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="20" fill="#BDE3FF">命令 / skill 不携带授权</text>
+    <text x="164" y="388" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="15" fill="#F5F5F2">auto-mode 评估的是<tspan font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" fill="#1482fa">实际的 bash 调用</tspan>,不管它来自 command、skill 还是手搓。</text>
+    <text x="164" y="414" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="13.5" fill="#C2BAB5">想让某类动作自主跑,只能靠 settings.local.json 放行规则,不是"写个 skill 就有权限"。</text>
+  </g>
+
+  <g id="d3">
+    <rect x="60" y="448" width="1160" height="120" rx="12" fill="#3A3F3F" stroke="#544F4F" stroke-width="1.5"/>
+    <rect x="60" y="448" width="5" height="120" rx="2.5" fill="#BDE3FF"/>
+    <circle cx="118" cy="508" r="22" fill="#BDE3FF"/><text x="118" y="515" text-anchor="middle" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="20" fill="#2D3232">3</text>
+    <text x="164" y="494" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="20" fill="#BDE3FF">护栏分两型:提示型 vs 验证型</text>
+    <text x="164" y="524" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="15" fill="#F5F5F2">有的护栏只<tspan fill="#4CBB17">提醒</tspan>(停一下、清单可见),有的真<tspan fill="#FF7D29">拦</tspan>(代码级、prompt 说服不了)。</text>
+    <text x="164" y="550" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="13.5" fill="#C2BAB5">auto-mode 分类器 + hook 是验证型;retrospect / plan-review 提醒是提示型。知道哪型,才知道能不能"说服"。</text>
+  </g>
+
+  <g id="quote">
+    <rect x="60" y="586" width="1160" height="68" rx="12" fill="#2A3742" stroke="#1482fa" stroke-width="1.2"/>
+    <text x="100" y="628" font-family="'Noto Sans CJK SC','Noto Serif CJK SC','Roche Serif Light',serif" font-size="19" font-style="italic" fill="#F5F5F2">给 agent 自主权,是"配置放行规则"的工程问题,不是"说服它"的对话问题。</text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="694" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="11" fill="#8A827C">Silicon Hitchhiker · Claude Code Auto Mode 实战</text>
+    <text x="1220" y="694" text-anchor="end" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="11" fill="#8A827C">09</text>
+  </g>
+</svg>

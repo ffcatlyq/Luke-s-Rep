@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .c, .d, .e {
+        fill: none;
+      }
+
+      .d {
+        stroke: #1482fa;
+      }
+
+      .d, .e {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+
+      .e {
+        stroke: #0b41cd;
+      }
+    </style>
+  </defs>
+  <polygon id="b" class="c" points="0 192 192 192 192 0 0 0 0 192 0 192"/>
+  <rect class="d" x="126" y="24" width="24" height="32" rx="12" ry="12"/>
+  <polyline class="d" points="120 97 114 140 162 140 156 97"/>
+  <path class="d" d="M115,122c-7.4011,0-13.4369-4.81-12-14,3.372-20.0504,7.0012-36,35-36,27.9988,0,31.628,15.9496,35,36,1.4369,9.19-4.5989,14-12,14"/>
+  <line class="d" x1="154" y1="168" x2="154" y2="140"/>
+  <line class="d" x1="122" y1="140" x2="122" y2="168"/>
+  <line class="d" x1="138" y1="168" x2="138" y2="140"/>
+  <path class="e" d="M70,126h4c6.6274,0,12-5.3726,12-12v-24c0-14-8-18-32-18s-32,4-32,18v24c0,6.6274,5.3726,12,12,12h4"/>
+  <line class="e" x1="70" y1="168" x2="70" y2="92"/>
+  <line class="e" x1="38" y1="92" x2="38" y2="168"/>
+  <line class="e" x1="54" y1="122" x2="54" y2="168"/>
+  <rect class="e" x="42" y="24" width="24" height="32" rx="12" ry="12"/>
+</svg>

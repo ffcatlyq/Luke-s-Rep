@@ -1,0 +1,16 @@
+# Google Workspace demo 脚本依赖（SSOT）
+# 由 .ona/automations.yaml 的 installDeps 任务在环境启动时自动安装。
+# 详见 demos/google-workspace/README.md。
+
+# Google API 客户端
+google-api-python-client>=2.197.0
+google-auth>=2.55.0
+google-auth-oauthlib>=1.4.0
+google-auth-httplib2>=0.4.0
+
+# PDF 读取（CSR / 研究方案等文档解析）
+pdfplumber>=0.11.10
+
+# YAML / Markdown 解析（部分脚本用到）
+PyYAML>=6.0
+markdown-it-py>=3.0

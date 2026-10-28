@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="stripe9" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0B41CD" /><stop offset="100%" stop-color="#1482fa" />
+    </linearGradient>
+  </defs>
+
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+  <image href="/workspaces/silicon-hitchhiker/assets/roche-brand/logos/Roche_Logo_800px_Blue_RGB_200px.png" x="1136" y="32" width="84" height="43.7" />
+
+  <g id="header">
+    <rect x="60" y="56" width="6" height="40" fill="#1482fa" />
+    <text x="84" y="90" font-family="'Roche Sans Light',sans-serif" font-size="34" fill="#0B41CD">Strong at reasoning, not yet ready to use</text>
+    <text x="84" y="116" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#706B69" letter-spacing="1.5">FROM R1-ZERO TO R1 · §3 · WHY A PIPELINE WAS NEEDED</text>
+  </g>
+
+  <!-- LEFT: problems -->
+  <g id="problems">
+    <rect x="60" y="150" width="560" height="492" rx="12" fill="#F7F9FE" stroke="#E0E0E0" stroke-width="1" />
+    <rect x="60" y="150" width="5" height="492" rx="2.5" fill="#D0021B" />
+    <text x="96" y="186" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#D0021B" letter-spacing="1.5">WHAT HELD R1-ZERO BACK</text>
+
+    <rect x="92" y="210" width="496" height="122" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" />
+    <text x="116" y="246" font-family="'Roche Sans Medium',sans-serif" font-size="18" fill="#0B41CD">Poor readability</text>
+    <text x="116" y="276" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">The chain-of-thought is effective but hard to</text>
+    <text x="116" y="298" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">follow — not written for a human reader.</text>
+
+    <rect x="92" y="346" width="496" height="122" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" />
+    <text x="116" y="382" font-family="'Roche Sans Medium',sans-serif" font-size="18" fill="#0B41CD">Language mixing</text>
+    <text x="116" y="412" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">English and Chinese blend within a single</text>
+    <text x="116" y="434" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">reasoning trace (V3-Base is bilingual).</text>
+
+    <rect x="92" y="482" width="496" height="122" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" />
+    <text x="116" y="518" font-family="'Roche Sans Medium',sans-serif" font-size="18" fill="#0B41CD">Narrow competence</text>
+    <text x="116" y="548" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">Rule-based RL targets verifiable tasks — weak</text>
+    <text x="116" y="570" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">on writing and open-domain question answering.</text>
+  </g>
+
+  <!-- RIGHT: response -->
+  <g id="response">
+    <rect x="660" y="150" width="560" height="492" rx="12" fill="#FFFFFF" stroke="#0B41CD" stroke-width="1.5" />
+    <rect x="660" y="150" width="5" height="492" rx="2.5" fill="url(#stripe9)" />
+    <text x="696" y="186" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#1482fa" letter-spacing="1.5">THE DESIGN RESPONSE</text>
+    <text x="696" y="230" font-family="'Roche Sans Light',sans-serif" font-size="26" fill="#0B41CD">Keep the reasoning core.</text>
+    <text x="696" y="264" font-family="'Roche Sans Light',sans-serif" font-size="26" fill="#0B41CD">Wrap alignment around it.</text>
+    <text x="696" y="302" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">R1 surrounds R1-Zero's RL with a human-aligned</text>
+    <text x="696" y="324" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">cold start and alternating SFT / RL stages — so it</text>
+    <text x="696" y="346" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">stays a top reasoner while becoming readable,</text>
+    <text x="696" y="368" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">language-consistent and broadly capable.</text>
+
+    <text x="696" y="416" font-family="'Roche Sans Medium',sans-serif" font-size="12" fill="#706B69" letter-spacing="1.5">FOUR STAGES</text>
+    <rect x="696" y="432" width="240" height="72" rx="10" fill="#E9EEFA" />
+    <text x="712" y="462" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#0B41CD">1 · Cold start</text>
+    <text x="712" y="486" font-family="'Roche Sans',sans-serif" font-size="12" fill="#706B69">human-aligned long CoT</text>
+    <rect x="948" y="432" width="240" height="72" rx="10" fill="#E9EEFA" />
+    <text x="964" y="462" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#0B41CD">2 · Reasoning RL</text>
+    <text x="964" y="486" font-family="'Roche Sans',sans-serif" font-size="12" fill="#706B69">rules + language reward</text>
+    <rect x="696" y="516" width="240" height="72" rx="10" fill="#F0F4FC" />
+    <text x="712" y="546" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#0B41CD">3 · Reject-sample + SFT</text>
+    <text x="712" y="570" font-family="'Roche Sans',sans-serif" font-size="12" fill="#706B69">add non-reasoning data</text>
+    <rect x="948" y="516" width="240" height="72" rx="10" fill="#F0F4FC" />
+    <text x="964" y="546" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#0B41CD">4 · All-scenario RL</text>
+    <text x="964" y="570" font-family="'Roche Sans',sans-serif" font-size="12" fill="#706B69">helpfulness + safety</text>
+    <text x="696" y="616" font-family="'Roche Serif Light','Noto Serif',serif" font-size="14" font-style="italic" fill="#706B69">The full pipeline is on the next page.</text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="694" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">Source: DeepSeek-AI 2026, §3 (DeepSeek-R1)</text>
+    <text x="1220" y="694" text-anchor="end" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">09</text>
+  </g>
+</svg>

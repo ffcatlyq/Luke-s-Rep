@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .c, .d {
+        fill: none;
+      }
+
+      .d {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <polygon id="b" class="c" points="0 192 192 192 192 0 0 0 0 192 0 192"/>
+  <line class="d" x1="152" y1="60" x2="172" y2="60"/>
+  <line class="d" x1="152" y1="84" x2="172" y2="84"/>
+  <line class="d" x1="152" y1="108" x2="172" y2="108"/>
+  <line class="d" x1="152" y1="132" x2="172" y2="132"/>
+  <line class="d" x1="132" y1="152" x2="132" y2="172"/>
+  <line class="d" x1="108" y1="152" x2="108" y2="172"/>
+  <line class="d" x1="84" y1="152" x2="84" y2="172"/>
+  <line class="d" x1="60" y1="152" x2="60" y2="172"/>
+  <line class="d" x1="40" y1="132" x2="20" y2="132"/>
+  <line class="d" x1="40" y1="108" x2="20" y2="108"/>
+  <line class="d" x1="40" y1="84" x2="20" y2="84"/>
+  <line class="d" x1="40" y1="60" x2="20" y2="60"/>
+  <line class="d" x1="60" y1="40" x2="60" y2="20"/>
+  <line class="d" x1="84" y1="40" x2="84" y2="20"/>
+  <line class="d" x1="108" y1="40" x2="108" y2="20"/>
+  <line class="d" x1="132" y1="40" x2="132" y2="20"/>
+  <rect class="d" x="68" y="68" width="56" height="56" rx="8" ry="8"/>
+  <rect class="d" x="40" y="40" width="112" height="112" rx="12" ry="12"/>
+</svg>

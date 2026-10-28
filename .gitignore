@@ -1,0 +1,58 @@
+# OS / 编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# 环境与密钥
+.env
+.env.*
+
+# 个人 profile（PII 与工作上下文，不进 git；example 模板进 git）
+.claude/skills/profile.local.yaml
+
+# 凭证（防御性——爬取脚本从 ~/.config 读，绝不入库）
+**/cookies.json
+*.pem
+*.key
+.netrc
+
+# Google Workspace OAuth 凭证（auth.py 用 /tmp 路径，此处防御仓内同名文件）
+oauth_client.json
+google_token.json
+**/oauth_client.json
+**/google_token.json
+# browser-cookie-bridge 运行时/本地配置
+demos/browser-cookie-bridge/receiver/config.json
+demos/browser-cookie-bridge/receiver/receiver_state.json
+**/*-cookies.json
+
+# 日志与临时文件
+*.log
+tmp/
+temp/
+
+# 敏感产出（如含未公开数据，勿提交；按需在 outputs/ 下手动管理）
+outputs/**/*_内部_*
+
+# Python（skill-creator、pptx-authoring 引擎）
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Node（slidev-authoring）
+node_modules/
+.slidev/
+dist/
+
+# pptx-authoring 运行时下载的引擎（1.3GB，按需由 setup-engine.sh 装，不进 git）
+.cache/ppt-master-engine/
+demos/ppt-master/.engine/
+
+# 品牌资产的纯派生物（由 assets/roche-brand/scripts/build_indexes.py 从
+# snapshots/library-*.json 本地重建，无需联网；11M，不进 git）
+assets/roche-brand/snapshots/all-assets-flat.json

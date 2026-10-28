@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <marker id="ar14" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#0B41CD" />
+    </marker>
+    <linearGradient id="teach" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0B41CD" /><stop offset="100%" stop-color="#1482fa" />
+    </linearGradient>
+  </defs>
+
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+  <image href="/workspaces/silicon-hitchhiker/assets/roche-brand/logos/Roche_Logo_800px_Blue_RGB_200px.png" x="1136" y="32" width="84" height="43.7" />
+
+  <g id="header">
+    <rect x="60" y="56" width="6" height="40" fill="#1482fa" />
+    <text x="84" y="90" font-family="'Roche Sans Light',sans-serif" font-size="34" fill="#0B41CD">Reasoning transfers: one big teacher, six small students</text>
+    <text x="84" y="116" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#706B69" letter-spacing="1.5">DISTILLATION · §F · SFT-ONLY KNOWLEDGE TRANSFER</text>
+  </g>
+
+  <!-- teacher -->
+  <rect x="80" y="188" width="200" height="230" rx="12" fill="url(#teach)" />
+  <text x="180" y="286" text-anchor="middle" font-family="'Roche Sans Light',sans-serif" font-size="30" fill="#FFFFFF">R1</text>
+  <text x="180" y="316" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="14" fill="#FFFFFF">the teacher</text>
+  <text x="180" y="352" text-anchor="middle" font-family="'Roche Sans',sans-serif" font-size="13" fill="#FFFFFF" fill-opacity="0.9">671B reasoning model</text>
+
+  <!-- traces pill -->
+  <rect x="316" y="248" width="150" height="110" rx="10" fill="#E9EEFA" stroke="#1482fa" stroke-width="1.5" />
+  <text x="391" y="284" text-anchor="middle" font-family="'Roche Sans Light',sans-serif" font-size="26" fill="#0B41CD">800k</text>
+  <text x="391" y="308" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#0B41CD">reasoning traces</text>
+  <text x="391" y="332" text-anchor="middle" font-family="'Roche Sans',sans-serif" font-size="12" fill="#706B69">SFT only · no RL</text>
+  <line x1="280" y1="303" x2="314" y2="303" stroke="#0B41CD" stroke-width="1.8" marker-end="url(#ar14)" />
+  <line x1="466" y1="303" x2="500" y2="303" stroke="#0B41CD" stroke-width="1.8" marker-end="url(#ar14)" />
+
+  <!-- students container -->
+  <g id="students">
+    <rect x="510" y="176" width="710" height="254" rx="12" fill="#F7F9FE" stroke="#E0E0E0" stroke-width="1" />
+    <text x="540" y="206" font-family="'Roche Sans Medium',sans-serif" font-size="12" fill="#1482fa" letter-spacing="1.5">SIX OPEN MODELS DISTILLED · Qwen &amp; Llama</text>
+
+    <g font-family="'Roche Sans Medium',sans-serif">
+      <rect x="536" y="224" width="210" height="88" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" /><rect x="536" y="224" width="5" height="88" rx="2.5" fill="#95C7FD" />
+      <text x="558" y="256" font-size="16" fill="#0B41CD">Qwen-1.5B</text><text x="558" y="284" font-family="'Roche Sans',sans-serif" font-size="12" fill="#706B69">base: Qwen2.5-Math</text>
+      <rect x="760" y="224" width="210" height="88" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" /><rect x="760" y="224" width="5" height="88" rx="2.5" fill="#5FAAFC" />
+      <text x="782" y="256" font-size="16" fill="#0B41CD">Qwen-7B</text><text x="782" y="284" font-family="'Roche Sans',sans-serif" font-size="12" fill="#706B69">base: Qwen2.5-Math</text>
+      <rect x="984" y="224" width="210" height="88" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" /><rect x="984" y="224" width="5" height="88" rx="2.5" fill="#1482fa" />
+      <text x="1006" y="256" font-size="16" fill="#0B41CD">Qwen-14B</text><text x="1006" y="284" font-family="'Roche Sans',sans-serif" font-size="12" fill="#706B69">base: Qwen2.5</text>
+
+      <rect x="536" y="324" width="210" height="88" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" /><rect x="536" y="324" width="5" height="88" rx="2.5" fill="#0F5EE1" />
+      <text x="558" y="356" font-size="16" fill="#0B41CD">Qwen-32B</text><text x="558" y="384" font-family="'Roche Sans',sans-serif" font-size="12" fill="#706B69">base: Qwen2.5</text>
+      <rect x="760" y="324" width="210" height="88" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" /><rect x="760" y="324" width="5" height="88" rx="2.5" fill="#5FAAFC" />
+      <text x="782" y="356" font-size="16" fill="#0B41CD">Llama-8B</text><text x="782" y="384" font-family="'Roche Sans',sans-serif" font-size="12" fill="#706B69">base: Llama-3.1</text>
+      <rect x="984" y="324" width="210" height="88" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" /><rect x="984" y="324" width="5" height="88" rx="2.5" fill="#0B41CD" />
+      <text x="1006" y="356" font-size="16" fill="#0B41CD">Llama-70B</text><text x="1006" y="384" font-family="'Roche Sans',sans-serif" font-size="12" fill="#706B69">base: Llama-3.3</text>
+    </g>
+  </g>
+
+  <!-- why band -->
+  <g id="why">
+    <rect x="60" y="452" width="560" height="190" rx="12" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" />
+    <rect x="60" y="452" width="5" height="190" rx="2.5" fill="url(#teach)" />
+    <text x="92" y="486" font-family="'Roche Sans Medium',sans-serif" font-size="12" fill="#1482fa" letter-spacing="1.5">WHY DISTILL</text>
+    <text x="92" y="520" font-family="'Roche Sans Light',sans-serif" font-size="20" fill="#0B41CD">Democratize powerful reasoning.</text>
+    <text x="92" y="552" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">Frontier LLMs are energy- and compute-heavy. Distilling</text>
+    <text x="92" y="574" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">R1's reasoning into small open models puts strong</text>
+    <text x="92" y="596" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">reasoning within reach of modest hardware.</text>
+    <text x="92" y="626" font-family="'Roche Serif Light','Noto Serif',serif" font-size="14" font-style="italic" fill="#706B69">RL is left to the community — SFT alone already carries far.</text>
+  </g>
+  <g id="finding">
+    <rect x="660" y="452" width="560" height="190" rx="12" fill="#F5F7FA" stroke="#E0E0E0" stroke-width="1.5" />
+    <rect x="660" y="452" width="5" height="190" rx="2.5" fill="#007A3B" />
+    <text x="692" y="486" font-family="'Roche Sans Medium',sans-serif" font-size="12" fill="#007A3B" letter-spacing="1.5">THE KEY FINDING</text>
+    <text x="692" y="520" font-family="'Roche Sans Light',sans-serif" font-size="20" fill="#0B41CD">Distilling beats training small with RL.</text>
+    <text x="692" y="552" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">Models distilled from a strong teacher's outputs outperform</text>
+    <text x="692" y="574" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">the same small models trained directly on human data —</text>
+    <text x="692" y="596" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">the discovered reasoning patterns transfer.</text>
+    <text x="692" y="626" font-family="'Roche Serif Light','Noto Serif',serif" font-size="14" font-style="italic" fill="#706B69">The next page shows how far the small models actually get.</text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="694" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">Source: DeepSeek-AI 2026, §F (Distillation), Supplementary B.4.3 (base models, 800k SFT data)</text>
+    <text x="1220" y="694" text-anchor="end" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">14</text>
+  </g>
+</svg>

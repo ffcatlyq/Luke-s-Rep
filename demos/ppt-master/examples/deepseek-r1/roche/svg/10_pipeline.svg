@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <marker id="ar10" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#0B41CD" />
+    </marker>
+    <linearGradient id="v3grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#333333" /><stop offset="100%" stop-color="#5a5a5a" />
+    </linearGradient>
+    <linearGradient id="r1grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0B41CD" /><stop offset="100%" stop-color="#1482fa" />
+    </linearGradient>
+  </defs>
+
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+  <image href="/workspaces/silicon-hitchhiker/assets/roche-brand/logos/Roche_Logo_800px_Blue_RGB_200px.png" x="1136" y="32" width="84" height="43.7" />
+
+  <g id="header">
+    <rect x="60" y="56" width="6" height="40" fill="#1482fa" />
+    <text x="84" y="90" font-family="'Roche Sans Light',sans-serif" font-size="34" fill="#0B41CD">The multi-stage training pipeline</text>
+    <text x="84" y="116" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#706B69" letter-spacing="1.5">DEEPSEEK-R1 · §3 · REDRAWN FROM FIGURE 2</text>
+  </g>
+
+  <!-- endpoints -->
+  <rect x="60" y="200" width="130" height="230" rx="10" fill="url(#v3grad)" />
+  <text x="125" y="300" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#FFFFFF">DeepSeek</text>
+  <text x="125" y="322" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#FFFFFF">V3-Base</text>
+  <text x="125" y="348" text-anchor="middle" font-family="'Roche Sans',sans-serif" font-size="11" fill="#FFFFFF" fill-opacity="0.85">671B / 37B act.</text>
+
+  <rect x="1090" y="200" width="130" height="230" rx="10" fill="url(#r1grad)" />
+  <text x="1155" y="308" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="16" fill="#FFFFFF">DeepSeek</text>
+  <text x="1155" y="332" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="16" fill="#FFFFFF">R1</text>
+
+  <!-- stage boxes -->
+  <g id="s1">
+    <rect x="210" y="200" width="200" height="230" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" />
+    <rect x="210" y="200" width="5" height="230" rx="2.5" fill="#0B41CD" />
+    <circle cx="248" cy="240" r="17" fill="#0B41CD" /><text x="248" y="246" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#FFFFFF">1</text>
+    <text x="276" y="245" font-family="'Roche Sans Medium',sans-serif" font-size="11" fill="#706B69" letter-spacing="1.5">STAGE</text>
+    <text x="234" y="296" font-family="'Roche Sans Medium',sans-serif" font-size="18" fill="#0B41CD">Cold start</text>
+    <text x="234" y="336" font-family="'Roche Sans',sans-serif" font-size="13" fill="#333333">Thousands of long-CoT</text>
+    <text x="234" y="356" font-family="'Roche Sans',sans-serif" font-size="13" fill="#333333">examples; a human-aligned</text>
+    <text x="234" y="376" font-family="'Roche Sans',sans-serif" font-size="13" fill="#333333">SFT warm-up.</text>
+    <text x="234" y="410" font-family="'Roche Serif Light','Noto Serif',serif" font-size="12" font-style="italic" fill="#1482fa">readable start</text>
+  </g>
+  <g id="s2">
+    <rect x="430" y="200" width="200" height="230" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" />
+    <rect x="430" y="200" width="5" height="230" rx="2.5" fill="#0F5EE1" />
+    <circle cx="468" cy="240" r="17" fill="#0F5EE1" /><text x="468" y="246" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#FFFFFF">2</text>
+    <text x="496" y="245" font-family="'Roche Sans Medium',sans-serif" font-size="11" fill="#706B69" letter-spacing="1.5">STAGE</text>
+    <text x="454" y="296" font-family="'Roche Sans Medium',sans-serif" font-size="18" fill="#0B41CD">Reasoning RL</text>
+    <text x="454" y="336" font-family="'Roche Sans',sans-serif" font-size="13" fill="#333333">GRPO rule-based rewards</text>
+    <text x="454" y="356" font-family="'Roche Sans',sans-serif" font-size="13" fill="#333333">on math / code / logic,</text>
+    <text x="454" y="376" font-family="'Roche Sans',sans-serif" font-size="13" fill="#333333">+ language consistency.</text>
+    <text x="454" y="410" font-family="'Roche Serif Light','Noto Serif',serif" font-size="12" font-style="italic" fill="#1482fa">sharpen reasoning</text>
+  </g>
+  <g id="s3">
+    <rect x="650" y="200" width="200" height="230" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" />
+    <rect x="650" y="200" width="5" height="230" rx="2.5" fill="#1482fa" />
+    <circle cx="688" cy="240" r="17" fill="#1482fa" /><text x="688" y="246" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#FFFFFF">3</text>
+    <text x="716" y="245" font-family="'Roche Sans Medium',sans-serif" font-size="11" fill="#706B69" letter-spacing="1.5">STAGE</text>
+    <text x="674" y="296" font-family="'Roche Sans Medium',sans-serif" font-size="17" fill="#0B41CD">Reject-sample + SFT</text>
+    <text x="674" y="336" font-family="'Roche Sans',sans-serif" font-size="13" fill="#333333">Filter best traces, add</text>
+    <text x="674" y="356" font-family="'Roche Sans',sans-serif" font-size="13" fill="#333333">non-reasoning data</text>
+    <text x="674" y="376" font-family="'Roche Sans',sans-serif" font-size="13" fill="#333333">(writing, QA).</text>
+    <text x="674" y="410" font-family="'Roche Serif Light','Noto Serif',serif" font-size="12" font-style="italic" fill="#1482fa">broaden skills</text>
+  </g>
+  <g id="s4">
+    <rect x="870" y="200" width="200" height="230" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" />
+    <rect x="870" y="200" width="5" height="230" rx="2.5" fill="#5FAAFC" />
+    <circle cx="908" cy="240" r="17" fill="#5FAAFC" /><text x="908" y="246" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#FFFFFF">4</text>
+    <text x="936" y="245" font-family="'Roche Sans Medium',sans-serif" font-size="11" fill="#706B69" letter-spacing="1.5">STAGE</text>
+    <text x="894" y="296" font-family="'Roche Sans Medium',sans-serif" font-size="17" fill="#0B41CD">All-scenario RL</text>
+    <text x="894" y="336" font-family="'Roche Sans',sans-serif" font-size="13" fill="#333333">Rule rewards for reasoning</text>
+    <text x="894" y="356" font-family="'Roche Sans',sans-serif" font-size="13" fill="#333333">+ preference rewards for</text>
+    <text x="894" y="376" font-family="'Roche Sans',sans-serif" font-size="13" fill="#333333">helpfulness &amp; safety.</text>
+    <text x="894" y="410" font-family="'Roche Serif Light','Noto Serif',serif" font-size="12" font-style="italic" fill="#1482fa">align everywhere</text>
+  </g>
+
+  <!-- arrows -->
+  <g stroke="#0B41CD" stroke-width="1.8">
+    <line x1="190" y1="315" x2="208" y2="315" marker-end="url(#ar10)" />
+    <line x1="410" y1="315" x2="428" y2="315" marker-end="url(#ar10)" />
+    <line x1="630" y1="315" x2="648" y2="315" marker-end="url(#ar10)" />
+    <line x1="850" y1="315" x2="868" y2="315" marker-end="url(#ar10)" />
+    <line x1="1070" y1="315" x2="1088" y2="315" marker-end="url(#ar10)" />
+  </g>
+
+  <!-- checkpoint band -->
+  <g id="checkpoints">
+    <rect x="60" y="470" width="1160" height="172" rx="12" fill="#F5F7FA" stroke="#E0E0E0" stroke-width="1" />
+    <rect x="60" y="470" width="5" height="172" rx="2.5" fill="url(#r1grad)" />
+    <text x="100" y="502" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#1482fa" letter-spacing="1.5">INTERMEDIATE CHECKPOINTS</text>
+    <!-- mini timeline -->
+    <line x1="150" y1="560" x2="1050" y2="560" stroke="#95C7FD" stroke-width="2" />
+    <g font-family="'Roche Sans Medium',sans-serif" font-size="14" fill="#FFFFFF">
+      <circle cx="200" cy="560" r="22" fill="#5FAAFC" /><text x="200" y="565" text-anchor="middle">Zero</text>
+      <circle cx="412" cy="560" r="22" fill="#1482fa" /><text x="412" y="565" text-anchor="middle">Dev1</text>
+      <circle cx="625" cy="560" r="22" fill="#0F5EE1" /><text x="625" y="565" text-anchor="middle">Dev2</text>
+      <circle cx="837" cy="560" r="22" fill="#0F5EE1" /><text x="837" y="565" text-anchor="middle">Dev3</text>
+      <circle cx="1050" cy="560" r="24" fill="#0B41CD" /><text x="1050" y="565" text-anchor="middle">R1</text>
+    </g>
+    <text x="200" y="606" text-anchor="middle" font-family="'Roche Sans',sans-serif" font-size="12" fill="#706B69">pure-RL base</text>
+    <text x="412" y="606" text-anchor="middle" font-family="'Roche Sans',sans-serif" font-size="12" fill="#706B69">cold start + RL</text>
+    <text x="625" y="606" text-anchor="middle" font-family="'Roche Sans',sans-serif" font-size="12" fill="#706B69">+ reasoning gains</text>
+    <text x="837" y="606" text-anchor="middle" font-family="'Roche Sans',sans-serif" font-size="12" fill="#706B69">+ SFT breadth</text>
+    <text x="1050" y="606" text-anchor="middle" font-family="'Roche Sans',sans-serif" font-size="12" fill="#706B69">final alignment</text>
+    <text x="100" y="632" font-family="'Roche Serif Light','Noto Serif',serif" font-size="13" font-style="italic" fill="#706B69">The next page tracks how each checkpoint scores across benchmarks.</text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="694" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">Source: DeepSeek-AI 2026, §3, Figure 2 (multi-stage pipeline) — redrawn as native vector</text>
+    <text x="1220" y="694" text-anchor="end" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">10</text>
+  </g>
+</svg>

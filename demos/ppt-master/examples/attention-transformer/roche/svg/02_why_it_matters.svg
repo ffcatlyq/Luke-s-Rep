@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" />
+      <feOffset dx="0" dy="3" />
+      <feFlood flood-color="#0B41CD" flood-opacity="0.08" />
+      <feComposite in2="SourceAlpha" operator="in" />
+      <feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <linearGradient id="bandStripe" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0B41CD" /><stop offset="100%" stop-color="#1482fa" />
+    </linearGradient>
+  </defs>
+
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+  <image href="/workspaces/silicon-hitchhiker/assets/roche-brand/logos/Roche_Logo_800px_Blue_RGB_200px.png" x="1136" y="32" width="84" height="43.7" />
+
+  <g id="header">
+    <rect x="60" y="56" width="6" height="40" fill="#1482fa" />
+    <text x="84" y="90" font-family="'Roche Sans Light',sans-serif" font-size="36" fill="#0B41CD">A simpler model, better results, less training</text>
+    <text x="84" y="116" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#706B69" letter-spacing="1.5">WHY THIS PAPER MATTERS · 2017 SOTA ON WMT'14 TRANSLATION</text>
+  </g>
+
+  <g id="kpi-1">
+    <rect x="60" y="160" width="275" height="240" rx="12" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" filter="url(#cardShadow)" />
+    <rect x="60" y="160" width="5" height="240" rx="2.5" fill="#0B41CD" />
+    <g transform="translate(80, 184) scale(1.25)" fill="none" stroke="#0B41CD" stroke-width="2">
+      <path d="M8 21l8 0" /><path d="M12 17l0 4" /><path d="M7 4l10 0" />
+      <path d="M17 4v8a5 5 0 0 1 -10 0v-8" /><path d="M3 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M17 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    </g>
+    <text x="82" y="250" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#706B69" letter-spacing="1">EN <tspan font-family="'Consolas','DejaVu Sans Mono',monospace" fill="#706B69">→</tspan> DE</text>
+    <text x="82" y="274" font-family="'Roche Sans',sans-serif" font-size="14" fill="#706B69">BLEU on WMT'14</text>
+    <text x="82" y="342" font-family="'Roche Sans Light',sans-serif" font-size="62" fill="#0B41CD">28.4</text>
+    <g transform="translate(82, 356) scale(0.8)" fill="none" stroke="#007A3B" stroke-width="2"><path d="M17 7l-10 10" /><path d="M8 7l9 0l0 9" /></g>
+    <text x="106" y="372" font-family="'Roche Sans Medium',sans-serif" font-size="16" fill="#007A3B">+2.0</text>
+    <text x="150" y="372" font-family="'Roche Sans',sans-serif" font-size="13" fill="#706B69">over prior ensembles</text>
+  </g>
+
+  <g id="kpi-2">
+    <rect x="355" y="160" width="275" height="240" rx="12" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" filter="url(#cardShadow)" />
+    <rect x="355" y="160" width="5" height="240" rx="2.5" fill="#1482fa" />
+    <g transform="translate(375, 184) scale(1.25)" fill="none" stroke="#1482fa" stroke-width="2">
+      <path d="M8 21l8 0" /><path d="M12 17l0 4" /><path d="M7 4l10 0" />
+      <path d="M17 4v8a5 5 0 0 1 -10 0v-8" /><path d="M3 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M17 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    </g>
+    <text x="377" y="250" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#706B69" letter-spacing="1">EN <tspan font-family="'Consolas','DejaVu Sans Mono',monospace" fill="#706B69">→</tspan> FR</text>
+    <text x="377" y="274" font-family="'Roche Sans',sans-serif" font-size="14" fill="#706B69">BLEU on WMT'14</text>
+    <text x="377" y="342" font-family="'Roche Sans Light',sans-serif" font-size="62" fill="#1482fa">41.8</text>
+    <g transform="translate(377, 356) scale(0.8)" fill="none" stroke="#007A3B" stroke-width="2"><path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873l-6.158 -3.245" /></g>
+    <text x="403" y="372" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#007A3B">new single-model SOTA</text>
+  </g>
+
+  <g id="kpi-3">
+    <rect x="650" y="160" width="275" height="240" rx="12" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" filter="url(#cardShadow)" />
+    <rect x="650" y="160" width="5" height="240" rx="2.5" fill="#0F5EE1" />
+    <g transform="translate(670, 184) scale(1.25)" fill="none" stroke="#0F5EE1" stroke-width="2"><path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" /></g>
+    <text x="672" y="250" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#706B69" letter-spacing="1">TRAINING TIME</text>
+    <text x="672" y="274" font-family="'Roche Sans',sans-serif" font-size="14" fill="#706B69">Transformer (big)</text>
+    <text x="672" y="340" font-family="'Roche Sans Light',sans-serif" font-size="46" fill="#0B41CD">3.5 days</text>
+    <text x="672" y="374" font-family="'Roche Sans',sans-serif" font-size="14" fill="#706B69">on 8× P100 GPUs</text>
+  </g>
+
+  <g id="kpi-4">
+    <rect x="945" y="160" width="275" height="240" rx="12" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" filter="url(#cardShadow)" />
+    <rect x="945" y="160" width="5" height="240" rx="2.5" fill="#5FAAFC" />
+    <g transform="translate(965, 184) scale(1.25)" fill="none" stroke="#5FAAFC" stroke-width="2">
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" /><path d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6" />
+    </g>
+    <text x="967" y="250" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#706B69" letter-spacing="1">ARCHITECTURE</text>
+    <text x="967" y="274" font-family="'Roche Sans',sans-serif" font-size="14" fill="#706B69">building blocks</text>
+    <text x="967" y="328" font-family="'Roche Sans Light',sans-serif" font-size="42" fill="#0B41CD">Attention</text>
+    <text x="967" y="356" font-family="'Roche Serif Light','Noto Serif',serif" font-size="20" font-style="italic" fill="#706B69">only</text>
+    <text x="967" y="384" font-family="'Roche Sans',sans-serif" font-size="13" fill="#706B69">no recurrence · no convolution</text>
+  </g>
+
+  <g id="takeaway-band">
+    <rect x="60" y="450" width="1160" height="160" rx="12" fill="#F5F7FA" stroke="#E0E0E0" stroke-width="1" />
+    <rect x="60" y="450" width="5" height="160" rx="2.5" fill="url(#bandStripe)" />
+    <text x="100" y="490" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#1482fa" letter-spacing="1.5">THE HEADLINE</text>
+    <text x="100" y="524" font-family="'Roche Sans Light',sans-serif" font-size="25" fill="#0B41CD">The Transformer reaches <tspan font-family="'Roche Sans Medium',sans-serif" fill="#1482fa">new translation SOTA</tspan> while training</text>
+    <text x="100" y="556" font-family="'Roche Sans Light',sans-serif" font-size="25" fill="#0B41CD">in <tspan font-family="'Roche Sans Medium',sans-serif" fill="#1482fa">a fraction of the time</tspan> of strong baselines.</text>
+    <text x="100" y="588" font-family="'Roche Sans',sans-serif" font-size="16" fill="#706B69">Quality up · cost down · parallelization unlocked. The rest of the paper explains</text>
+    <text x="100" y="608" font-family="'Roche Sans',sans-serif" font-size="16" fill="#706B69">how attention alone makes this possible — and why nothing else is needed.</text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="694" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">Source: Vaswani et al. 2017, Table 2 (BLEU) and §5.2 (training cost)</text>
+    <text x="1220" y="694" text-anchor="end" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">02</text>
+  </g>
+</svg>

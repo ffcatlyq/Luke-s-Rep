@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs><radialGradient id="g05" cx="50%" cy="18%" r="60%"><stop offset="0%" stop-color="#FF7D29" stop-opacity="0.05"/><stop offset="100%" stop-color="#FF7D29" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1280" height="720" fill="#2D3232"/><rect width="1280" height="720" fill="url(#g05)"/>
+  <image href="/workspaces/silicon-hitchhiker/assets/roche-brand/logos/Roche_Logo_800px_White_RGB_200px.png" x="1140" y="34" width="80" height="42"/>
+
+  <g id="header">
+    <rect x="60" y="56" width="6" height="40" fill="#1482fa"/>
+    <text x="84" y="90" font-family="'Noto Sans CJK SC','Roche Sans Light',sans-serif" font-size="34" fill="#F5F5F2">威胁模型:auto-mode 到底守什么</text>
+    <text x="84" y="116" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="13" fill="#C2BAB5" letter-spacing="1.5">THREAT MODEL · 本会话真实拦过的三类,每类对着一个不可逆风险</text>
+  </g>
+
+  <!-- card 1 -->
+  <g>
+    <rect x="60" y="176" width="366" height="320" rx="12" fill="#3A3F3F" stroke="#544F4F" stroke-width="1.5"/>
+    <rect x="60" y="176" width="366" height="6" rx="3" fill="#FF7D29"/>
+    <g transform="translate(84,208) scale(1.4)" fill="none" stroke="#FF7D29" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3"/><path d="M9 12l2 2l4 -4"/></g>
+    <text x="130" y="228" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="19" fill="#F5F5F2">① 自我 approve</text>
+    <text x="84" y="272" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="14" fill="#C2BAB5">同一方既建 PR、又批自己,</text>
+    <text x="84" y="294" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="14" fill="#C2BAB5">架空双人 review。</text>
+    <rect x="84" y="320" width="318" height="60" rx="8" fill="#3A2A1C"/>
+    <text x="100" y="344" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="12" fill="#FF7D29">本会话真实拦截</text>
+    <text x="100" y="366" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="12.5" fill="#F5F5F2">approve PR #307 被判 Self-Approval</text>
+    <text x="84" y="424" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="13" fill="#8A827C">对应风险:绕过 code review、</text>
+    <text x="84" y="446" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="13" fill="#8A827C">坏改动直接进 main。</text>
+  </g>
+
+  <!-- card 2 -->
+  <g>
+    <rect x="457" y="176" width="366" height="320" rx="12" fill="#3A3F3F" stroke="#544F4F" stroke-width="1.5"/>
+    <rect x="457" y="176" width="366" height="6" rx="3" fill="#FF7D29"/>
+    <g transform="translate(481,208) scale(1.4)" fill="none" stroke="#FF7D29" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16.555 3.843l3.602 3.602a2.877 2.877 0 0 1 0 4.069l-2.643 2.643a2.877 2.877 0 0 1 -4.069 0l-.301 -.301l-6.558 6.558a2 2 0 0 1 -1.239 .578l-1.877 .178a1 1 0 0 1 -1.09 -1.09l.178 -1.877a2 2 0 0 1 .578 -1.239l6.558 -6.558l-.301 -.301a2.877 2.877 0 0 1 0 -4.069l2.643 -2.643a2.877 2.877 0 0 1 4.069 0"/></g>
+    <text x="527" y="228" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="19" fill="#F5F5F2">② 多路径找 token</text>
+    <text x="481" y="272" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="14" fill="#C2BAB5">系统性翻多个凭据源</text>
+    <text x="481" y="294" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="14" fill="#C2BAB5">(env / helper)找可用 token。</text>
+    <rect x="481" y="320" width="318" height="60" rx="8" fill="#3A2A1C"/>
+    <text x="497" y="344" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="12" fill="#FF7D29">本会话真实拦截</text>
+    <text x="497" y="366" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="12.5" fill="#F5F5F2">git credential fill 提 token 被拦</text>
+    <text x="481" y="424" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="13" fill="#8A827C">对应风险:凭据滥用 /</text>
+    <text x="481" y="446" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="13" fill="#8A827C">越权、token 外泄。</text>
+  </g>
+
+  <!-- card 3 -->
+  <g>
+    <rect x="854" y="176" width="366" height="320" rx="12" fill="#3A3F3F" stroke="#544F4F" stroke-width="1.5"/>
+    <rect x="854" y="176" width="366" height="6" rx="3" fill="#FF7D29"/>
+    <g transform="translate(878,208) scale(1.4)" fill="none" stroke="#FF7D29" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.24 3.957l-8.422 14.06a1.989 1.989 0 0 0 1.7 2.983h16.845a1.989 1.989 0 0 0 1.7 -2.983l-8.423 -14.06a1.989 1.989 0 0 0 -3.4 0z"/><path d="M12 9v4"/><path d="M12 17h.01"/></g>
+    <text x="924" y="228" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="19" fill="#F5F5F2">③ 外发不可逆</text>
+    <text x="878" y="272" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="14" fill="#C2BAB5">删库 / force push / 发消息 /</text>
+    <text x="878" y="294" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="14" fill="#C2BAB5">发邮件——收不回。</text>
+    <rect x="878" y="320" width="318" height="60" rx="8" fill="#3A2418"/>
+    <text x="894" y="344" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="12" fill="#FF7D29">硬护栏(hook)</text>
+    <text x="894" y="366" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="12.5" fill="#F5F5F2">external-send / gh-pages-write-guard</text>
+    <text x="878" y="424" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="13" fill="#8A827C">对应风险:数据泄露 /</text>
+    <text x="878" y="446" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="13" fill="#8A827C">生产事故,无法回退。</text>
+  </g>
+
+  <g id="takeaway">
+    <rect x="60" y="524" width="1160" height="130" rx="12" fill="#353A3A" stroke="#544F4F" stroke-width="1"/>
+    <rect x="60" y="524" width="5" height="130" rx="2.5" fill="#1482fa"/>
+    <text x="100" y="560" font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" font-size="13" fill="#1482fa" letter-spacing="1.5">不是多疑,是对着不可逆风险</text>
+    <text x="100" y="594" font-family="'Noto Sans CJK SC','Roche Sans Light',sans-serif" font-size="20" fill="#F5F5F2">auto-mode 放行机械动作、<tspan font-family="'Noto Sans CJK SC','Roche Sans Medium',sans-serif" fill="#FF7D29">拦下不可逆动作</tspan>——三类里前两类是"存疑先问",第三类走硬护栏"永远拦"。</text>
+    <text x="100" y="626" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="14" fill="#C2BAB5">硬护栏(hook)是代码级、prompt 说服不了它;放行规则能放宽前两类,但绕不过第三类。</text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="694" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="11" fill="#8A827C">Silicon Hitchhiker · Claude Code Auto Mode 实战</text>
+    <text x="1220" y="694" text-anchor="end" font-family="'Noto Sans CJK SC','Roche Sans',sans-serif" font-size="11" fill="#8A827C">05</text>
+  </g>
+</svg>

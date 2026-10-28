@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" />
+      <feOffset dx="0" dy="3" />
+      <feFlood flood-color="#0B41CD" flood-opacity="0.08" />
+      <feComposite in2="SourceAlpha" operator="in" />
+      <feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <linearGradient id="bandStripe" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0B41CD" /><stop offset="100%" stop-color="#1482fa" />
+    </linearGradient>
+  </defs>
+
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+  <image href="/workspaces/silicon-hitchhiker/assets/roche-brand/logos/Roche_Logo_800px_Blue_RGB_200px.png" x="1136" y="32" width="84" height="43.7" />
+
+  <g id="header">
+    <rect x="60" y="56" width="6" height="40" fill="#1482fa" />
+    <text x="84" y="90" font-family="'Roche Sans Light',sans-serif" font-size="36" fill="#0B41CD">Frontier reasoning, open weights, a fraction of the cost</text>
+    <text x="84" y="116" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#706B69" letter-spacing="1.5">WHY THIS PAPER MATTERS · MATCHES OPENAI-o1-1217 ON REASONING</text>
+  </g>
+
+  <g id="kpi-1">
+    <rect x="60" y="160" width="275" height="240" rx="12" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" filter="url(#cardShadow)" />
+    <rect x="60" y="160" width="5" height="240" rx="2.5" fill="#0B41CD" />
+    <g transform="translate(80, 184) scale(1.25)" fill="none" stroke="#0B41CD" stroke-width="2">
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M12 12m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" /><path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+    </g>
+    <text x="82" y="250" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#706B69" letter-spacing="1">AIME 2024 · PASS@1</text>
+    <text x="82" y="274" font-family="'Roche Sans',sans-serif" font-size="14" fill="#706B69">competition mathematics</text>
+    <text x="82" y="342" font-family="'Roche Sans Light',sans-serif" font-size="62" fill="#0B41CD">79.8%</text>
+    <g transform="translate(82, 356) scale(0.8)" fill="none" stroke="#007A3B" stroke-width="2"><path d="M3 17l6 -6l4 4l8 -8" /><path d="M14 7l7 0l0 7" /></g>
+    <text x="106" y="372" font-family="'Roche Sans Medium',sans-serif" font-size="14" fill="#007A3B">on par with o1-1217</text>
+  </g>
+
+  <g id="kpi-2">
+    <rect x="355" y="160" width="275" height="240" rx="12" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" filter="url(#cardShadow)" />
+    <rect x="355" y="160" width="5" height="240" rx="2.5" fill="#1482fa" />
+    <g transform="translate(375, 184) scale(1.25)" fill="none" stroke="#1482fa" stroke-width="2">
+      <path d="M7 8l-4 4l4 4" /><path d="M17 8l4 4l-4 4" /><path d="M14 4l-4 16" />
+    </g>
+    <text x="377" y="250" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#706B69" letter-spacing="1">CODEFORCES · RATING</text>
+    <text x="377" y="274" font-family="'Roche Sans',sans-serif" font-size="14" fill="#706B69">competitive programming</text>
+    <text x="377" y="342" font-family="'Roche Sans Light',sans-serif" font-size="62" fill="#1482fa">2029</text>
+    <text x="377" y="372" font-family="'Roche Sans Medium',sans-serif" font-size="14" fill="#007A3B">96.3 pctl · expert level</text>
+  </g>
+
+  <g id="kpi-3">
+    <rect x="650" y="160" width="275" height="240" rx="12" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" filter="url(#cardShadow)" />
+    <rect x="650" y="160" width="5" height="240" rx="2.5" fill="#0F5EE1" />
+    <g transform="translate(670, 184) scale(1.25)" fill="none" stroke="#0F5EE1" stroke-width="2">
+      <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M3.6 9h16.8" /><path d="M3.6 15h16.8" /><path d="M11.5 3a17 17 0 0 0 0 18" /><path d="M12.5 3a17 17 0 0 1 0 18" />
+    </g>
+    <text x="672" y="250" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#706B69" letter-spacing="1">LICENSE</text>
+    <text x="672" y="274" font-family="'Roche Sans',sans-serif" font-size="14" fill="#706B69">weights + 6 distilled models</text>
+    <text x="672" y="340" font-family="'Roche Sans Light',sans-serif" font-size="54" fill="#0B41CD">MIT</text>
+    <text x="672" y="374" font-family="'Roche Sans',sans-serif" font-size="14" fill="#706B69">fully open · on HuggingFace</text>
+  </g>
+
+  <g id="kpi-4">
+    <rect x="945" y="160" width="275" height="240" rx="12" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" filter="url(#cardShadow)" />
+    <rect x="945" y="160" width="5" height="240" rx="2.5" fill="#5FAAFC" />
+    <g transform="translate(965, 184) scale(1.25)" fill="none" stroke="#5FAAFC" stroke-width="2">
+      <path d="M3 17l6 -6l4 4l8 -8" /><path d="M14 7l7 0l0 7" />
+    </g>
+    <text x="967" y="250" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#706B69" letter-spacing="1">R1-ZERO · AIME 2024</text>
+    <text x="967" y="274" font-family="'Roche Sans',sans-serif" font-size="14" fill="#706B69">pure RL, zero SFT</text>
+    <text x="967" y="342" font-family="'Roche Sans Light',sans-serif" font-size="62" fill="#0B41CD">77.9%</text>
+    <text x="967" y="372" font-family="'Roche Sans Medium',sans-serif" font-size="14" fill="#007A3B">up from 15.6% — self-taught</text>
+  </g>
+
+  <g id="takeaway-band">
+    <rect x="60" y="450" width="1160" height="160" rx="12" fill="#F5F7FA" stroke="#E0E0E0" stroke-width="1" />
+    <rect x="60" y="450" width="5" height="160" rx="2.5" fill="url(#bandStripe)" />
+    <text x="100" y="490" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#1482fa" letter-spacing="1.5">THE HEADLINE</text>
+    <text x="100" y="524" font-family="'Roche Sans Light',sans-serif" font-size="25" fill="#0B41CD">An open-weights model reaches <tspan font-family="'Roche Sans Medium',sans-serif" fill="#1482fa">o1-level reasoning</tspan> — driven by</text>
+    <text x="100" y="556" font-family="'Roche Sans Light',sans-serif" font-size="25" fill="#0B41CD">reinforcement learning, not <tspan font-family="'Roche Sans Medium',sans-serif" fill="#1482fa">human-annotated reasoning traces</tspan>.</text>
+    <text x="100" y="588" font-family="'Roche Sans',sans-serif" font-size="16" fill="#706B69">The rest of the paper explains how pure RL incentivizes reasoning, how a multi-stage</text>
+    <text x="100" y="608" font-family="'Roche Sans',sans-serif" font-size="16" fill="#706B69">pipeline makes it usable, and how the ability distills all the way down to 1.5B parameters.</text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="694" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">Source: DeepSeek-AI 2026, §4 (benchmarks), Abstract; AIME/Codeforces = Table 3 and main comparison table</text>
+    <text x="1220" y="694" text-anchor="end" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">02</text>
+  </g>
+</svg>

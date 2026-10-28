@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="your_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <g>
+    <line class="cls-1" x1="96" y1="12" x2="96" y2="36"/>
+    <line class="cls-1" x1="180" y1="96" x2="147" y2="96"/>
+    <line class="cls-1" x1="12" y1="96" x2="36" y2="96"/>
+    <path class="cls-1" d="M166.22,80c-6.11-26.92-27.3-48.11-54.22-54.22"/>
+    <path class="cls-1" d="M25.78,80c6.11-26.92,27.3-48.11,54.22-54.22"/>
+  </g>
+  <g>
+    <path class="cls-1" d="M25.55,111.93c3.47,15.27,11.79,28.7,23.26,38.58"/>
+    <path class="cls-1" d="M165.99,111.93c-3.44,15.14-11.64,28.47-22.96,38.32"/>
+  </g>
+  <path class="cls-1" d="M102.73,153.28c13.4,1.23,25.78,7.09,36.04,14.65"/>
+  <path class="cls-1" d="M51.94,168.09c10.36-8.05,22.98-13.33,36.75-14.74"/>
+  <g>
+    <line class="cls-1" x1="89.68" y1="179.93" x2="89.68" y2="143.37"/>
+    <line class="cls-1" x1="102.32" y1="179.93" x2="102.32" y2="143.4"/>
+    <path class="cls-1" d="M64.08,112.01c0,15.49,11,28.4,25.6,31.36"/>
+    <path class="cls-1" d="M102.32,143.4c14.68-2.9,25.76-15.85,25.76-31.39"/>
+  </g>
+  <g>
+    <polyline class="cls-1" points="82.49 74.98 81.2 66.96 64.37 58.96 49.07 69.56 50.61 88.15 67.44 96.14 78.62 91.73"/>
+    <ellipse class="cls-1" cx="84.29" cy="84.6" rx="8.06" ry="8.08" transform="translate(-18.82 24.34) rotate(-14.8)"/>
+  </g>
+  <line class="cls-1" x1="112.84" y1="80.02" x2="120.15" y2="80.02"/>
+  <polyline class="cls-1" points="135.77 56.84 123.07 71.51 123.07 96.52"/>
+  <polyline class="cls-1" points="95.77 56.84 108.98 71.25 108.98 96.26"/>
+</svg>

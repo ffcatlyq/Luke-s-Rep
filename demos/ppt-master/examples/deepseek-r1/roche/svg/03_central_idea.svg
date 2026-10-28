@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <marker id="ad" markerWidth="9" markerHeight="9" refX="4.5" refY="8" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L4.5,8 L9,0 Z" fill="#1482fa" />
+    </marker>
+    <marker id="adg" markerWidth="9" markerHeight="9" refX="4.5" refY="8" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L4.5,8 L9,0 Z" fill="#A39F9C" />
+    </marker>
+  </defs>
+
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+  <image href="/workspaces/silicon-hitchhiker/assets/roche-brand/logos/Roche_Logo_800px_Blue_RGB_200px.png" x="1136" y="32" width="84" height="43.7" />
+
+  <g id="header">
+    <rect x="60" y="56" width="6" height="40" fill="#1482fa" />
+    <text x="84" y="90" font-family="'Roche Sans Light',sans-serif" font-size="34" fill="#0B41CD">Skip supervised fine-tuning — let RL discover reasoning</text>
+    <text x="84" y="116" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#706B69" letter-spacing="1.5">THE CENTRAL IDEA · §1 INTRODUCTION · §2</text>
+  </g>
+
+  <!-- LEFT: conventional -->
+  <g id="left">
+    <rect x="60" y="148" width="560" height="500" rx="12" fill="#F7F9FE" stroke="#E0E0E0" stroke-width="1" />
+    <rect x="60" y="148" width="5" height="500" rx="2.5" fill="#A39F9C" />
+    <text x="96" y="184" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#706B69" letter-spacing="1.5">CONVENTIONAL POST-TRAINING</text>
+
+    <rect x="160" y="204" width="360" height="52" rx="8" fill="#FFFFFF" stroke="#0B41CD" stroke-width="1.5" />
+    <text x="340" y="236" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="16" fill="#0B41CD">Pre-trained LLM</text>
+    <line x1="340" y1="256" x2="340" y2="276" stroke="#1482fa" stroke-width="1.5" marker-end="url(#ad)" />
+
+    <rect x="160" y="278" width="360" height="52" rx="8" fill="#F5F7FA" stroke="#D0021B" stroke-width="1.5" />
+    <text x="340" y="304" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#333333">SFT on human chain-of-thought</text>
+    <text x="340" y="322" text-anchor="middle" font-family="'Roche Sans',sans-serif" font-size="12" fill="#D0021B">imitate human-written reasoning</text>
+    <line x1="340" y1="330" x2="340" y2="350" stroke="#1482fa" stroke-width="1.5" marker-end="url(#ad)" />
+
+    <rect x="160" y="352" width="360" height="52" rx="8" fill="#FFFFFF" stroke="#0B41CD" stroke-width="1.5" />
+    <text x="340" y="384" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="16" fill="#0B41CD">RL fine-tune</text>
+    <line x1="340" y1="404" x2="340" y2="424" stroke="#1482fa" stroke-width="1.5" marker-end="url(#ad)" />
+
+    <rect x="120" y="446" width="440" height="176" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" />
+    <rect x="120" y="446" width="5" height="176" rx="2.5" fill="#D0021B" />
+    <text x="150" y="480" font-family="'Roche Sans Medium',sans-serif" font-size="12" fill="#D0021B" letter-spacing="1.5">THE CEILING</text>
+    <text x="150" y="512" font-family="'Roche Sans Light',sans-serif" font-size="20" fill="#0B41CD">Capped by human demonstrations.</text>
+    <text x="150" y="546" font-family="'Roche Sans',sans-serif" font-size="14" fill="#706B69">Depends on annotated traces — costly to scale,</text>
+    <text x="150" y="566" font-family="'Roche Sans',sans-serif" font-size="14" fill="#706B69">introduces cognitive bias, and constrains the</text>
+    <text x="150" y="586" font-family="'Roche Sans',sans-serif" font-size="14" fill="#706B69">model to human-like reasoning pathways.</text>
+  </g>
+
+  <!-- VS -->
+  <circle cx="640" cy="398" r="24" fill="#0B41CD" />
+  <text x="640" y="404" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#FFFFFF">VS</text>
+
+  <!-- RIGHT: R1-Zero -->
+  <g id="right">
+    <rect x="660" y="148" width="560" height="500" rx="12" fill="#F7F9FE" stroke="#0B41CD" stroke-width="1.5" />
+    <rect x="660" y="148" width="5" height="500" rx="2.5" fill="url(#bandStripe)" />
+    <text x="696" y="184" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#1482fa" letter-spacing="1.5">DEEPSEEK-R1-ZERO</text>
+
+    <rect x="760" y="204" width="360" height="52" rx="8" fill="#FFFFFF" stroke="#0B41CD" stroke-width="1.5" />
+    <text x="940" y="236" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="16" fill="#0B41CD">DeepSeek-V3-Base</text>
+    <line x1="940" y1="256" x2="940" y2="276" stroke="#1482fa" stroke-width="1.5" marker-end="url(#ad)" />
+
+    <rect x="760" y="278" width="360" height="52" rx="8" fill="#FFFFFF" stroke="#A39F9C" stroke-width="1.5" stroke-dasharray="5,3" />
+    <text x="940" y="304" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#A39F9C">SFT stage</text>
+    <text x="940" y="322" text-anchor="middle" font-family="'Roche Sans',sans-serif" font-size="12" fill="#A39F9C">bypassed — no human priors</text>
+    <line x1="940" y1="330" x2="940" y2="350" stroke="#1482fa" stroke-width="1.5" marker-end="url(#ad)" />
+
+    <rect x="760" y="352" width="360" height="52" rx="8" fill="#E9EEFA" stroke="#1482fa" stroke-width="1.5" />
+    <text x="940" y="378" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#0B41CD">Pure RL (GRPO)</text>
+    <text x="940" y="396" text-anchor="middle" font-family="'Roche Sans',sans-serif" font-size="12" fill="#706B69">reward = final-answer correctness</text>
+    <line x1="940" y1="404" x2="940" y2="424" stroke="#1482fa" stroke-width="1.5" marker-end="url(#ad)" />
+
+    <rect x="720" y="446" width="440" height="176" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" />
+    <rect x="720" y="446" width="5" height="176" rx="2.5" fill="#007A3B" />
+    <text x="750" y="480" font-family="'Roche Sans Medium',sans-serif" font-size="12" fill="#007A3B" letter-spacing="1.5">THE PAYOFF</text>
+    <text x="750" y="512" font-family="'Roche Sans Light',sans-serif" font-size="20" fill="#0B41CD">Reasoning emerges on its own.</text>
+    <text x="750" y="546" font-family="'Roche Sans',sans-serif" font-size="14" fill="#706B69">With only the right incentive, the model learns</text>
+    <text x="750" y="566" font-family="'Roche Sans',sans-serif" font-size="14" fill="#706B69">reflection, verification and alternative-path</text>
+    <text x="750" y="586" font-family="'Roche Sans',sans-serif" font-size="14" fill="#706B69">search — beyond human-written examples.</text>
+  </g>
+
+  <defs>
+    <linearGradient id="bandStripe" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0B41CD" /><stop offset="100%" stop-color="#1482fa" />
+    </linearGradient>
+  </defs>
+
+  <g id="footer">
+    <text x="60" y="694" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">Source: DeepSeek-AI 2026, §1 Introduction and §2 (DeepSeek-R1-Zero); GRPO = §2.1</text>
+    <text x="1220" y="694" text-anchor="end" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">03</text>
+  </g>
+</svg>

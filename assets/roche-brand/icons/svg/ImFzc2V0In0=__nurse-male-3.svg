@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="a" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 192 192" style="enable-background:new 0 0 192 192;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#0B41CD;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:none;stroke:#1482FA;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<g>
+	<path class="st0" d="M96,38.5c13.1,5.7,20.7,11.8,24.6,15.8c2.2,2.2,3.4,5.3,3.4,8.4V69c0,21.8-13.9,37-28,37l0,0
+		c-14.1,0-28-15.2-28-37v-6.2c0-3.2,1.2-6.2,3.4-8.4c6.4-6.6,23-19.4,58.6-25.5"/>
+	<path class="st0" d="M67,85c-5.7,0-10.2-5.2-10.2-10.9S61.3,64,67,64"/>
+	<path class="st0" d="M125,85c5.7,0,10.2-5.2,10.2-10.9S130.7,64,125,64"/>
+	<path class="st0" d="M57.9,68C55.1,62.5,52,54.7,52,49c0-22.1,26.1-37,44-37s44,14.9,44,37c0,5.7-3.1,13.5-5.9,19"/>
+	<polyline class="st1" points="75,122 96,147 96,180 	"/>
+	<line class="st1" x1="117" y1="122" x2="96" y2="147"/>
+	<path class="st0" d="M81,101c-0.3,20.9-7.7,22.4-16.5,26.8c-9,4.4-28.5,4.4-28.5,26.7V180"/>
+	<path class="st0" d="M111,101c0.3,20.9,7.7,22.4,16.5,26.8c9,4.4,28.5,4.4,28.5,26.7V180"/>
+	<g>
+		<line class="st1" x1="126" y1="152" x2="126" y2="168"/>
+		<line class="st1" x1="134" y1="160" x2="118" y2="160"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .c, .d, .e {
+        fill: none;
+      }
+
+      .d {
+        stroke: #1482fa;
+      }
+
+      .d, .e {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+
+      .e {
+        stroke: #0b41cd;
+      }
+    </style>
+  </defs>
+  <polygon id="b" class="c" points="0 192 192 192 192 0 0 0 0 192 0 192"/>
+  <line class="d" x1="92" y1="124" x2="92" y2="132"/>
+  <line class="e" x1="12" y1="136" x2="180" y2="136"/>
+  <polyline class="e" points="28 156 20 148 12 156"/>
+  <polyline class="e" points="56 156 48 148 40 156"/>
+  <polyline class="e" points="84 156 76 148 68 156"/>
+  <polyline class="e" points="130 156 122 148 114 156"/>
+  <polyline class="e" points="180 156 172 148 164 156"/>
+  <path class="d" d="M12,120l63.0997-52.5831c5.7509-4.7924,12.9999-7.4169,20.4859-7.4169h84.4144"/>
+  <line class="d" x1="92" y1="36" x2="92" y2="44"/>
+  <line class="d" x1="92" y1="76" x2="92" y2="84"/>
+  <line class="d" x1="92" y1="100" x2="92" y2="108"/>
+</svg>

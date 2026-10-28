@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .b, .c {
+        fill: none;
+      }
+
+      .c {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <rect class="b" width="192" height="192"/>
+  <circle class="c" cx="96" cy="96" r="84"/>
+  <line class="c" x1="96" y1="12" x2="96" y2="28"/>
+  <line class="c" x1="180" y1="96" x2="164" y2="96"/>
+  <line class="c" x1="96" y1="180" x2="96" y2="164"/>
+  <line class="c" x1="12" y1="96" x2="28" y2="96"/>
+  <line class="c" x1="155.397" y1="155.397" x2="144.0833" y2="144.0833"/>
+  <line class="c" x1="36.603" y1="36.603" x2="47.9167" y2="47.9167"/>
+  <line class="c" x1="107.3206" y1="105.8409" x2="84.6794" y2="86.1591"/>
+  <path class="c" d="M104.3838,111.4817l-40.5703,27.4358c-3.3942,2.2953-7.6344-1.3906-5.8338-5.0713l21.5225-43.9938c1.8428-3.7668,4.6403-6.985,8.114-9.3341l40.5703-27.4358c3.3942-2.2953,7.6344,1.3906,5.8338,5.0713l-21.5225,43.9938c-1.8428,3.7668-4.6403,6.985-8.114,9.3341Z"/>
+</svg>

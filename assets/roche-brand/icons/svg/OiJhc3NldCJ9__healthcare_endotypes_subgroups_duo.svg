@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .c, .d, .e {
+        fill: none;
+      }
+
+      .d {
+        stroke: #1482fa;
+      }
+
+      .d, .e {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+
+      .e {
+        stroke: #0b41cd;
+      }
+    </style>
+  </defs>
+  <polygon id="b" class="c" points="0 192 192 192 192 0 0 0 0 192 0 192"/>
+  <ellipse class="e" cx="96" cy="96" rx="69" ry="84"/>
+  <circle class="d" cx="77" cy="121" r="44"/>
+  <circle class="d" cx="104" cy="80" r="28"/>
+</svg>

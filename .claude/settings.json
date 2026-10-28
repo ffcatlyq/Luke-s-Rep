@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "ExitPlanMode",
+        "hooks": [
+          { "type": "command", "command": "GUARD=\"${CLAUDE_PROJECT_DIR:-$PWD}/.claude/hooks/plan-alignment-guard.sh\"; [ -f \"$GUARD\" ] && bash \"$GUARD\" || exit 0" }
+        ],
+        "description": "Plan alignment guard: force the five-element alignment checklist (goal/context/action/boundary/acceptance) before exiting plan mode — prompt-type guard",
+        "id": "pre:exitplan:plan-alignment-guard"
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          { "type": "command", "command": "GUARD=\"${CLAUDE_PROJECT_DIR:-$PWD}/.claude/hooks/skill-capture-reminder.sh\"; [ -f \"$GUARD\" ] && bash \"$GUARD\" || exit 0" }
+        ],
+        "description": "Skill capture reminder: after substantive work, remind at session stop to consider capturing the flow as a skill — prompt-type, non-blocking, throttled",
+        "id": "stop:skill-capture-reminder"
+      }
+    ]
+  }
+}

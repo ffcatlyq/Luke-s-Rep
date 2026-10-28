@@ -1,0 +1,130 @@
+{
+  "services": {
+    "servicenow": {
+      "domains": [
+        "roche.service-now.com"
+      ],
+      "output": "~/.config/servicenow/cookies.json",
+      "keepAlivePath": "/now/nav/ui/classic/params/target/home_splash.do"
+    },
+    "cidm": {
+      "domains": [
+        "cidm.roche.com"
+      ],
+      "output": "~/.config/cidm/cookies.json",
+      "keepAlivePath": "/identityiq/home.jsf"
+    },
+    "test": {
+      "domains": [
+        "example.com"
+      ],
+      "output": "/tmp/test-cookies.json"
+    },
+    "bilibili": {
+      "domains": [
+        "www.bilibili.com"
+      ],
+      "output": "~/.config/bilibili/cookies.json"
+    },
+    "xiaohongshu": {
+      "domains": [
+        "www.xiaohongshu.com"
+      ],
+      "output": "~/.config/xiaohongshu/cookies.json"
+    },
+    "youtube": {
+      "domains": [
+        "www.youtube.com",
+        "youtube.com"
+      ],
+      "output": "~/.config/youtube/cookies.json"
+    },
+    "csod": {
+      "domains": [
+        "roche.csod.com"
+      ],
+      "output": "~/.config/csod/cookies.json",
+      "keepAlivePath": "/phnx/driver.aspx?routename=Social/UniversalProfile/Transcript"
+    },
+    "anypoint": {
+      "domains": [
+        "anypoint.mulesoft.com"
+      ],
+      "output": "~/.config/anypoint/cookies.json"
+    },
+    "gsite": {
+      "domains": [
+        "sites.google.com",
+        "accounts.google.com",
+        "google.com"
+      ],
+      "output": "~/.config/gsite/cookies.json"
+    },
+    "workday": {
+      "domains": [
+        "wd3.myworkday.com"
+      ],
+      "output": "~/.config/workday/cookies.json"
+    },
+    "devhub": {
+      "domains": [
+        "build.roche.com"
+      ],
+      "output": "~/.config/devhub/cookies.json",
+      "tokenOutput": "~/.config/devhub/token.json",
+      "captureBearer": true,
+      "keepAlivePath": "/build"
+    },
+    "nihsc-2026": {
+      "domains": [
+        "www.chs-ihssc.cn"
+      ],
+      "output": "~/.config/nihsc-2026/cookies.json"
+    },
+    "shortlinks": {
+      "domains": [
+        "go.roche.com"
+      ],
+      "output": "~/.config/shortlinks/cookies.json"
+    },
+    "mybuy": {
+      "domains": [
+        "eu.smart.gep.com"
+      ],
+      "output": "~/.config/mybuy/cookies.json"
+    },
+    "rometis": {
+      "domains": [
+        "rometis.roche.com",
+        "api.gript.roche.com"
+      ],
+      "output": "~/.config/rometis/cookies.json"
+    },
+    "tradeunion": {
+      "domains": [
+        "admin.srpltradeunion.com"
+      ],
+      "output": "~/.config/tradeunion/cookies.json"
+    },
+    "flexdev": {
+      "domains": [
+        "flexdev.roche.com"
+      ],
+      "output": "~/.config/flexdev/cookies.json"
+    },
+    "github-pages": {
+      "domains": [
+        "github.com",
+        "pages.github.io"
+      ],
+      "output": "~/.config/github-pages/cookies.json"
+    },
+    "branding": {
+      "domains": [
+        "branding.roche.com"
+      ],
+      "output": "~/.config/branding/cookies.json",
+      "keepAlivePath": "/hub/6"
+    }
+  }
+}

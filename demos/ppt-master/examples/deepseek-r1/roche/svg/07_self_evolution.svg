@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="areaFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1482fa" stop-opacity="0.28" /><stop offset="100%" stop-color="#1482fa" stop-opacity="0.02" />
+    </linearGradient>
+    <linearGradient id="areaFill2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F5EE1" stop-opacity="0.24" /><stop offset="100%" stop-color="#0F5EE1" stop-opacity="0.02" />
+    </linearGradient>
+  </defs>
+
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+  <image href="/workspaces/silicon-hitchhiker/assets/roche-brand/logos/Roche_Logo_800px_Blue_RGB_200px.png" x="1136" y="32" width="84" height="43.7" />
+
+  <g id="header">
+    <rect x="60" y="56" width="6" height="40" fill="#1482fa" />
+    <text x="84" y="90" font-family="'Roche Sans Light',sans-serif" font-size="34" fill="#0B41CD">R1-Zero teaches itself — accuracy and thinking rise together</text>
+    <text x="84" y="116" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#706B69" letter-spacing="1.5">SELF-EVOLUTION DURING RL · §2.3 · REDRAWN FROM FIGURE 1</text>
+  </g>
+
+  <!-- LEFT chart: AIME accuracy -->
+  <g id="chart-acc">
+    <rect x="60" y="150" width="560" height="330" rx="12" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" />
+    <text x="88" y="182" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#1482fa" letter-spacing="1.5">AIME 2024 · PASS@1</text>
+    <text x="88" y="202" font-family="'Roche Sans',sans-serif" font-size="12" fill="#706B69">accuracy vs training steps</text>
+    <!-- gridlines + y labels -->
+    <g stroke="#E0E0E0" stroke-width="1">
+      <line x1="120" y1="210" x2="590" y2="210" /><line x1="120" y1="267.5" x2="590" y2="267.5" />
+      <line x1="120" y1="325" x2="590" y2="325" /><line x1="120" y1="382.5" x2="590" y2="382.5" />
+      <line x1="120" y1="440" x2="590" y2="440" />
+    </g>
+    <g font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="11" fill="#A39F9C" text-anchor="end">
+      <text x="112" y="214">100</text><text x="112" y="271.5">75</text><text x="112" y="329">50</text><text x="112" y="386.5">25</text><text x="112" y="444">0</text>
+    </g>
+    <!-- area + line -->
+    <path d="M120,404.1 L214,364.1 L308,329.6 L402,306.6 L449,295.1 L496,283.6 L505,269.8 L590,260.8 L590,440 L120,440 Z" fill="url(#areaFill)" />
+    <polyline points="120,404.1 214,364.1 308,329.6 402,306.6 449,295.1 496,283.6 505,269.8 590,260.8" fill="none" stroke="#0B41CD" stroke-width="2.5" />
+    <!-- endpoints -->
+    <circle cx="120" cy="404.1" r="4.5" fill="#0B41CD" />
+    <text x="128" y="398" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#0B41CD">15.6%</text>
+    <circle cx="590" cy="260.8" r="5" fill="#0B41CD" />
+    <text x="582" y="252" text-anchor="end" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#0B41CD">77.9%</text>
+    <!-- cons@16 marker -->
+    <path d="M590,240.6 l4,8 l-8,0 z" fill="#007A3B" />
+    <text x="582" y="234" text-anchor="end" font-family="'Roche Sans Medium',sans-serif" font-size="12" fill="#007A3B">86.7% cons@16</text>
+    <text x="355" y="462" text-anchor="middle" font-family="'Roche Sans',sans-serif" font-size="11" fill="#706B69">training steps · up to ~10,400</text>
+  </g>
+
+  <!-- RIGHT chart: response length -->
+  <g id="chart-len">
+    <rect x="660" y="150" width="560" height="330" rx="12" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" />
+    <text x="688" y="182" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#1482fa" letter-spacing="1.5">AVG RESPONSE LENGTH</text>
+    <text x="688" y="202" font-family="'Roche Sans',sans-serif" font-size="12" fill="#706B69">tokens per response vs training steps</text>
+    <g stroke="#E0E0E0" stroke-width="1">
+      <line x1="730" y1="210" x2="1180" y2="210" /><line x1="730" y1="267.5" x2="1180" y2="267.5" />
+      <line x1="730" y1="325" x2="1180" y2="325" /><line x1="730" y1="382.5" x2="1180" y2="382.5" />
+      <line x1="730" y1="440" x2="1180" y2="440" />
+    </g>
+    <g font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="11" fill="#A39F9C" text-anchor="end">
+      <text x="722" y="214">20k</text><text x="722" y="271.5">15k</text><text x="722" y="329">10k</text><text x="722" y="386.5">5k</text><text x="722" y="444">0</text>
+    </g>
+    <path d="M730,434.25 L820,405.5 L910,371 L1000,330.75 L1090,279 L1099,256 L1180,210 L1180,440 L730,440 Z" fill="url(#areaFill2)" />
+    <polyline points="730,434.25 820,405.5 910,371 1000,330.75 1090,279 1099,256 1180,210" fill="none" stroke="#0F5EE1" stroke-width="2.5" />
+    <circle cx="730" cy="434.25" r="4.5" fill="#0F5EE1" />
+    <text x="738" y="428" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#0F5EE1">~0.5k</text>
+    <circle cx="1180" cy="210" r="5" fill="#0F5EE1" />
+    <text x="1172" y="228" text-anchor="end" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#0B41CD">~20k tokens</text>
+    <text x="955" y="462" text-anchor="middle" font-family="'Roche Sans',sans-serif" font-size="11" fill="#706B69">the model chooses to think longer — no one told it to</text>
+  </g>
+
+  <!-- emergent band -->
+  <g id="emergent">
+    <rect x="60" y="500" width="1160" height="140" rx="12" fill="#F5F7FA" stroke="#E0E0E0" stroke-width="1" />
+    <rect x="60" y="500" width="5" height="140" rx="2.5" fill="#1482fa" />
+    <text x="100" y="532" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#1482fa" letter-spacing="1.5">WHAT EMERGED — WITH NO EXPLICIT TEACHING</text>
+    <g>
+      <circle cx="112" cy="566" r="5" fill="#0B41CD" />
+      <text x="128" y="571" font-family="'Roche Sans Medium',sans-serif" font-size="16" fill="#0B41CD">Reflection</text>
+      <circle cx="112" cy="600" r="5" fill="#0F5EE1" />
+      <text x="128" y="605" font-family="'Roche Sans Medium',sans-serif" font-size="16" fill="#0B41CD">Verification</text>
+    </g>
+    <g>
+      <circle cx="392" cy="566" r="5" fill="#1482fa" />
+      <text x="408" y="571" font-family="'Roche Sans Medium',sans-serif" font-size="16" fill="#0B41CD">Alternative-path search</text>
+      <circle cx="392" cy="600" r="5" fill="#5FAAFC" />
+      <text x="408" y="605" font-family="'Roche Sans Medium',sans-serif" font-size="16" fill="#0B41CD">Longer deliberate reasoning</text>
+    </g>
+    <line x1="760" y1="552" x2="760" y2="616" stroke="#E0E0E0" stroke-width="1" />
+    <text x="792" y="566" font-family="'Roche Sans Light',sans-serif" font-size="19" fill="#0B41CD">A sharp jump at the</text>
+    <text x="792" y="592" font-family="'Roche Sans Light',sans-serif" font-size="19" fill="#0B41CD"><tspan font-family="'Roche Sans Medium',sans-serif" fill="#1482fa">8.2k step</tspan> in both curves —</text>
+    <text x="792" y="618" font-family="'Roche Sans',sans-serif" font-size="14" fill="#706B69">accuracy and thinking time rise as one.</text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="694" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">Source: DeepSeek-AI 2026, §2.3, Figure 1 (a) accuracy, (b) response length — curves stylized as native vector</text>
+    <text x="1220" y="694" text-anchor="end" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">07</text>
+  </g>
+</svg>

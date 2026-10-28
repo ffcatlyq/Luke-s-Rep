@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <marker id="mArrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#0B41CD" />
+    </marker>
+    <linearGradient id="bandBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFF" /><stop offset="100%" stop-color="#E9EEFA" />
+    </linearGradient>
+    <linearGradient id="stripeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0B41CD" /><stop offset="100%" stop-color="#1482fa" />
+    </linearGradient>
+    <linearGradient id="outGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0B41CD" /><stop offset="100%" stop-color="#0F5EE1" />
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" /><feOffset dx="0" dy="3" />
+      <feFlood flood-color="#0B41CD" flood-opacity="0.07" /><feComposite in2="SourceAlpha" operator="in" />
+      <feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+  <image href="/workspaces/silicon-hitchhiker/assets/roche-brand/logos/Roche_Logo_800px_Blue_RGB_200px.png" x="1136" y="32" width="84" height="43.7" />
+
+  <g id="header">
+    <rect x="60" y="56" width="6" height="40" fill="#1482fa" />
+    <text x="84" y="90" font-family="'Roche Sans Light',sans-serif" font-size="34" fill="#0B41CD">h parallel projections, then concatenate</text>
+    <text x="84" y="117" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#706B69" letter-spacing="1.5">MULTI-HEAD ATTENTION · §3.2.2</text>
+  </g>
+
+  <g id="formula-band">
+    <rect x="60" y="150" width="1160" height="136" rx="12" fill="url(#bandBg)" stroke="#E0E0E0" stroke-width="1.5" />
+    <rect x="60" y="150" width="6" height="136" rx="3" fill="url(#stripeGrad)" />
+    <text x="100" y="176" font-family="'Roche Sans Medium',sans-serif" font-size="12" fill="#1482fa" letter-spacing="1.5">EQUATIONS · §3.2.2 · LaTeX-rendered</text>
+    <image href="/workspaces/silicon-hitchhiker/demos/ppt-master/examples/attention-transformer/roche/assets/formula_mha_top.png" x="358" y="190" width="564" height="42" />
+    <image href="/workspaces/silicon-hitchhiker/demos/ppt-master/examples/attention-transformer/roche/assets/formula_mha_bot.png" x="410" y="238" width="460" height="40" />
+  </g>
+
+  <g id="explanation">
+    <text x="84" y="322" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#1482fa" letter-spacing="1.5">HOW IT READS</text>
+    <g id="step-1">
+      <circle cx="100" cy="366" r="18" fill="#0B41CD" />
+      <text x="100" y="372" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="16" fill="#FFFFFF">1</text>
+      <text x="132" y="360" font-family="'Roche Sans Medium',sans-serif" font-size="18" fill="#0B41CD">Project into h = 8 independent heads</text>
+      <text x="132" y="384" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">Learned linear projections split Q, K, V into 8 subspaces.</text>
+    </g>
+    <g id="step-2">
+      <circle cx="100" cy="436" r="18" fill="#0F5EE1" />
+      <text x="100" y="442" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="16" fill="#FFFFFF">2</text>
+      <text x="132" y="430" font-family="'Roche Sans Medium',sans-serif" font-size="18" fill="#0B41CD">Each head works at <tspan font-family="'Consolas','DejaVu Sans Mono',monospace" fill="#1482fa">d_k = d_v = 64</tspan></text>
+      <text x="132" y="454" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">= d_model / h. Total compute stays close to one full head.</text>
+    </g>
+    <g id="step-3">
+      <circle cx="100" cy="506" r="18" fill="#1482fa" />
+      <text x="100" y="512" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="16" fill="#FFFFFF">3</text>
+      <text x="132" y="500" font-family="'Roche Sans Medium',sans-serif" font-size="18" fill="#0B41CD">Run scaled dot-product attention in parallel</text>
+      <text x="132" y="524" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">All heads run at once — no sequential dependency between them.</text>
+    </g>
+    <g id="step-4">
+      <circle cx="100" cy="576" r="18" fill="#5FAAFC" />
+      <text x="100" y="582" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="16" fill="#FFFFFF">4</text>
+      <text x="132" y="570" font-family="'Roche Sans Medium',sans-serif" font-size="18" fill="#0B41CD">Concatenate, then project with <tspan font-family="'Consolas','DejaVu Sans Mono',monospace" fill="#1482fa">W^O</tspan></text>
+      <text x="132" y="594" font-family="'Roche Sans',sans-serif" font-size="15" fill="#333333">Heads attend to different representation subspaces at once.</text>
+    </g>
+  </g>
+
+  <g id="flow-diagram">
+    <rect x="700" y="300" width="520" height="336" rx="12" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" filter="url(#cardShadow)" />
+    <text x="724" y="328" font-family="'Roche Sans Medium',sans-serif" font-size="12" fill="#1482fa" letter-spacing="1.5">DATAFLOW · h HEADS IN PARALLEL</text>
+
+    <text x="960" y="342" text-anchor="middle" font-family="'Roche Sans',sans-serif" font-size="11" fill="#706B69">output</text>
+    <line x1="960" y1="356" x2="960" y2="345" stroke="#0B41CD" stroke-width="1.6" marker-end="url(#mArrow)" />
+    <rect x="880" y="358" width="160" height="32" rx="8" fill="url(#outGrad)" />
+    <text x="960" y="379" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="14" fill="#FFFFFF">Linear  <tspan font-family="'Consolas','DejaVu Sans Mono',monospace">W^O</tspan></text>
+
+    <line x1="960" y1="410" x2="960" y2="393" stroke="#0B41CD" stroke-width="1.6" marker-end="url(#mArrow)" />
+    <rect x="875" y="412" width="170" height="30" rx="8" fill="#1482fa" />
+    <text x="960" y="432" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="14" fill="#FFFFFF">Concat</text>
+
+    <line x1="960" y1="468" x2="960" y2="445" stroke="#0B41CD" stroke-width="1.6" marker-end="url(#mArrow)" />
+    <rect x="828" y="468" width="264" height="50" rx="8" fill="#E9EEFA" stroke="#1482fa" stroke-width="1.5" />
+    <line x1="894" y1="470" x2="894" y2="516" stroke="#95C7FD" stroke-width="1" stroke-dasharray="3,3" />
+    <line x1="960" y1="470" x2="960" y2="516" stroke="#95C7FD" stroke-width="1" stroke-dasharray="3,3" />
+    <line x1="1026" y1="470" x2="1026" y2="516" stroke="#95C7FD" stroke-width="1" stroke-dasharray="3,3" />
+    <text x="960" y="490" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#0B41CD">Scaled Dot-Product Attention</text>
+    <text x="960" y="508" text-anchor="middle" font-family="'Roche Sans',sans-serif" font-size="11" fill="#706B69">one per head  ·  × 8</text>
+
+    <line x1="960" y1="534" x2="960" y2="521" stroke="#0B41CD" stroke-width="1.6" marker-end="url(#mArrow)" />
+    <rect x="828" y="534" width="264" height="38" rx="8" fill="#F0F4FC" stroke="#5FAAFC" stroke-width="1.5" />
+    <line x1="894" y1="536" x2="894" y2="570" stroke="#95C7FD" stroke-width="1" stroke-dasharray="3,3" />
+    <line x1="960" y1="536" x2="960" y2="570" stroke="#95C7FD" stroke-width="1" stroke-dasharray="3,3" />
+    <line x1="1026" y1="536" x2="1026" y2="570" stroke="#95C7FD" stroke-width="1" stroke-dasharray="3,3" />
+    <text x="960" y="558" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#0F5EE1">Linear projections  × h</text>
+
+    <line x1="880" y1="598" x2="890" y2="575" stroke="#0B41CD" stroke-width="1.6" marker-end="url(#mArrow)" />
+    <line x1="960" y1="598" x2="960" y2="575" stroke="#0B41CD" stroke-width="1.6" marker-end="url(#mArrow)" />
+    <line x1="1040" y1="598" x2="1030" y2="575" stroke="#0B41CD" stroke-width="1.6" marker-end="url(#mArrow)" />
+    <text x="880" y="608" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="18" font-weight="700" fill="#0B41CD">V</text>
+    <text x="960" y="608" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="18" font-weight="700" fill="#0B41CD">K</text>
+    <text x="1040" y="608" text-anchor="middle" font-family="'Consolas','DejaVu Sans Mono',monospace" font-size="18" font-weight="700" fill="#0B41CD">Q</text>
+    <text x="880" y="624" text-anchor="middle" font-family="'Roche Sans',sans-serif" font-size="10" fill="#706B69">values</text>
+    <text x="960" y="624" text-anchor="middle" font-family="'Roche Sans',sans-serif" font-size="10" fill="#706B69">keys</text>
+    <text x="1040" y="624" text-anchor="middle" font-family="'Roche Sans',sans-serif" font-size="10" fill="#706B69">queries</text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="694" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">Source: Vaswani et al. 2017, §3.2.2 · Figure 2 (right) redrawn as native vector · formula via LaTeX</text>
+    <text x="1220" y="694" text-anchor="end" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">08</text>
+  </g>
+</svg>

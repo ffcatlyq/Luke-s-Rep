@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="trackGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0B41CD" /><stop offset="100%" stop-color="#1482fa" />
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-15%" width="110%" height="135%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" /><feOffset dx="0" dy="2" />
+      <feFlood flood-color="#0B41CD" flood-opacity="0.06" /><feComposite in2="SourceAlpha" operator="in" />
+      <feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+  <image href="/workspaces/silicon-hitchhiker/assets/roche-brand/logos/Roche_Logo_800px_Blue_RGB_200px.png" x="1136" y="32" width="84" height="43.7" />
+
+  <g id="header">
+    <rect x="60" y="56" width="6" height="40" fill="#1482fa" />
+    <text x="84" y="90" font-family="'Roche Sans Light',sans-serif" font-size="34" fill="#0B41CD">Five takeaways from the variation study</text>
+    <text x="84" y="116" font-family="'Roche Sans Medium',sans-serif" font-size="13" fill="#706B69" letter-spacing="1.5">TABLE 3 ABLATIONS · WHAT THE ARCHITECTURE NEEDS TO STAY GOOD</text>
+  </g>
+
+  <g id="track">
+    <line x1="160" y1="172" x2="160" y2="660" stroke="url(#trackGrad)" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  <g id="item-1">
+    <circle cx="160" cy="200" r="28" fill="#0B41CD" fill-opacity="0.12" />
+    <circle cx="160" cy="200" r="20" fill="#0B41CD" />
+    <text x="160" y="206" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#FFFFFF">01</text>
+    <line x1="188" y1="200" x2="220" y2="200" stroke="#0B41CD" stroke-width="2" stroke-dasharray="4,3" />
+    <rect x="220" y="170" width="1000" height="64" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" filter="url(#cardShadow)" />
+    <rect x="220" y="170" width="6" height="64" rx="3" fill="#0B41CD" />
+    <text x="246" y="196" font-family="'Roche Sans Light',sans-serif" font-size="18" fill="#0B41CD">Head count has a sweet spot</text>
+    <text x="246" y="222" font-family="'Roche Sans',sans-serif" font-size="14" fill="#333333">Single head loses <tspan font-family="'Consolas','DejaVu Sans Mono',monospace" font-weight="700" fill="#D0021B">−0.9 BLEU</tspan> vs h = 8; too many heads (h = 32) also degrade. Eight is empirically right.</text>
+  </g>
+
+  <g id="item-2">
+    <circle cx="160" cy="296" r="28" fill="#0B41CD" fill-opacity="0.12" />
+    <circle cx="160" cy="296" r="20" fill="#0B41CD" />
+    <text x="160" y="302" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#FFFFFF">02</text>
+    <line x1="188" y1="296" x2="220" y2="296" stroke="#0B41CD" stroke-width="2" stroke-dasharray="4,3" />
+    <rect x="220" y="266" width="1000" height="64" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" filter="url(#cardShadow)" />
+    <rect x="220" y="266" width="6" height="64" rx="3" fill="#0B41CD" />
+    <text x="246" y="292" font-family="'Roche Sans Light',sans-serif" font-size="18" fill="#0B41CD">Key dim matters more than value dim</text>
+    <text x="246" y="318" font-family="'Roche Sans',sans-serif" font-size="14" fill="#333333">Reducing <tspan font-family="'Consolas','DejaVu Sans Mono',monospace" font-weight="700" fill="#1482fa">d_k</tspan> hurts quality more than reducing <tspan font-family="'Consolas','DejaVu Sans Mono',monospace" font-weight="700" fill="#1482fa">d_v</tspan> — determining compatibility is the harder learning problem.</text>
+  </g>
+
+  <g id="item-3">
+    <circle cx="160" cy="392" r="28" fill="#1482fa" fill-opacity="0.12" />
+    <circle cx="160" cy="392" r="20" fill="#0F5EE1" />
+    <text x="160" y="398" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#FFFFFF">03</text>
+    <line x1="188" y1="392" x2="220" y2="392" stroke="#0F5EE1" stroke-width="2" stroke-dasharray="4,3" />
+    <rect x="220" y="362" width="1000" height="64" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" filter="url(#cardShadow)" />
+    <rect x="220" y="362" width="6" height="64" rx="3" fill="#0F5EE1" />
+    <text x="246" y="388" font-family="'Roche Sans Light',sans-serif" font-size="18" fill="#0B41CD">Bigger is better</text>
+    <text x="246" y="414" font-family="'Roche Sans',sans-serif" font-size="14" fill="#333333">Larger <tspan font-family="'Consolas','DejaVu Sans Mono',monospace" font-weight="700" fill="#1482fa">d_model</tspan> and deeper stacks consistently improve BLEU — the architecture scales monotonically with capacity.</text>
+  </g>
+
+  <g id="item-4">
+    <circle cx="160" cy="488" r="28" fill="#1482fa" fill-opacity="0.12" />
+    <circle cx="160" cy="488" r="20" fill="#1482fa" />
+    <text x="160" y="494" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#FFFFFF">04</text>
+    <line x1="188" y1="488" x2="220" y2="488" stroke="#1482fa" stroke-width="2" stroke-dasharray="4,3" />
+    <rect x="220" y="458" width="1000" height="64" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" filter="url(#cardShadow)" />
+    <rect x="220" y="458" width="6" height="64" rx="3" fill="#1482fa" />
+    <text x="246" y="484" font-family="'Roche Sans Light',sans-serif" font-size="18" fill="#0B41CD">Dropout is essential</text>
+    <text x="246" y="510" font-family="'Roche Sans',sans-serif" font-size="14" fill="#333333">Removing dropout loses <tspan font-family="'Consolas','DejaVu Sans Mono',monospace" font-weight="700" fill="#D0021B">~0.5–1.0 BLEU</tspan>. Even p = 0.1 measurably regularizes — it isn't decorative.</text>
+  </g>
+
+  <g id="item-5">
+    <circle cx="160" cy="584" r="28" fill="#5FAAFC" fill-opacity="0.18" />
+    <circle cx="160" cy="584" r="20" fill="#1482fa" />
+    <text x="160" y="590" text-anchor="middle" font-family="'Roche Sans Medium',sans-serif" font-size="15" fill="#FFFFFF">05</text>
+    <line x1="188" y1="584" x2="220" y2="584" stroke="#1482fa" stroke-width="2" stroke-dasharray="4,3" />
+    <rect x="220" y="554" width="1000" height="64" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1.5" filter="url(#cardShadow)" />
+    <rect x="220" y="554" width="6" height="64" rx="3" fill="#5FAAFC" />
+    <text x="246" y="580" font-family="'Roche Sans Light',sans-serif" font-size="18" fill="#0B41CD">Label smoothing helps BLEU (and hurts perplexity)</text>
+    <text x="246" y="606" font-family="'Roche Sans',sans-serif" font-size="14" fill="#333333">Slightly worse perplexity, better BLEU. <tspan font-family="'Roche Serif Light','Noto Serif',serif" font-style="italic" fill="#706B69">Optimize for the metric you ship on.</tspan></text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="694" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">Source: Vaswani et al. 2017, Table 3 (§6.2 Model Variations)</text>
+    <text x="1220" y="694" text-anchor="end" font-family="'Roche Sans',sans-serif" font-size="11" fill="#A39F9C">15</text>
+  </g>
+</svg>

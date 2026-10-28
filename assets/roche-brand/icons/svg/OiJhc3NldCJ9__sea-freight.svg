@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .c, .d, .e {
+        fill: none;
+      }
+
+      .d {
+        stroke: #1482fa;
+      }
+
+      .d, .e {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+
+      .e {
+        stroke: #0b41cd;
+      }
+    </style>
+  </defs>
+  <polygon id="b" data-name="frame" class="c" points="0 192 192 192 192 0 0 0 0 192 0 192"/>
+  <line class="d" x1="92" y1="62" x2="92" y2="82"/>
+  <line class="d" x1="116" y1="62" x2="116" y2="73"/>
+  <polyline class="d" points="68 62 140 62 140 74"/>
+  <line class="e" x1="60" y1="58" x2="60" y2="46"/>
+  <path class="e" d="M50.9998,140.2081c-16.4602-13.1951-26.9998-33.4708-26.9998-56.2081C24,44.2355,56.2355,12,96,12s72,32.2355,72,72c0,22.7373-10.5396,43.013-26.9997,56.2081"/>
+  <path class="d" d="M124,161.547v-23.094c0-2.8581-1.5248-5.4991-4-6.9282l-20-11.547c-2.4752-1.4291-5.5248-1.4291-8,0l-20,11.547c-2.4752,1.4291-4,4.0701-4,6.9282v23.094c0,2.8581,1.5248,5.4991,4,6.9282l20,11.547c2.4752,1.4291,5.5248,1.4291,8,0l20-11.547c2.4752-1.4291,4-4.0701,4-6.9282Z"/>
+  <polyline class="d" points="69 135 96 150 122 135"/>
+  <line class="d" x1="96" y1="150" x2="96" y2="180.3316"/>
+  <polygon class="e" points="52 98 132 98 148 74 116 74 108 82 52 82 52 98"/>
+  <polyline class="e" points="52 84 52 58 68 58 68 81"/>
+</svg>

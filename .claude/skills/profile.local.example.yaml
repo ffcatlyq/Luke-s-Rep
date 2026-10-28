@@ -1,0 +1,25 @@
+# 个人身份信息与工作上下文模板
+# 用法：复制本文件为 profile.local.yaml，填入你自己的信息；
+#   或在首次会话中回答开场三问，由智能体自动填入。
+#   cp profile.local.example.yaml profile.local.yaml
+# profile.local.yaml 已在 .gitignore 中排除，不进 git，
+# 但留在环境磁盘上每次启动稳定可读。
+#
+# 这些信息供技能个性化：识别你的身份、聚焦你负责的区域/产品、对准你的汇报对象。
+# 角色信息（role / ta）在 profile.yaml，不在这里。
+#
+# ⚠ 只填你自己的信息。禁止把他人姓名 / 手机号 / 邮箱 / KOL 行程 / 客户名单
+#   等敏感信息写进任何进 git 的文件。本文件不进 git，但仍只放本人信息。
+
+name: ""            # 你的姓名
+email: ""           # 你的 Roche 邮箱
+title: ""           # 具体职级，如 PM / MM / PSM / PSL / LEL / REL / RCL
+
+# 负责范围（供辖区管理、客户覆盖、区域计划等技能聚焦）
+regions: []         # 负责的销售大区或省份，如 [东区] 或 [江苏, 浙江]；中央市场可留空或填全国
+products: []        # 负责的产品或项目，如 [glofitamab, mosunetuzumab]
+
+# 汇报关系（供汇报类技能对准上级）
+reports_to:
+  role: ""          # 直接上级角色，如 MM / PSL / REL / RCL
+  name: ""          # 直接上级姓名（可选）

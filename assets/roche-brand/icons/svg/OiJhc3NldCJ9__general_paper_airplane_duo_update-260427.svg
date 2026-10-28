@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .c, .d, .e {
+        fill: none;
+      }
+
+      .d {
+        stroke: #1482fa;
+      }
+
+      .d, .e {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+
+      .e {
+        stroke: #0b41cd;
+      }
+    </style>
+  </defs>
+  <rect id="b" data-name="frame" class="c" width="192" height="192"/>
+  <path class="d" d="M172,41L57,111v35.4022c0,3.401,3.9751,5.2504,6.5765,3.0596l12.4235-10.4619"/>
+  <path class="e" d="M57.1474,111.1792l33.5797,46.5165c2.5073,3.4733,7.7419,3.2758,9.9805-.3765l71.2924-116.3192L25.1363,77.7159c-5.0499,1.2625-6.2067,7.9163-1.8792,10.809l33.8903,22.6543"/>
+</svg>

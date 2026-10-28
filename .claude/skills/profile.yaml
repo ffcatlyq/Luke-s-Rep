@@ -1,0 +1,11 @@
+# 角色配置（进 git，人人 fork 即用）
+# Fork 后修改此文件，或在首次会话中回答开场问题由智能体自动填入。
+# Ona 和本地 VS Code 的 Claude Code 都会在会话启动时读取本文件，
+# 按角色调整思维模式、调度优先级与技能内的角色分流。详见 AGENTS.md 第 2 节。
+#
+# 本文件只放"角色信息"（非个人身份信息）。
+# 姓名 / 邮箱 / 负责区域 / 汇报对象等个人与工作上下文，
+# 填到 profile.local.yaml（不进 git）——复制 profile.local.example.yaml 改名即可。
+
+role: ""    # 三选一：central-marketing（中央市场）/ pst（区域市场）/ sales-mgmt（销售管理，圈长及以上）
+ta: Hematology   # 治疗领域，本仓默认血液
